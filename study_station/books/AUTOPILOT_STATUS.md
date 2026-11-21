@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:11 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:12 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -12,23 +12,23 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
-| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W4 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W8 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W9 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 15 |
+| key 3 | 16 |
 | key 4 | 34 |
-| key 5 | 27 |
+| key 5 | 28 |
 | key 6 | 8 |
 
 ## किताबों की प्रगति
@@ -61,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 54/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 56/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 541/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 543/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,17 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:06:50   [Constitution_Basic] QA passed: editorial:Feynman_en.txt
-21-11 16:06:50   [Constitution_Basic] QA needs_reference: sources:Feynman_en.txt
-21-11 16:07:16   [vakya_shuddhi] QA passed: editorial:Important_Rules_hi.txt
-21-11 16:07:26   [vakya_shuddhi] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
-21-11 16:07:27 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Case Markers note, the list of perfect/imperfect past forms (खाया है, खाया था, गया है, गया था) includes intransitive verbs while stating the rule for transitive verbs → The list should only contain transitive verb forms (e.g., खाया है, खाया था) or clarify that intransitive verbs do not take ने.', '- In the Word Order section, the example "मेज पर पुस्तक लाल है → लाल पुस्तक मेज पर है" claims "अर्थ अपरिवर्तित" but the meaning changes from predicative to attributive → Remove the claim or use an example where the adjective is attributive in both.', '- In the Pronoun-Antecedent Agreement table, the corrected sentence "सीता अपने भाई को बुलाई" remains ungrammatical (verb should agree with masculine object → बुलाया, and ने is missing) → The corrected sentence should be "सीता ने अपने भाई को बुलाया" or at least "सीता अपने भाई को बुलाया".', '- In Worked Example 5, the sentence "सीता अपना पुस्तक लाई" lacks ने for transitive simple past, introducing a second error besides the pronoun → The sentence should be "सीता ने अपनी पुस्तक लाई" to isolate the pronoun error.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Flashcards_hi.txt', 'status': 'blocked', 'issues': ['- Card 4: Time-marker list contains duplicate “कल” (कल, आज, कल, अब, तब) → Use unique markers, e.g., “कल, आज, अब, तब”']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi/QA.json'}
-21-11 16:07:27   [Physical_Geography] QA needs_reference: sources:Content_hi.txt
-21-11 16:07:40   [Polity] QA passed: editorial:Feynman_en.txt
-21-11 16:07:40   [Polity] QA needs_reference: sources:Feynman_en.txt
-21-11 16:08:13   [Constitution_Basic] QA passed: editorial:Feynman_hi.txt
-21-11 16:08:25   [Constitution_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 16:08:25 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Currently it contains ~470 Articles, 25 Parts, and 12 Schedules" (Salient Features) → "As of 2023, it contains 448 Articles, 25 Parts, and 12 Schedules"', '- "Present Constitution: ~470 Articles, 25 Parts, and 12 Schedules" (High-Yield Fact Summary Table) → "As of 2023, the Constitution has 448 Articles, 25 Parts, and 12 Schedules"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: • Basic Structure Doctrine: In the landmark Kesavananda Bharati case (1973), the Supreme Court ruled that Parliament cannot alter the basic structure of the Constitution.', 'Fetch official supporting evidence for: Added by the 42nd Amendment Act (1976) on the recommendation of the Swaran Singh Committee. Originally 10 duties; the 11th duty was added by the 86th Amendment Act (2002), requiring parents/guardians to provide education opportunities to children aged 6 to 14 years.', 'Fetch official supporting evidence for: 7\tFundamental Duties: 42nd Amendment 1976; 11 duties total\tAmendment & count', 'Fetch official supporting evidence for: 9\tBasic Structure Doctrine: Kesavananda Bharati case (1973)\tMilestone judgment']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "वर्तमान में लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ" (section 5) without a reference year → add year, e.g., "2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ"', '- "वर्तमान : लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ" (High-Yield Fact Table row 6) without a reference year → add year, e.g., "2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ"', '- "वर्तमान में कुल 11 कर्तव्य हैं" (section 6) without a reference year → add year, e.g., "2002 से कुल 11 कर्तव्य हैं"']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: The Indian Constitution works the same way. Parliament can amend (change) almost anything—like adding new rules or fixing small mistakes. But the Supreme Court said in the famous Kesavananda Bharati case (1973) that Parliament cannot destroy the "basic structure" of the Constitution. The basic structure is like the soul of the club—without it, the Constitution would become something completely different.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic/QA.json'}
 21-11 16:08:26   [States_Rivers] QA needs_reference: sources:Content_hi.txt
 21-11 16:08:26   [muhavare_lokokti] QA blocked: editorial:Important_Rules_hi.txt
 21-11 16:08:26   [muhavare_lokokti] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 4, "pending": 28, "blocked": 1, "needs_reference": 3, "remaining": 32, 
@@ -123,6 +112,17 @@
 21-11 16:11:36   [Chemistry] QA needs_reference: sources:Content_hi.txt
 21-11 16:12:01   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key a vs re-solve b, Q98 key b vs re-solve a)
 21-11 16:12:01   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+21-11 16:12:18   [Economy_Basic] QA passed: editorial:Feynman_en.txt
+21-11 16:12:21   [anekarthi_samshrut] QA blocked: editorial:Important_Rules_hi.txt
+21-11 16:12:26   [World_Geography] QA passed: editorial:Feynman_en.txt
+21-11 16:12:40   [Economy_Basic] QA needs_reference: sources:Feynman_en.txt
+21-11 16:12:40   [anekarthi_samshrut] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 4, "pending": 28, "blocked": 1, "needs_reference": 3, "remaining": 32, 
+21-11 16:12:40   [World_Geography] QA needs_reference: sources:Feynman_en.txt
+21-11 16:12:40   [Economy_Basic] QA passed: editorial:Feynman_hi.txt
+21-11 16:12:40   [Economy_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 16:12:40 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 4, 'pending': 28, 'blocked': 1, 'needs_reference': 3, 'remaining': 32, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- नियम २, नियम ११ और सारणी में "हँस" (हँसना) और "हंस" (पक्षी) के वर्तनी-भेद को "चंद्रबिंदु/बिंदु भेद" बताया गया है, जबकि "हंस" (पक्षी) की मानक वर्तनी बिना किसी बिंदु के "हंस" होती है; अंतर चंद्रबिंदु की उपस्थिति/अनुपस्थिति का है, न कि चंद्रबिंदु बनाम बिंदु का। → "हँस" (चंद्रबिंदु सहित) बनाम "हंस" (बिना बिंदु) — केवल चंद्रबिंदु का भेद।', '- नियम १३ में दावा कि शब्दकोश में "कल" का पहला अर्थ "बीता हुआ दिन" है, गलत है; मानक हिंदी शब्दसागर व मानक हिंदी शब्दकोश में "कल" की पहली प्रविष्टि "कलह" (झगड़ा) है, उसके बाद कालवाचक क्रियाविशेषण "कल" (कल/आज) आता है। → शब्दकोश क्रम में "कल" का प्रथम अर्थ "कलह" है, "बीता हुआ दिन" नहीं।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut/QA.json'}
+21-11 16:12:40 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_09_Economy_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Which sector gives employment to the largest number of people in India according to NCERT? (Primary)', 'Fetch official supporting evidence for: Human Development Index (HDI): published by UNDP in its Human Development Report (first in 1990), idea of Mahbub ul Haq with Amartya Sen. Three dimensions: health (life expectancy), education (years of schooling), standard of living (GNI per capita).', 'Fetch official supporting evidence for: Union Budget = "Annual Financial Statement" under Article 112 of the Constitution. Since 2017 it is presented on 1 February, and the Railway Budget has been merged into it from 2017.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: ◆ 8 नवंबर 2016, रात 8 बजे। प्रधानमंत्री ने टेलीविज़न पर घोषणा की कि आधी रात से ₹500 और ₹1000 के पुराने नोट वैध मुद्रा (Legal Tender) नहीं रहेंगे। रातों-रात बैंकों के बाहर कतारें लग गईं। चाय वाला, किसान और सॉफ़्टवेयर इंजीनियर — सब एक ही सवाल पूछ रहे थे: हमारे नोट कौन छापता है? बैंक मेरा कुछ पैसा RBI के पास क्यों रखता है? चीज़ें महँगी क्यों होती हैं? यह अध्याय ठीक इन्हीं सवालों के जवाब देता है — और परीक्षक को यही सवाल सबसे ज़्यादा पसंद हैं।', 'Fetch official supporting evidence for: NCERT के अनुसार भारत में सबसे अधिक लोगों को रोज़गार कौन-सा क्षेत्रक देता है? (प्राथमिक)', 'Fetch official supporting evidence for: बैंकिंग के अन्य पड़ाव: इंपीरियल बैंक ऑफ़ इंडिया 1 जुलाई 1955 को भारतीय स्टेट बैंक (SBI) बना। 19 जुलाई 1969 को 14 बड़े बैंकों का और 1980 में 6 और बैंकों का राष्ट्रीयकरण हुआ। कृषि और ग्रामीण ऋण के लिए NABARD (1982)। रुपये का प्रतीक ₹ 2010 में अपनाया गया (डिज़ाइन: डी. उदय कुमार)।', 'Fetch official supporting evidence for: स्मृति सूत्र — "RBI: 35 में जन्म, 49 में सरकारी, 69 में बैंक हमारी": 1935 RBI की स्थापना, 1949 RBI का राष्ट्रीयकरण, 1969 चौदह बैंकों का राष्ट्रीयकरण।', 'Fetch official supporting evidence for: जाल वाला कथन: "भारतीय रिज़र्व बैंक का राष्ट्रीयकरण 1969 में 14 बैंकों के साथ हुआ।"', 'Fetch official supporting evidence for: सच्चाई: RBI का राष्ट्रीयकरण 1 जनवरी 1949 को हुआ। 1969 वह वर्ष है जब 14 वाणिज्यिक बैंकों का राष्ट्रीयकरण हुआ। RBI वाणिज्यिक बैंक नहीं है।', 'Fetch official supporting evidence for: स्मार्ट चाल: RBI = 1949; वाणिज्यिक बैंक = 1969 और 1980।', 'Fetch official supporting evidence for: भारतीय स्टेट बैंक\t1 जुलाई 1955 (इंपीरियल बैंक से)', 'Fetch official supporting evidence for: बैंक राष्ट्रीयकरण\t19 जुलाई 1969 को 14 बैंक; 1980 में 6 बैंक']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_09_Economy_Basic/QA.json'}
+21-11 16:12:41   [Biology] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
