@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:31 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:33 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 40 मिनट |
-| W10 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
-| W4 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
+| W10 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
+| W4 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 21 |
 | key 4 | 27 |
-| key 5 | 28 |
-| key 6 | 7 |
+| key 5 | 29 |
+| key 6 | 8 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 28/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 13/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 16/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 70/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 73/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,14 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:21:48 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Wireless Standards table incorrectly labels 802.11b as Wi‑Fi 1, 802.11a as Wi‑Fi 2, and 802.11g as Wi‑Fi 3 → The Wi‑Fi Alliance generational numbering starts at Wi‑Fi 4 (802.11n); 802.11b/a/g have no official Wi‑Fi generation numbers.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking/QA.json'}
-21-11 11:21:48   [Medieval_History] QA passed: structure
-21-11 11:21:55   [e_banking] QA passed: editorial:Content_hi.txt
-21-11 11:21:55   [e_banking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 11:21:55 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Tokenisation mandate date given as 1 January 2023 (in Card Networks & Tokenisation table and Examination Pointers) → Correct mandatory date is 1 October 2022 (after extensions from original 1 January 2022).', '- Security Framework point 4: limited liability for reporting within 4–7 working days stated as ₹5,000–₹25,000 → RBI circular specifies ₹5,000 for BSBDA/small accounts and ₹10,000 for other accounts (whichever is lower than transaction value).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: | Tokenisation (RBI mandate, mandatory from 1 January 2023) | Security | Actual card number replaced by a token (device/merchant specific); PAN not stored by merchant. |', 'Fetch official supporting evidence for: - **Circular on Tokenisation (2021, 2022)** — Card-on-file tokenisation mandatory.', 'Fetch official supporting evidence for: **Solution**: Reporting within 3 working days of receiving the bank\'s transaction alert (Monday, Tuesday, Wednesday = 3 working days) attracts zero liability under RBI\'s "Customer Protection – Limiting Liability of Customers in Unauthorised Electronic Banking Transactions" (2017, updated 2021).', 'Fetch official supporting evidence for: - **Static reference dates**: NEFT 24×7 from 16 Dec 2019; RTGS 24×7 from 14 Dec 2020; tokenisation mandate Jan 2023 (mandatory from 1 Jan 2023); UPI 123Pay launch 2022; RuPay credit card on UPI (2022).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking/QA.json'}
-21-11 11:22:29   [Modern_History] QA passed: structure
-21-11 11:22:50   [cyber_security] QA blocked: editorial:Content_en.txt
-21-11 11:22:50   [cyber_security] QA needs_reference: sources:Content_en.txt
 21-11 11:23:16   [Constitution_Basic] QA passed: structure
 21-11 11:23:49   [Ancient_History] QA passed: editorial:Content_en.txt
 21-11 11:23:49   [Ancient_History] QA needs_reference: sources:Content_en.txt
@@ -123,6 +115,14 @@
 21-11 11:31:14   [Constitution_Basic] QA blocked: editorial:Content_hi.txt
 21-11 11:31:14   [Constitution_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 11:31:14 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Currently it contains ~470 Articles, 25 Parts, and 12 Schedules" (Salient Features) → "As of 2023, it contains 448 Articles, 25 Parts, and 12 Schedules"', '- "Present Constitution: ~470 Articles, 25 Parts, and 12 Schedules" (High-Yield Fact Summary Table) → "As of 2023, the Constitution has 448 Articles, 25 Parts, and 12 Schedules"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: • Basic Structure Doctrine: In the landmark Kesavananda Bharati case (1973), the Supreme Court ruled that Parliament cannot alter the basic structure of the Constitution.', 'Fetch official supporting evidence for: Added by the 42nd Amendment Act (1976) on the recommendation of the Swaran Singh Committee. Originally 10 duties; the 11th duty was added by the 86th Amendment Act (2002), requiring parents/guardians to provide education opportunities to children aged 6 to 14 years.', 'Fetch official supporting evidence for: 7\tFundamental Duties: 42nd Amendment 1976; 11 duties total\tAmendment & count', 'Fetch official supporting evidence for: 9\tBasic Structure Doctrine: Kesavananda Bharati case (1973)\tMilestone judgment']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "वर्तमान में लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ" (section 5) without a reference year → add year, e.g., "2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ"', '- "वर्तमान : लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ" (High-Yield Fact Table row 6) without a reference year → add year, e.g., "2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ"', '- "वर्तमान में कुल 11 कर्तव्य हैं" (section 6) without a reference year → add year, e.g., "2002 से कुल 11 कर्तव्य हैं"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic/QA.json'}
+21-11 11:31:59   [Chemistry] QA passed: structure
+21-11 11:33:23   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q83 key a vs re-solve b, Q91 key b vs re-solve a)
+21-11 11:33:23   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+21-11 11:33:50   [States_Rivers] QA passed: editorial:Content_en.txt
+21-11 11:33:50   [States_Rivers] QA needs_reference: sources:Content_en.txt
+21-11 11:33:57   [Polity] QA passed: editorial:Content_hi.txt
+21-11 11:33:57   [Polity] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 11:33:57 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Article 45 did not become a Fundamental Right; the 86th Amendment inserted Article 21A as a new Fundamental Right and amended Article 45 to cover early childhood care and education for children up to 6 years → The 86th Amendment added Article 21A (Right to Education) as a Fundamental Right and substituted Article 45 to provide for early childhood care and education for children up to 6 years.', '- "Current Supreme Court judge strength 34" states a current fact without a year reference → Specify the year (e.g., "As of 2019, Supreme Court judge strength is 34") or remove "Current".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: USSR\tFundamental Duties (added later in 1976)', 'Fetch official supporting evidence for: In the Kesavananda Bharati case (1973), the Supreme Court ruled that the Preamble can be amended, but the basic structure of the Constitution cannot be destroyed.', 'Fetch official supporting evidence for: Dr. Ambedkar called Article 32 the “heart and soul of the Constitution” because it allows you to directly approach the Supreme Court if any Fundamental Right is violated. The 44th Amendment (1978) removed the Right to Property from the Fundamental Rights list; it is now a legal right under Article 300A.', 'Fetch official supporting evidence for: Article 44 (Uniform Civil Code) and Article 45 (free and compulsory education for children) are the most questioned DPSPs. Article 45 later became a Fundamental Right through Article 21A by the 86th Amendment (2002).', 'Fetch official supporting evidence for: Originally, the Constitution had no Fundamental Duties. The 42nd Amendment (1976) added 10 duties inspired by the USSR Constitution. The 86th Amendment (2002) added an 11th duty — to provide opportunities for education to children between 6 and 14 years.', 'Fetch official supporting evidence for: Basic Structure Doctrine — Kesavananda Bharati (1973).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity/QA.json'}
 ````
 
 </details>

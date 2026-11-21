@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "bebe08f5d6d28da207034c8377d3bc86fe85012124ac315b53804fe439d1ebc2",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "85b4689e77c0e576c1e05c9f0b6792a406580f1f33dd8a44cb42c65283ff5216",
+        "Content_hi.txt": "c190239f70908a154c5e79c8c4fa6584c7df05cbe2d98bf418ca827e76c71da6",
+        "Feynman_en.txt": "8adac029446e2199196d58722626ac6bd32dd9528ca6c0bcbf867893ad4c8901",
+        "Feynman_hi.txt": "5d5e2df2412fe08b206adc0d20a55293fea24032138ca928c3b8749f7e4b29e4",
+        "Flashcards_en.txt": "eea6f1efb7657e9e6d2be9a8ba3b06a35c6032705110c85832c62d026f89f2cf",
+        "Flashcards_hi.txt": "0be7ca1dbd1b4fdde1d8a0186cc75f74ab7065d270a07c1ae27b22ee702b38ca",
+        "Key_Facts_en.txt": "771c93c9d31bd54d4e0a93569d5b88192960661126ea0c429715b511eaf2d681",
+        "Key_Facts_hi.txt": "6af4b7f7be00d8f04edc10ae634db5b3bbcca5cc0629a1f5f8e23ce7ef2929fc",
+        "Memory_Hooks_en.txt": "f9b15eb575ede1f494bb3e21f690e93b4a205e5110db94343bf5534137786dda",
+        "Memory_Hooks_hi.txt": "eff925f6e684544203efc97e19f7e0ac21a1b22a4fa858863f0749496c47b810",
+        "Mind_Map.txt": "4f2be8b1cc713bcefa7d6279523b22ce2e784cd370bcef45d957117aca7458b0",
+        "PYQ_en.txt": "1e298991ea68628b5626cbd2fe6aa433443cef6e9dfb2f6b29baeb779990ec9a",
+        "PYQ_hi.txt": "e41fef8771d72d7480e4409876c37b57d33dee4eb10bbc36b1a5c4b316d3f318",
+        "Practice_en_Set_01.txt": "2a442e6ac0565374b311d557e13cec4798fb32c93b2afdd177b792eddf9a6b2e",
+        "Practice_en_Set_02.txt": "66df60ba7ee055697978d86af7846f3b48410ca0e95a3b18d0aa6efaa51cf7a3",
+        "Practice_en_Set_03.txt": "eb862cf528d4d08aa088fa2e848b39005e25d0f37d01a408b218a1f3baf65fbe",
+        "Practice_en_Set_04.txt": "6697a376ff320ece7f89733ced755ab8226102c6ad031d50dd527673af472a35",
+        "Practice_en_Set_05.txt": "14ada5b4c1ede98b02e70e7747394ee9cc4c7d72500800da47838025ab8d2b64",
+        "Practice_en_Set_06.txt": "bf4f3029f63cb6a68b0e8fbc33a65857d35ee24414c1b181204affa9e0a8cdf6",
+        "Practice_hi_Set_01.txt": "097ccfafd892781acd334742a7f96627e684058487f37bdb400df0bf2a53d6c8",
+        "Practice_hi_Set_02.txt": "75d40d687821f83278f05d177fbd41b85287c3e77455249d765f9b1c880b8062",
+        "Practice_hi_Set_03.txt": "6862a6c4801f0a74da7fecb3760099967b22e562bea4549e7d270156e731887e",
+        "Practice_hi_Set_04.txt": "5fad00f6405d3313dc34cc4b11b26ec63df632565992f7230bdb47b33dde128d",
+        "Practice_hi_Set_05.txt": "da0356ee1957d7bfe9c0ca49caf26a53d8982d0f1f1bc7049344100287d07e20",
+        "Practice_hi_Set_06.txt": "e455647c9b612eb2dad21448c865d71caa9207de68c7deee9b0078fd52ddefe3",
+        "inventory": {
+          "Content_en.txt": "85b4689e77c0e576c1e05c9f0b6792a406580f1f33dd8a44cb42c65283ff5216",
+          "Content_hi.txt": "c190239f70908a154c5e79c8c4fa6584c7df05cbe2d98bf418ca827e76c71da6",
+          "Feynman_en.txt": "8adac029446e2199196d58722626ac6bd32dd9528ca6c0bcbf867893ad4c8901",
+          "Feynman_hi.txt": "5d5e2df2412fe08b206adc0d20a55293fea24032138ca928c3b8749f7e4b29e4",
+          "Flashcards_en.txt": "eea6f1efb7657e9e6d2be9a8ba3b06a35c6032705110c85832c62d026f89f2cf",
+          "Flashcards_hi.txt": "0be7ca1dbd1b4fdde1d8a0186cc75f74ab7065d270a07c1ae27b22ee702b38ca",
+          "Key_Facts_en.txt": "771c93c9d31bd54d4e0a93569d5b88192960661126ea0c429715b511eaf2d681",
+          "Key_Facts_hi.txt": "6af4b7f7be00d8f04edc10ae634db5b3bbcca5cc0629a1f5f8e23ce7ef2929fc",
+          "Memory_Hooks_en.txt": "f9b15eb575ede1f494bb3e21f690e93b4a205e5110db94343bf5534137786dda",
+          "Memory_Hooks_hi.txt": "eff925f6e684544203efc97e19f7e0ac21a1b22a4fa858863f0749496c47b810",
+          "Mind_Map.txt": "4f2be8b1cc713bcefa7d6279523b22ce2e784cd370bcef45d957117aca7458b0",
+          "PYQ_en.txt": "1e298991ea68628b5626cbd2fe6aa433443cef6e9dfb2f6b29baeb779990ec9a",
+          "PYQ_hi.txt": "e41fef8771d72d7480e4409876c37b57d33dee4eb10bbc36b1a5c4b316d3f318",
+          "Practice_en_Set_01.txt": "2a442e6ac0565374b311d557e13cec4798fb32c93b2afdd177b792eddf9a6b2e",
+          "Practice_en_Set_02.txt": "66df60ba7ee055697978d86af7846f3b48410ca0e95a3b18d0aa6efaa51cf7a3",
+          "Practice_en_Set_03.txt": "eb862cf528d4d08aa088fa2e848b39005e25d0f37d01a408b218a1f3baf65fbe",
+          "Practice_en_Set_04.txt": "6697a376ff320ece7f89733ced755ab8226102c6ad031d50dd527673af472a35",
+          "Practice_en_Set_05.txt": "14ada5b4c1ede98b02e70e7747394ee9cc4c7d72500800da47838025ab8d2b64",
+          "Practice_en_Set_06.txt": "bf4f3029f63cb6a68b0e8fbc33a65857d35ee24414c1b181204affa9e0a8cdf6",
+          "Practice_hi_Set_01.txt": "097ccfafd892781acd334742a7f96627e684058487f37bdb400df0bf2a53d6c8",
+          "Practice_hi_Set_02.txt": "75d40d687821f83278f05d177fbd41b85287c3e77455249d765f9b1c880b8062",
+          "Practice_hi_Set_03.txt": "6862a6c4801f0a74da7fecb3760099967b22e562bea4549e7d270156e731887e",
+          "Practice_hi_Set_04.txt": "5fad00f6405d3313dc34cc4b11b26ec63df632565992f7230bdb47b33dde128d",
+          "Practice_hi_Set_05.txt": "da0356ee1957d7bfe9c0ca49caf26a53d8982d0f1f1bc7049344100287d07e20",
+          "Practice_hi_Set_06.txt": "e455647c9b612eb2dad21448c865d71caa9207de68c7deee9b0078fd52ddefe3"
+        }
+      },
+      "checked_at": "2026-11-21T05:54:03+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "b451e63b074f66e58832aa6402647f155c0fb83163fa306400dec4180799853a",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Article 45 did not become a Fundamental Right; the 86th Amendment inserted Article 21A as a new Fundamental Right and amended Article 45 to cover early childhood care and education for children up to 6 years → The 86th Amendment added Article 21A (Right to Education) as a Fundamental Right and substituted Article 45 to provide for early childhood care and education for children up to 6 years.",
+        "- \"Current Supreme Court judge strength 34\" states a current fact without a year reference → Specify the year (e.g., \"As of 2019, Supreme Court judge strength is 34\") or remove \"Current\"."
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "85b4689e77c0e576c1e05c9f0b6792a406580f1f33dd8a44cb42c65283ff5216"
+      },
+      "checked_at": "2026-11-21T05:56:19+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "edec1525e73a06e21fd63a20cbf5cc39f5205f5c768b90404a6dd73444c6d633",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: USSR\tFundamental Duties (added later in 1976)",
+        "Fetch official supporting evidence for: In the Kesavananda Bharati case (1973), the Supreme Court ruled that the Preamble can be amended, but the basic structure of the Constitution cannot be destroyed.",
+        "Fetch official supporting evidence for: Dr. Ambedkar called Article 32 the “heart and soul of the Constitution” because it allows you to directly approach the Supreme Court if any Fundamental Right is violated. The 44th Amendment (1978) removed the Right to Property from the Fundamental Rights list; it is now a legal right under Article 300A.",
+        "Fetch official supporting evidence for: Article 44 (Uniform Civil Code) and Article 45 (free and compulsory education for children) are the most questioned DPSPs. Article 45 later became a Fundamental Right through Article 21A by the 86th Amendment (2002).",
+        "Fetch official supporting evidence for: Originally, the Constitution had no Fundamental Duties. The 42nd Amendment (1976) added 10 duties inspired by the USSR Constitution. The 86th Amendment (2002) added an 11th duty — to provide opportunities for education to children between 6 and 14 years.",
+        "Fetch official supporting evidence for: Basic Structure Doctrine — Kesavananda Bharati (1973)."
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "85b4689e77c0e576c1e05c9f0b6792a406580f1f33dd8a44cb42c65283ff5216",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:56:19+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "edb07f4ed3cb320e45bedccc51af2e8eb3a750ef823168450e4d3660bce7e96f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "c190239f70908a154c5e79c8c4fa6584c7df05cbe2d98bf418ca827e76c71da6"
+      },
+      "checked_at": "2026-11-21T06:03:57+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:03:57+00:00",
+  "chapter_fingerprint": "93a1e82ddc29c4088fb2efcfc18b71b8c156777ed04f782f0dc336bc454a8798"
+}
