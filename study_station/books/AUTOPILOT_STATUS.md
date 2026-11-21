@@ -1,99 +1,98 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आख़िरी update:** 21-11-2026 10:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
+**आखिरी अपडेट:** 21-11-2026 10:52 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
-[GitHub Actions पर चालू और कतार में लगे रन देखें](https://github.com/SCHANDAN996/web-apps/actions/workflows/book-autopilot.yml)
+पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
+[GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
+**काम पर लगे workers:** 4/12
 
-## ⚙️ अभी क्या चल रहा है
+## अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
-
-| सक्रिय API key | इस रन में शुरू हुई requests |
-|---|---|
-| key 3 | 30 |
-| key 4 | 26 |
-| key 5 | 29 |
-| key 6 | 24 |
-
-
-## 📊 हर किताब की प्रगति
-
-ये गिनती लेखन और `bookcheck` की प्रारंभिक जाँच की है। अंतिम editorial review पास होना अलग है; सिर्फ़ इस तालिका से अध्याय को अंतिम स्वीकृत न मानें।
-
-| किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
+| Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| 10th Hindi | 15 | 0 | 2 |
-| 12th Computer | 14 | 0 | 0 |
-| 10th GK | 19 | 0 | 0 |
-| 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 22 | 0 | 0 |
-| 10th English | 20 | 0 | 0 |
-| 12th Maths | 23 | 0 | 0 |
-| 12th GK | 24 | 0 | 0 |
-| 12th Reasoning | 25 | 0 | 0 |
-| 12th English | 25 | 0 | 0 |
-| Graduation Maths | 28 | 0 | 0 |
-| Graduation GK | 28 | 0 | 0 |
-| Graduation Reasoning | 30 | 0 | 0 |
-| Graduation English | 30 | 0 | 0 |
-| **कुल** | **325** | **0** | **2** |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W4 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | -1 मिनट |
+
+| API key | इस रन में शुरू हुए अनुरोध |
+|---|---:|
+| key 3 | 2 |
+| key 4 | 1 |
+| key 5 | 1 |
+| key 6 | 1 |
+
+## किताबों की प्रगति
+
+लेखन की प्रारंभिक जाँच और गहरी QA के आँकड़े नीचे अलग दिए गए हैं।
+
+| किताब | कुल अध्याय | संरचना पास | सुधार बाकी | लेखन बाकी |
+|---|---:|---:|---:|---:|
+| 10th Hindi | 17 | 15 | 0 | 2 |
+| 12th Computer | 14 | 14 | 0 | 0 |
+| 10th GK | 19 | 19 | 0 | 0 |
+| 10th Reasoning | 22 | 22 | 0 | 0 |
+| 10th Maths | 22 | 22 | 0 | 0 |
+| 10th English | 20 | 20 | 0 | 0 |
+| 12th Maths | 23 | 23 | 0 | 0 |
+| 12th GK | 24 | 24 | 0 | 0 |
+| 12th Reasoning | 25 | 25 | 0 | 0 |
+| 12th English | 25 | 25 | 0 | 0 |
+| Graduation Maths | 28 | 28 | 0 | 0 |
+| Graduation GK | 28 | 28 | 0 | 0 |
+| Graduation Reasoning | 30 | 30 | 0 | 0 |
+| Graduation English | 30 | 30 | 0 | 0 |
+| **कुल** | **327** | **325** | **0** | **2** |
+
+## संरचना पास अध्यायों की गहरी QA
+
+प्रमाण और सुधार वाले कॉलम उस अध्याय की वर्तमान QA स्थिति दिखाते हैं। मानवीय प्रकाशन मंजूरी अलग है।
+
+| किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
+|---|---:|---:|---:|---:|---:|---:|
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 0/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 4/1092 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
+| Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
+| Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 4/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 15 vakya shuddhi (Hindi) — 3 बार
-- Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
-- Chapter 07 sandhi (Hindi) — 1 बार
-
 <details>
 <summary>हाल की तकनीकी गतिविधि</summary>
 
-```
-21-11 08:58:39   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 08:58:39   [rikt_sthan_vakya_kram] written 1, failed 3; AI calls today 78/100000
-21-11 08:58:39 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 74 min: todo ['Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
-21-11 08:58:40 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (OK: todo 0, problems 0)
-21-11 08:58:40   [vakya_shuddhi] review Content_hi.txt: resumed private correction draft
-21-11 09:00:33   [vakya_shuddhi] review Content_hi.txt round 1: 3 issue(s): - In the case markers table, the row for कर्ता (नॉमिनेटिव) incorrectly lists the correct sentence "राम ने ख
-21-11 09:03:18   [vakya_shuddhi] review Content_hi.txt round 2: 6 issue(s): - Heading "6 कार्यित उदाहरण" claims 6 examples but 7 are provided → Change heading to "7 कार्यित उदाहरण" or
-21-11 09:05:06   [vakya_shuddhi] REJECTED review fix Content_hi.txt: reviewer still reports - The note under "कारक-चिह्न (Case Markers) का सही प्रयोग" incorrectly includes intransitiv
-21-11 09:05:06   [vakya_shuddhi] review Feynman_hi.txt: resumed private correction draft
-21-11 09:07:05   [vakya_shuddhi] review Feynman_hi.txt round 1: 1 issue(s): - Question 3 answer and explanation: error identified as 'जाती' (option ग) but the real error is 'है' (opti
-21-11 09:09:23   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q51 key a vs re-solve b, Q52 key a vs re-solve d, Q58 key a vs re-solve d, Q60 key c vs re-solve d, 
-21-11 09:10:12   [vakya_shuddhi] review Flashcards_hi.txt: resumed private correction draft
-21-11 09:10:28   [vakya_shuddhi] review Important_Rules_hi.txt: resumed private correction draft
-21-11 09:12:14   [vakya_shuddhi] review Important_Rules_hi.txt round 1: 1 issue(s): - Rule 14 table: The ‘द्विअर्थी/अस्पष्ट’ row lists “उसने अपने भाई को मारा।” as both गलत वाक्य and t
-21-11 09:14:02   [vakya_shuddhi] review Important_Rules_hi.txt round 2: 3 issue(s): - नियम १ का कथन “क्रिया हमेशा अपने कर्ता के अनुसार चलती है” गलत है → पूर्ण काल में सकर्मक क्रियाएँ 
-21-11 09:15:45   [vakya_shuddhi] review: 3 section(s) corrected, 1 failed
-21-11 09:15:45   [vakya_shuddhi] written 3, failed 1; AI calls today 95/100000
-21-11 09:15:45 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 17 min: todo [] problems []
-21-11 09:16:02 worker 2: nothing left
-21-11 09:20:46   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q63 key c vs re-solve a, Q69 key d vs re-solve c, Q71 key b vs re-solve d, Q74 key b vs re-solve c)
-21-11 09:35:40   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q58 key b vs re-solve d, Q61 key a vs re-solve c, Q63 key b vs re-solve c, Q67 key a vs re-solve d, 
-21-11 09:35:40   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-21-11 09:37:05   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q101:duplicate_options,Q103:duplicate_options,Q111:duplicate_options)
-21-11 09:52:34   [sandhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q101 key b vs re-solve ?, Q102 key c vs re-solve d, Q103 key d vs re-solve c, Q107 key d vs re-solve
-21-11 09:57:48   [sandhi] Practice_hi_Set_05.txt try 3: rejected (Q112:duplicate_options)
-21-11 10:06:34   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q104 key d vs re-solve c, Q113 key c vs re-solve a, Q114 key a vs re-solve d, Q120 key d vs re-solve
-21-11 10:06:34   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-21-11 10:07:19   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q127:duplicate_options,Q129:duplicate_options,Q131:duplicate_options,Q136:duplicate_options,Q142:duplicate_opt
-21-11 10:18:12   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q131:duplicate_options,Q144:duplicate_options,Q145:duplicate_options,Q147:duplicate_options,Q148:duplicate_opt
-21-11 10:29:40   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key c vs re-solve a, Q128 key d vs re-solve b, Q140 key d vs re-solve b, Q146 key d vs re-solve
-21-11 10:38:05   [sandhi] Practice_hi_Set_06.txt try 4: rejected (Q128:duplicate_options,Q144:duplicate_options)
-21-11 10:38:05   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 10:38:05   [sandhi] written 0, failed 5; AI calls today 108/100000
-21-11 10:38:05 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 174 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-21-11 10:38:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (OK: todo 0, problems 0)
-21-11 10:38:06   [vakya_shuddhi] Book autopilot upgrade: draining existing work and saving unfinished files for the new worker/rate policy
-21-11 10:38:06   [vakya_shuddhi] stopping: new worker/rate policy queued; no new API work started in the older runner
-21-11 10:38:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 0 min: todo [] problems []
-21-11 10:38:06 worker 0: stop file found — stopping
-21-11 10:50:25 autopilot end: done 0, failed 3
-```
+````text
+21-11 10:51:07 autopilot start: 12 workers, reverse=False
+21-11 10:51:07 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
+21-11 10:51:08 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+21-11 10:51:08   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 10:51:13 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (OK: todo 0, problems 0)
+21-11 10:51:13   [vakya_shuddhi] review Content_hi.txt: resumed private correction draft
+21-11 10:51:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 3, problems 0)
+21-11 10:51:18   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 10:53:05   [varn_vartani] QA passed: structure
+21-11 10:53:06   [shabd_bhed] QA passed: structure
+21-11 10:53:06   [sangya_sarvanam] QA passed: structure
+21-11 10:53:06   [organization_cpu] QA passed: structure
+21-11 10:53:06   [input_output_ports] QA passed: structure
+21-11 10:53:06   [visheshan_kriya] QA passed: structure
+21-11 10:53:06   [memory_storage_backup] QA passed: structure
+21-11 10:53:06   [software_os] QA passed: structure
+21-11 10:53:06   [ling_vachan_karak] QA passed: structure
+21-11 10:53:17   [vakya_shuddhi] review Content_hi.txt round 1: 2 issue(s): - In Example 5 (सर्वनाम 'अपना' का अनुबंध), the explanation incorrectly labels "पुस्तक" as कर्ता कारक (nomin
+````
 
 </details>
