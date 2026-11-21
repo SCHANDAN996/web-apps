@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "e7663ddecfae9c2a78036059b9147bdd35a8d4cb48b50e5250f4ce5fed8aa0df",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a9569afc4503736dbc8318f995024f84848a0fae26164442c6f06fffb0e384bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "894ad25b2c6bf50993e5c9e0f4b4da8400d9c3d05da3049c023f925e8e2b09fb",
+        "Content_hi.txt": "53b03eeb4c31e2b477e4260ca4243928dc8121a07f2c3afca07f94c0bc512efa",
+        "Feynman_en.txt": "85aa9fb73469ac520cbf2d95c66c137a9d36ff54c81e5aa0c378d727fcf343af",
+        "Feynman_hi.txt": "70a7f8889be728b19bb2daa88afb89318701e5d16350f9cad9ab0dc5f4df5e04",
+        "Flashcards_en.txt": "53c8f52789a5bc79f32e6c4140c191ead34ce9e65d34f180f66c1381fe97bd55",
+        "Flashcards_hi.txt": "e80d7bca0c989252ca51583367b6d57ccda167dbca3725950884f0af6a2944ec",
+        "Key_Facts_en.txt": "bce9a7dbd685c5a5b9b22c9526bec6c31c29d54653019edf5db80a5ebd68ebcc",
+        "Key_Facts_hi.txt": "89b4bfc35aabc3067f9e042fd8d7e3fc9794ce55b0869254f496246565206ba2",
+        "Memory_Hooks_en.txt": "96850e763783fe1da4a26f2ede8799759d70870e2e50616793b524b2ed9c64ac",
+        "Memory_Hooks_hi.txt": "623c61520611b73cf12ef8969f6f4ba7bcb73205892dffa7adb0895ac00a2e4e",
+        "Mind_Map.txt": "9b4963da4c788949e70394a181fa779747b0f351ffd43d193c3a3eeb59fc1c13",
+        "PYQ_en.txt": "e13af27b50ef71bf64c323a501f7a7f06d7b0c54276bc6ee7148f9e2cf16ea5f",
+        "PYQ_hi.txt": "54c9363a67a5e481c671b163713802705f4f26517ef4a968d8e326b9c1ad0bfa",
+        "Practice_en_Set_01.txt": "d09c12a9a27bb6a6c400394e80822301c3e7433481ac4c4fe9ccdf3f52ae135c",
+        "Practice_en_Set_02.txt": "13f75b3fad7e555908ce2e6a3a8fb66d963c13a0f6214a79eff8c8f0b9b17974",
+        "Practice_en_Set_03.txt": "bf3e76ee2ab3e1175057c2fe1c7600484bb3c7498060be6cb7fa5c6d9902503d",
+        "Practice_en_Set_04.txt": "ec8d0b96a9a3d85773f0bdf8f7d6f4c9109511630819c28a228e3d2d3a442935",
+        "Practice_en_Set_05.txt": "c8380e983fafacba1062fc94a4eecc4b68a747b460ec9d01c95e7131ba46eeaf",
+        "Practice_en_Set_06.txt": "9a5f58b48b374c1f2c9f5b31eeece0c51517bfb3c00e7d3215da634aab8e3ebb",
+        "Practice_hi_Set_01.txt": "d6d4973adb3af84326ae6c0e450cce6d2a75e6878bba70f5b22d7c02e12baf7d",
+        "Practice_hi_Set_02.txt": "34bc708fe8815eb01aec9765dd9ad3bb3c176563ff9f9e65d21fbe27783456be",
+        "Practice_hi_Set_03.txt": "9906d1800d0978796164863f738499354dbfa2d9a626893bcb41485db4fe9f0a",
+        "Practice_hi_Set_04.txt": "f93536f481c4a1510ba1c9df44974bf2ef78e02b47f549f1110a405ef0653d64",
+        "Practice_hi_Set_05.txt": "f44c209b425882d5957204e8056729760a4e33d26f3721f2edc72432d16be899",
+        "Practice_hi_Set_06.txt": "c14f4ef4f362dea34bee06f29382e88b730d1706037df590063dc5ef6eef9edd",
+        "inventory": {
+          "Content_en.txt": "894ad25b2c6bf50993e5c9e0f4b4da8400d9c3d05da3049c023f925e8e2b09fb",
+          "Content_hi.txt": "53b03eeb4c31e2b477e4260ca4243928dc8121a07f2c3afca07f94c0bc512efa",
+          "Feynman_en.txt": "85aa9fb73469ac520cbf2d95c66c137a9d36ff54c81e5aa0c378d727fcf343af",
+          "Feynman_hi.txt": "70a7f8889be728b19bb2daa88afb89318701e5d16350f9cad9ab0dc5f4df5e04",
+          "Flashcards_en.txt": "53c8f52789a5bc79f32e6c4140c191ead34ce9e65d34f180f66c1381fe97bd55",
+          "Flashcards_hi.txt": "e80d7bca0c989252ca51583367b6d57ccda167dbca3725950884f0af6a2944ec",
+          "Key_Facts_en.txt": "bce9a7dbd685c5a5b9b22c9526bec6c31c29d54653019edf5db80a5ebd68ebcc",
+          "Key_Facts_hi.txt": "89b4bfc35aabc3067f9e042fd8d7e3fc9794ce55b0869254f496246565206ba2",
+          "Memory_Hooks_en.txt": "96850e763783fe1da4a26f2ede8799759d70870e2e50616793b524b2ed9c64ac",
+          "Memory_Hooks_hi.txt": "623c61520611b73cf12ef8969f6f4ba7bcb73205892dffa7adb0895ac00a2e4e",
+          "Mind_Map.txt": "9b4963da4c788949e70394a181fa779747b0f351ffd43d193c3a3eeb59fc1c13",
+          "PYQ_en.txt": "e13af27b50ef71bf64c323a501f7a7f06d7b0c54276bc6ee7148f9e2cf16ea5f",
+          "PYQ_hi.txt": "54c9363a67a5e481c671b163713802705f4f26517ef4a968d8e326b9c1ad0bfa",
+          "Practice_en_Set_01.txt": "d09c12a9a27bb6a6c400394e80822301c3e7433481ac4c4fe9ccdf3f52ae135c",
+          "Practice_en_Set_02.txt": "13f75b3fad7e555908ce2e6a3a8fb66d963c13a0f6214a79eff8c8f0b9b17974",
+          "Practice_en_Set_03.txt": "bf3e76ee2ab3e1175057c2fe1c7600484bb3c7498060be6cb7fa5c6d9902503d",
+          "Practice_en_Set_04.txt": "ec8d0b96a9a3d85773f0bdf8f7d6f4c9109511630819c28a228e3d2d3a442935",
+          "Practice_en_Set_05.txt": "c8380e983fafacba1062fc94a4eecc4b68a747b460ec9d01c95e7131ba46eeaf",
+          "Practice_en_Set_06.txt": "9a5f58b48b374c1f2c9f5b31eeece0c51517bfb3c00e7d3215da634aab8e3ebb",
+          "Practice_hi_Set_01.txt": "d6d4973adb3af84326ae6c0e450cce6d2a75e6878bba70f5b22d7c02e12baf7d",
+          "Practice_hi_Set_02.txt": "34bc708fe8815eb01aec9765dd9ad3bb3c176563ff9f9e65d21fbe27783456be",
+          "Practice_hi_Set_03.txt": "9906d1800d0978796164863f738499354dbfa2d9a626893bcb41485db4fe9f0a",
+          "Practice_hi_Set_04.txt": "f93536f481c4a1510ba1c9df44974bf2ef78e02b47f549f1110a405ef0653d64",
+          "Practice_hi_Set_05.txt": "f44c209b425882d5957204e8056729760a4e33d26f3721f2edc72432d16be899",
+          "Practice_hi_Set_06.txt": "c14f4ef4f362dea34bee06f29382e88b730d1706037df590063dc5ef6eef9edd"
+        }
+      },
+      "checked_at": "2026-11-21T05:58:53+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "4a331c82c0b83b9dfbee366ac02a644c535cb0820c6def72bc11d69a62b5c60e",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a9569afc4503736dbc8318f995024f84848a0fae26164442c6f06fffb0e384bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "894ad25b2c6bf50993e5c9e0f4b4da8400d9c3d05da3049c023f925e8e2b09fb"
+      },
+      "checked_at": "2026-11-21T06:09:07+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "709fff1079a4ec0d065eb9b52d7dad4ba7608f874d4a4411e98772bae718f8d8",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Which sector gives employment to the largest number of people in India according to NCERT? (Primary)",
+        "Fetch official supporting evidence for: Human Development Index (HDI): published by UNDP in its Human Development Report (first in 1990), idea of Mahbub ul Haq with Amartya Sen. Three dimensions: health (life expectancy), education (years of schooling), standard of living (GNI per capita).",
+        "Fetch official supporting evidence for: Union Budget = \"Annual Financial Statement\" under Article 112 of the Constitution. Since 2017 it is presented on 1 February, and the Railway Budget has been merged into it from 2017."
+      ],
+      "dependencies": {
+        "chapter.json": "a9569afc4503736dbc8318f995024f84848a0fae26164442c6f06fffb0e384bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "894ad25b2c6bf50993e5c9e0f4b4da8400d9c3d05da3049c023f925e8e2b09fb",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:09:07+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "66b4e13668865c756cf75dbcfb9fc6aaa1028909cb6cd36ea527ae682d2c917a",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a9569afc4503736dbc8318f995024f84848a0fae26164442c6f06fffb0e384bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "53b03eeb4c31e2b477e4260ca4243928dc8121a07f2c3afca07f94c0bc512efa"
+      },
+      "checked_at": "2026-11-21T06:17:48+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:17:48+00:00",
+  "chapter_fingerprint": "b47013a3d15c5f842831ce70fe24d005090b85706091332106f3d47e00e5e951"
+}
