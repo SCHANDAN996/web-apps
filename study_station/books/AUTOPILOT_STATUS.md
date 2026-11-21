@@ -5,30 +5,29 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
-| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 15 vakya shuddhi (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 6 |
-| key 4 | 13 |
-| key 5 | 9 |
+| key 4 | 14 |
+| key 5 | 10 |
 | key 6 | 2 |
 
 ## किताबों की प्रगति
@@ -60,7 +59,7 @@
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 14/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 14/1092 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 15/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
@@ -73,17 +72,16 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 28/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 29/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 21-11 11:05 — 10th Hindi · Chapter 15 vakya shuddhi
 
 <details>
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 10:58:59 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "इसलिए" is incorrectly listed under कारणवाचक (causal) conjunctions in the समुच्चयबोधक section; it is a परिणामवाचक (consequential) conjunction → Remove "इसलिए" from the कारणवाचक list (keep it only under परिणामवाचक).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed/QA.json'}
 21-11 10:59:04   [organization_cpu] QA blocked: editorial:Content_en.txt
 21-11 10:59:04   [organization_cpu] QA needs_reference: sources:Content_en.txt
 21-11 10:59:17   [visheshan_kriya] QA passed: editorial:Feynman_hi.txt
@@ -123,6 +121,7 @@
 21-11 11:05:44   [word] QA needs_reference: sources:Content_en.txt
 21-11 11:05:47   [vakya_shuddhi] review: 1 section(s) corrected, 0 failed
 21-11 11:05:47   [vakya_shuddhi] written 1, failed 0; AI calls today 40/100000
+21-11 11:06:13   [paryayvachi] QA passed: structure
 ````
 
 </details>
