@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:19 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:22 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 27 Number Series (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W10 | Chapter 28 Linear Programming (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 02 Medieval History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 06 Physical Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 04 Constitution Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 08 World Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
+| W1 | Chapter 09 Economy Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 02 Medieval History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W2 | Chapter 06 Physical Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 04 Constitution Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 08 World Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 154 |
 | key 4 | 133 |
 | key 5 | 141 |
-| key 6 | 131 |
+| key 6 | 133 |
 
 ## किताबों की प्रगति
 
@@ -70,10 +70,10 @@
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 75/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 10/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 13/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 922/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 925/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,10 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:10:09   [Permutation_Combination] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 19:10:10 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination/QA.json'}
-21-11 19:10:11   [Articles] QA needs_reference: sources:Feynman_hi.txt
-21-11 19:10:18   [Number_Series] QA blocked: editorial:Content_en.txt
 21-11 19:10:18   [Number_Series] QA needs_reference: sources:Content_en.txt
 21-11 19:10:43   [Articles] QA passed: editorial:Flashcards_en.txt
 21-11 19:10:43   [Articles] QA needs_reference: sources:Flashcards_en.txt
@@ -128,6 +124,10 @@
 21-11 19:19:32   [Economy_Basic] QA passed: structure
 21-11 19:19:56   [Physical_Geography] QA passed: editorial:Content_en.txt
 21-11 19:19:57   [Physical_Geography] QA needs_reference: sources:Content_en.txt
+21-11 19:20:06   [Physics_Daily] QA passed: structure
+21-11 19:22:04   [Medieval_History] QA passed: editorial:Content_hi.txt
+21-11 19:22:05   [Medieval_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 19:22:05 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History/QA.json'}
 ````
 
 </details>
