@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:19 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:20 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
-| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W2 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
-| W4 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 29 मिनट |
+| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W2 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 29 मिनट |
+| W4 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 17 |
+| key 3 | 18 |
 | key 4 | 21 |
-| key 5 | 20 |
-| key 6 | 4 |
+| key 5 | 21 |
+| key 6 | 5 |
 
 ## किताबों की प्रगति
 
@@ -59,8 +59,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 25/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 27/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 26/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 28/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 52/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 54/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,9 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:14:18   [internet_browser] QA blocked: editorial:Content_hi.txt
-21-11 11:14:18   [internet_browser] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 11:14:18 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- macOS ब्राउज़र शॉर्टकट तालिका का दावा "Chrome/Edge/Firefox पर लागू" गलत है: कई शॉर्टकट (पूर्ण-स्क्रीन ⌘+Ctrl+F, डाउनलोड ⌘+Option+L, इतिहास ⌘+Y, बुकमार्क प्रबंधक ⌘+Option+B, अगला/पिछला टैब ⌘+Option+→/←) Firefox पर macOS में भिन्न हैं (उदाहरण: पूर्ण-स्क्रीन ⌘+Shift+F, डाउनलोड ⌘+Shift+Y, इतिहास ⌘+Shift+H, बुकमार्क ⌘+Shift+B, अगला टैब Ctrl+Tab) → तालिका को केवल Chrome/Edge के लिए चिह्नित करें या Firefox के सही macOS शॉर्टकट दें।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser/QA.json'}
 21-11 11:14:39   [networking] QA passed: structure
 21-11 11:15:20   [ek_shabd] QA passed: editorial:Content_hi.txt
 21-11 11:15:21   [ek_shabd] QA needs_reference: sources:Content_hi.txt
@@ -123,6 +120,9 @@
 21-11 11:20:23   [powerpoint] QA passed: editorial:Content_hi.txt
 21-11 11:20:23   [powerpoint] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 11:20:23 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - Default aspect ratio: Widescreen (16:9) since PowerPoint 2013; Standard (4:3) available in Design → Slide Size.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint/QA.json'}
+21-11 11:20:47   [Ancient_History] QA passed: structure
+21-11 11:21:06   [vakya_shuddhi] QA blocked: editorial:Content_hi.txt
+21-11 11:21:06   [vakya_shuddhi] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
