@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:04 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:05 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 72 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
-| W11 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 42 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 72 मिनट |
-| W5 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W7 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 74 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
+| W11 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 44 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 74 मिनट |
+| W4 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W7 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 28 |
-| key 4 | 38 |
-| key 5 | 38 |
+| key 4 | 39 |
+| key 5 | 39 |
 | key 6 | 25 |
 
 ## किताबों की प्रगति
@@ -60,8 +61,8 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 40/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 7/1716 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 41/1482 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 9/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 107/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 110/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:52:34   [Days_Dates] QA passed: editorial:Content_en.txt
-21-11 11:52:34   [Days_Dates] QA needs_reference: sources:Content_en.txt
-21-11 11:52:43   [Awards] QA blocked: editorial:Content_en.txt
-21-11 11:52:43   [Awards] QA needs_reference: sources:Content_en.txt
-21-11 11:53:24   [Environment] QA blocked: editorial:Content_en.txt
-21-11 11:53:24   [Environment] QA needs_reference: sources:Content_en.txt
 21-11 11:53:32   [Analogy] QA passed: editorial:Content_en.txt
 21-11 11:53:32   [Analogy] QA needs_reference: sources:Content_en.txt
 21-11 11:55:33   [Books_Authors] QA blocked: editorial:Content_hi.txt
@@ -122,6 +117,12 @@
 21-11 12:04:07   [Medieval_History] QA passed: editorial:Content_en.txt
 21-11 12:04:21   [Medieval_History] QA needs_reference: sources:Content_en.txt
 21-11 12:04:22   [Order_Ranking] QA passed: structure
+21-11 12:05:19   [Sitting_Arrangement] QA passed: structure
+21-11 12:05:52   [Environment] QA passed: editorial:Content_hi.txt
+21-11 12:05:53   [Environment] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 12:05:53 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- Hindi term 'सुपोषण' given for eutrophication is wrong; सुपोषण means good nutrition → The correct Hindi term for eutrophication is 'यूट्रोफिकेशन' or 'पोषकता'"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: CITES (1973) — controls international trade in endangered wild animals and plants; signed at Washington, D.C.; India became a party in 1976. World Wildlife Day (3 March) marks the day it was signed.', 'Fetch official supporting evidence for: Rio Earth Summit (1992) — UNFCCC (climate), Convention on Biological Diversity (CBD), Agenda 21.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment/QA.json'}
+21-11 12:06:19   [Order_Ranking] QA passed: editorial:Content_en.txt
+21-11 12:06:19   [Order_Ranking] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>

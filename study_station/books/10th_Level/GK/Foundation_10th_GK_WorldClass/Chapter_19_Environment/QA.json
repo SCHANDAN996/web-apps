@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "76c6173fc63d57753bceda37a480fa2616325473c09e3b911ab70b5fb3b65291",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0064c52a386b5c9e1d34a434785b801a671535e7a3d644b111123ac1bdfe7a72",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2a85709469b94bedb9502b96e57ba982dfbf429c2047cf9dd9c509e06ae0bbaf",
+        "Content_hi.txt": "f203d9a0bc42425ee7f86a463d29db2cd5dfcb4a3cc3bf4500f1cb3384bc5e5a",
+        "Feynman_en.txt": "57cd0a55f790ebfda6d78cd1fc533ebc4a091d5ea5badbf4951bdd67e82fae26",
+        "Feynman_hi.txt": "9d945e5504aee21f7983d588211240481f8baf7a169cd02ac89a7f9b3e36504b",
+        "Flashcards_en.txt": "a1b337253f3d16d5bdce1f4eae5652b5e2a53c7346469a0c3992e38d83ebebc0",
+        "Flashcards_hi.txt": "c946428d0decbab5e209986ff6f3aa9a6edc40e2229a1d1d2d41ff281fac1019",
+        "Key_Facts_en.txt": "511c8c810bad0c076eaf252041dc6be122c2f4001a684737ab4d76a567d52b84",
+        "Key_Facts_hi.txt": "622ebaa3ef101bcba9327ab0f84806ef33b0bfe7374dc9493a862f46f600460f",
+        "Memory_Hooks_en.txt": "3c8602831373dcdbc77a6b4cff565cd4a0428f867f92a4019f660aadd2c3d3f1",
+        "Memory_Hooks_hi.txt": "155dc01c6c9a2c07ca6f979d69f81201714c49d5c18d8d2d8e1cd3b934c86edd",
+        "Mind_Map.txt": "8c1f57882080764bdaf995e8f69ebb78251faabf78c8905e94d6e7ca52292ee9",
+        "PYQ_en.txt": "f68420a0c5c21fe62a992730ec83a9aa4e34aa15cb8c32e8c6c45544276b26ca",
+        "PYQ_hi.txt": "3bd0827ce7ec26c14dc502633450f3d318ae3212f9f0e20df30e635b4b535dd2",
+        "Practice_en_Set_01.txt": "6ebed1e44a86ca5193aa264e13ad70f8a434116c694c3464e8adf0347cd829db",
+        "Practice_en_Set_02.txt": "abfad73eefc16e2fa0bc46fa5a87cdbac0451b57c9b3feb7bc41d109f7270e18",
+        "Practice_en_Set_03.txt": "3da73a98c845e69479bc9408579ec82c68cd1b2cb6e4185d490f91f92547ff11",
+        "Practice_en_Set_04.txt": "2d0296d5dd77ac6b205f1280bf4d3db34df36d6b31e64b07e65a8261855e519e",
+        "Practice_en_Set_05.txt": "8c7d684713b4f8862e5631d2221d12e906a6fe8f86113e8822188b79121ae8ea",
+        "Practice_en_Set_06.txt": "10c69455b8b8c4ad7bbd71f417488b3dad9473a2c8037ce752b381e620dd6f90",
+        "Practice_hi_Set_01.txt": "62d64c8761eeb43c52ea46543878c060bfc122a1e4524bf924cc29366e8cf0c8",
+        "Practice_hi_Set_02.txt": "ff24d7ce460d03e67b59321847042229b237aa9d44d665afbb2cd1367bd0976a",
+        "Practice_hi_Set_03.txt": "058cc1d061b1020f2fa62df4eff67a6b17d943ae8207f606b1702501ea1ca1c2",
+        "Practice_hi_Set_04.txt": "b292619a282aeb6e833625db1c7d86df2c5a8a3f0e9d8dbc7bbe88d7bd174030",
+        "Practice_hi_Set_05.txt": "465ca1376d5e5ea2199af393cc5c645a243eacec4ad136f788c3fd3dcd6a0997",
+        "Practice_hi_Set_06.txt": "1c9c5612410664a27dc237d20e4a0d3cd29192574a43a2dbda7e080148927625",
+        "inventory": {
+          "Content_en.txt": "2a85709469b94bedb9502b96e57ba982dfbf429c2047cf9dd9c509e06ae0bbaf",
+          "Content_hi.txt": "f203d9a0bc42425ee7f86a463d29db2cd5dfcb4a3cc3bf4500f1cb3384bc5e5a",
+          "Feynman_en.txt": "57cd0a55f790ebfda6d78cd1fc533ebc4a091d5ea5badbf4951bdd67e82fae26",
+          "Feynman_hi.txt": "9d945e5504aee21f7983d588211240481f8baf7a169cd02ac89a7f9b3e36504b",
+          "Flashcards_en.txt": "a1b337253f3d16d5bdce1f4eae5652b5e2a53c7346469a0c3992e38d83ebebc0",
+          "Flashcards_hi.txt": "c946428d0decbab5e209986ff6f3aa9a6edc40e2229a1d1d2d41ff281fac1019",
+          "Key_Facts_en.txt": "511c8c810bad0c076eaf252041dc6be122c2f4001a684737ab4d76a567d52b84",
+          "Key_Facts_hi.txt": "622ebaa3ef101bcba9327ab0f84806ef33b0bfe7374dc9493a862f46f600460f",
+          "Memory_Hooks_en.txt": "3c8602831373dcdbc77a6b4cff565cd4a0428f867f92a4019f660aadd2c3d3f1",
+          "Memory_Hooks_hi.txt": "155dc01c6c9a2c07ca6f979d69f81201714c49d5c18d8d2d8e1cd3b934c86edd",
+          "Mind_Map.txt": "8c1f57882080764bdaf995e8f69ebb78251faabf78c8905e94d6e7ca52292ee9",
+          "PYQ_en.txt": "f68420a0c5c21fe62a992730ec83a9aa4e34aa15cb8c32e8c6c45544276b26ca",
+          "PYQ_hi.txt": "3bd0827ce7ec26c14dc502633450f3d318ae3212f9f0e20df30e635b4b535dd2",
+          "Practice_en_Set_01.txt": "6ebed1e44a86ca5193aa264e13ad70f8a434116c694c3464e8adf0347cd829db",
+          "Practice_en_Set_02.txt": "abfad73eefc16e2fa0bc46fa5a87cdbac0451b57c9b3feb7bc41d109f7270e18",
+          "Practice_en_Set_03.txt": "3da73a98c845e69479bc9408579ec82c68cd1b2cb6e4185d490f91f92547ff11",
+          "Practice_en_Set_04.txt": "2d0296d5dd77ac6b205f1280bf4d3db34df36d6b31e64b07e65a8261855e519e",
+          "Practice_en_Set_05.txt": "8c7d684713b4f8862e5631d2221d12e906a6fe8f86113e8822188b79121ae8ea",
+          "Practice_en_Set_06.txt": "10c69455b8b8c4ad7bbd71f417488b3dad9473a2c8037ce752b381e620dd6f90",
+          "Practice_hi_Set_01.txt": "62d64c8761eeb43c52ea46543878c060bfc122a1e4524bf924cc29366e8cf0c8",
+          "Practice_hi_Set_02.txt": "ff24d7ce460d03e67b59321847042229b237aa9d44d665afbb2cd1367bd0976a",
+          "Practice_hi_Set_03.txt": "058cc1d061b1020f2fa62df4eff67a6b17d943ae8207f606b1702501ea1ca1c2",
+          "Practice_hi_Set_04.txt": "b292619a282aeb6e833625db1c7d86df2c5a8a3f0e9d8dbc7bbe88d7bd174030",
+          "Practice_hi_Set_05.txt": "465ca1376d5e5ea2199af393cc5c645a243eacec4ad136f788c3fd3dcd6a0997",
+          "Practice_hi_Set_06.txt": "1c9c5612410664a27dc237d20e4a0d3cd29192574a43a2dbda7e080148927625"
+        }
+      },
+      "checked_at": "2026-11-21T06:21:41+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "fa60704cc02cb3bc3f071562f90ac35e0a3ca23d5a943d5b6f00bcd3a5a67d3c",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Hindi term 'सुपोषण' given for eutrophication is wrong; सुपोषण means good nutrition → The correct Hindi term for eutrophication is 'यूट्रोफिकेशन' or 'पोषकता'"
+      ],
+      "dependencies": {
+        "chapter.json": "0064c52a386b5c9e1d34a434785b801a671535e7a3d644b111123ac1bdfe7a72",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2a85709469b94bedb9502b96e57ba982dfbf429c2047cf9dd9c509e06ae0bbaf"
+      },
+      "checked_at": "2026-11-21T06:23:24+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "ba9a144ae9217c8a6718c1caef621e8428e593c9d7634e435f5652ddf51e0390",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: CITES (1973) — controls international trade in endangered wild animals and plants; signed at Washington, D.C.; India became a party in 1976. World Wildlife Day (3 March) marks the day it was signed.",
+        "Fetch official supporting evidence for: Rio Earth Summit (1992) — UNFCCC (climate), Convention on Biological Diversity (CBD), Agenda 21."
+      ],
+      "dependencies": {
+        "chapter.json": "0064c52a386b5c9e1d34a434785b801a671535e7a3d644b111123ac1bdfe7a72",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2a85709469b94bedb9502b96e57ba982dfbf429c2047cf9dd9c509e06ae0bbaf",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:23:24+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "d6e19ef2f3da1173178960edf52d115775388503f340ec24f928f5a1c95a1e7c",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0064c52a386b5c9e1d34a434785b801a671535e7a3d644b111123ac1bdfe7a72",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "f203d9a0bc42425ee7f86a463d29db2cd5dfcb4a3cc3bf4500f1cb3384bc5e5a"
+      },
+      "checked_at": "2026-11-21T06:35:52+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:35:53+00:00",
+  "chapter_fingerprint": "ce181d2226af9fac25847cf0ab0032653db2bd67808ba6b42470bc7b56e81e26"
+}
