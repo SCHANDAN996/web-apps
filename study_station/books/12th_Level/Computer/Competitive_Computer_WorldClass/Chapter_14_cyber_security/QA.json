@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "c22563c5e154b19ac14eb34895d43c4fc247fe7fa17cec52e88fa3b200d15f59",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "e8417d4b11a802ab27854b92fa983323c9c84ed3af85eaa6b91b197b6257ca90",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c1e0189981636811e919a69f2f519119029730eb4541fbc220b023ade2c541cd",
+        "Content_hi.txt": "bc13f487b2b54d8552357baad9dbfe549973843e2f92ba5cc6b03259f5da40ba",
+        "Feynman_en.txt": "b30b2a6c3c731aedaef13d28253567b31cea04c6886e3c641e05f4232335e64f",
+        "Feynman_hi.txt": "a9a1db50d070ca3e0b81ce4a325d50d95c93406510c1661870b861172d8de358",
+        "Flashcards_en.txt": "67db17a071137fa296cab0f0d5ce833af42f347d27136f4ed7ae39dd8de8ce9d",
+        "Flashcards_hi.txt": "5c2cee55948703cdf5831a479b3017a3bb14ace68c6859089eea03242d677673",
+        "Important_Rules_en.txt": "d027de3ecfa0d946621ae1ac3e6c2367a15c4699b9c52e9bedfe38e9dbb95a1b",
+        "Important_Rules_hi.txt": "4034a2aa584f8faeb60b41f8afb1417655b5073ca667b0fc2194c00514cc5317",
+        "Key_Facts_en.txt": "5fc9684e96b888196ab59dae4cf934652c50bfa09cd7e3481aa43b240a51ff90",
+        "Key_Facts_hi.txt": "c07cd57bcbb14d282c13f5ad2d3eec43d9f4be49566a74b116fe49982f5e6abd",
+        "Mind_Map.txt": "ed217edadb8ed01aed28de0b2d6abb0f84e5fc88a14ce105611c85aab46cbd0f",
+        "PYQ_en.txt": "073bb612b2f03a0a5d318b238e30a5a6d5b1dab51e02ded3b4937097af7427f9",
+        "PYQ_hi.txt": "bd0ff1c62e6a0444de45446e2e19f3d707a6f53723c5c9f18bb302c51d046545",
+        "Practice_en_Set_01.txt": "07f1448e77b762bde37bbfcfd90f47ae7a3faad3f14bc2573372bc294488984f",
+        "Practice_en_Set_02.txt": "297fe699045ce3af3f16cfae2a1cd4d69ded761f57d77feef5416f80319ca238",
+        "Practice_en_Set_03.txt": "96440acac15692e5c6d00bced023e859f3baf1b2a8961c86bd8f3366de4fa101",
+        "Practice_en_Set_04.txt": "0888ddb9340c7cb41118c63fb8c9aa162e9d1ec0563b7491dbb72606f08be903",
+        "Practice_en_Set_05.txt": "02272b5fd52d3067e7d674cca94b67184aa2ac61ccf12a15af4bbdc85f5eed49",
+        "Practice_en_Set_06.txt": "0108c0f9b835296930ce875aa00f97697cd5f38707a789aa36ab7929c008f34b",
+        "Practice_hi_Set_01.txt": "e0f7ae9fae8657f3fe651f533658d619f72c0290a540f994463c90f7ec4832c6",
+        "Practice_hi_Set_02.txt": "30d60899260b28d0e40afeef9b6c4425b5878d66824e4e9bff2c81046c231300",
+        "Practice_hi_Set_03.txt": "8a6bf8b93f486f75f03ad2b897a54aed7af1e5a6cae761ae0fcb8ffe5ee42559",
+        "Practice_hi_Set_04.txt": "a4169ba4879de86d6f3c6297564e00b16b4f90d9e9f530b75b5ff21d9c7455c9",
+        "Practice_hi_Set_05.txt": "6057db5f2cb953ed8f10dacd61defe47dcbeff8ccc26aa86d0c71e41e021224f",
+        "Practice_hi_Set_06.txt": "0e12925f2cf07d4b897aa730f108a825db97fae8113debe95f55638984c909ee",
+        "inventory": {
+          "Content_en.txt": "c1e0189981636811e919a69f2f519119029730eb4541fbc220b023ade2c541cd",
+          "Content_hi.txt": "bc13f487b2b54d8552357baad9dbfe549973843e2f92ba5cc6b03259f5da40ba",
+          "Feynman_en.txt": "b30b2a6c3c731aedaef13d28253567b31cea04c6886e3c641e05f4232335e64f",
+          "Feynman_hi.txt": "a9a1db50d070ca3e0b81ce4a325d50d95c93406510c1661870b861172d8de358",
+          "Flashcards_en.txt": "67db17a071137fa296cab0f0d5ce833af42f347d27136f4ed7ae39dd8de8ce9d",
+          "Flashcards_hi.txt": "5c2cee55948703cdf5831a479b3017a3bb14ace68c6859089eea03242d677673",
+          "Important_Rules_en.txt": "d027de3ecfa0d946621ae1ac3e6c2367a15c4699b9c52e9bedfe38e9dbb95a1b",
+          "Important_Rules_hi.txt": "4034a2aa584f8faeb60b41f8afb1417655b5073ca667b0fc2194c00514cc5317",
+          "Key_Facts_en.txt": "5fc9684e96b888196ab59dae4cf934652c50bfa09cd7e3481aa43b240a51ff90",
+          "Key_Facts_hi.txt": "c07cd57bcbb14d282c13f5ad2d3eec43d9f4be49566a74b116fe49982f5e6abd",
+          "Mind_Map.txt": "ed217edadb8ed01aed28de0b2d6abb0f84e5fc88a14ce105611c85aab46cbd0f",
+          "PYQ_en.txt": "073bb612b2f03a0a5d318b238e30a5a6d5b1dab51e02ded3b4937097af7427f9",
+          "PYQ_hi.txt": "bd0ff1c62e6a0444de45446e2e19f3d707a6f53723c5c9f18bb302c51d046545",
+          "Practice_en_Set_01.txt": "07f1448e77b762bde37bbfcfd90f47ae7a3faad3f14bc2573372bc294488984f",
+          "Practice_en_Set_02.txt": "297fe699045ce3af3f16cfae2a1cd4d69ded761f57d77feef5416f80319ca238",
+          "Practice_en_Set_03.txt": "96440acac15692e5c6d00bced023e859f3baf1b2a8961c86bd8f3366de4fa101",
+          "Practice_en_Set_04.txt": "0888ddb9340c7cb41118c63fb8c9aa162e9d1ec0563b7491dbb72606f08be903",
+          "Practice_en_Set_05.txt": "02272b5fd52d3067e7d674cca94b67184aa2ac61ccf12a15af4bbdc85f5eed49",
+          "Practice_en_Set_06.txt": "0108c0f9b835296930ce875aa00f97697cd5f38707a789aa36ab7929c008f34b",
+          "Practice_hi_Set_01.txt": "e0f7ae9fae8657f3fe651f533658d619f72c0290a540f994463c90f7ec4832c6",
+          "Practice_hi_Set_02.txt": "30d60899260b28d0e40afeef9b6c4425b5878d66824e4e9bff2c81046c231300",
+          "Practice_hi_Set_03.txt": "8a6bf8b93f486f75f03ad2b897a54aed7af1e5a6cae761ae0fcb8ffe5ee42559",
+          "Practice_hi_Set_04.txt": "a4169ba4879de86d6f3c6297564e00b16b4f90d9e9f530b75b5ff21d9c7455c9",
+          "Practice_hi_Set_05.txt": "6057db5f2cb953ed8f10dacd61defe47dcbeff8ccc26aa86d0c71e41e021224f",
+          "Practice_hi_Set_06.txt": "0e12925f2cf07d4b897aa730f108a825db97fae8113debe95f55638984c909ee"
+        }
+      },
+      "checked_at": "2026-11-21T05:47:43+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "1916645d7d3cde55a3bdc67ada1a0d5ac4b27f897129d2669f2c8a2b0c5dcbd4",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Example 2 password length: claims \"Tr!b3#V0y@g3r$2024\" is 16 characters but it actually has 18 characters → correct length is 18 characters (or adjust example to a 16-character password)"
+      ],
+      "dependencies": {
+        "chapter.json": "e8417d4b11a802ab27854b92fa983323c9c84ed3af85eaa6b91b197b6257ca90",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c1e0189981636811e919a69f2f519119029730eb4541fbc220b023ade2c541cd"
+      },
+      "checked_at": "2026-11-21T05:52:50+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "0b95e0c10f5b7067b2a2f569e40f1ff49fbde8b22865ead11eda4d38fcc0f8b6",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - CERT-In (Indian Computer Emergency Response Team): Nodal agency for cyber security incidents. Mandates incident reporting within 6 hours (per 2022 directions). Maintains advisories on vulnerabilities and best practices."
+      ],
+      "dependencies": {
+        "chapter.json": "e8417d4b11a802ab27854b92fa983323c9c84ed3af85eaa6b91b197b6257ca90",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c1e0189981636811e919a69f2f519119029730eb4541fbc220b023ade2c541cd",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:52:50+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "730b7763b8f3083740b53f232d201156274fe4aba800aad09b9ac6d521a536fe",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Example 1: Phishing reporting email 'report.phishing@cert-in.org.in' is not the official CERT-In address → The correct CERT-In phishing reporting email is 'phishing@cert-in.org.in' (or 'incident@cert-in.org.in' for general incidents)"
+      ],
+      "dependencies": {
+        "chapter.json": "e8417d4b11a802ab27854b92fa983323c9c84ed3af85eaa6b91b197b6257ca90",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "bc13f487b2b54d8552357baad9dbfe549973843e2f92ba5cc6b03259f5da40ba"
+      },
+      "checked_at": "2026-11-21T05:55:26+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:55:26+00:00",
+  "chapter_fingerprint": "6c049efac871b18e31148450bfad6e9ca76dea0f06167cf885165c1d450e733f"
+}
