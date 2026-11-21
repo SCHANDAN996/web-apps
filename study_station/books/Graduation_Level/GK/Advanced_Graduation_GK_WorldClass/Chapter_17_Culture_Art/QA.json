@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "5afc09d3c90243a5a3ffb70890b27e4ecdd7f520d46536c1dfa9561d9d5715d2",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "597c60fc57f95ecb6bb3cdd071b17e7fb890a71ff7edc6e45d1f7d58e46a73db",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5c42ca2465500b527b6f11545d9b1394f8dfc0ffb9ade2922ccf9ed4c7d3beca",
+        "Content_hi.txt": "0573d132a0ef44b7d3324492fcea2e77e54365b6ad69fc30ef304cf4a973bdea",
+        "Feynman_en.txt": "ce6006c660b2e6232f2adf2680dc8d9dffd6d872a7ee0620df2ee1608bbbac2e",
+        "Feynman_hi.txt": "0a8af6f331a9ef4ea767ed9d0058d70704b2cad71274874d308f5adeca5bbe19",
+        "Flashcards_en.txt": "e02a5af06744a2d5aedbc22382f19f3adcf0ed9473bab91ae1655e055f01ab4d",
+        "Flashcards_hi.txt": "94c10b27039a4fa4c643a74f5e33d7f5aa28e2d43d646aa148a5e041649025be",
+        "Key_Facts_en.txt": "65d98e4ef68d78d704f39ab3eefdb02868f5c2595996666fd9b4bb3d6128fbaa",
+        "Key_Facts_hi.txt": "435ef9de69a7ae53995027c74ff301875f8f50c2ea8b288eb2f27cb318330254",
+        "Memory_Hooks_en.txt": "87e9c33c1b9f627e5f36ed89dddebf9396551c67a7033999d05314a6c042e4e6",
+        "Memory_Hooks_hi.txt": "0664f7bcfd27b22ea97e1442ba44d710e9a5b926f8d94f290a1fa31b1901c508",
+        "Mind_Map.txt": "ab959cffc58e0e41158dc25196e0c382a016217e2fc373c85a8646cae9d0ed80",
+        "PYQ_en.txt": "ff289f362101f2f4558961881070a9c550521da01e8f90ef3212fbb40acee6cc",
+        "PYQ_hi.txt": "4bd4c930c7f639420b6c56b02d1ddfa54285a1b5919b5c3a5d065b82fc0e3e09",
+        "Practice_en_Set_01.txt": "3e713aa6a0dd4b487792c80b7d3108522139685258ccc9fa8b3b3f711968db7d",
+        "Practice_en_Set_02.txt": "46cae93cce9bbadf0c4e7c140061c89591294cf9fb2701880b542aa58042ffe1",
+        "Practice_en_Set_03.txt": "485bbcc4e9306cb687594b90ab6b85b55b13e764f7bc28021516482da1181664",
+        "Practice_en_Set_04.txt": "f0a974f3d802632c40ae7944791b50d1f08b258accaeb78d7403d28d40b87266",
+        "Practice_en_Set_05.txt": "7f926a1b1cdf14e8e13218cc7a6e9637c10a4e48c38f773b0361342a712eff23",
+        "Practice_en_Set_06.txt": "acfb2d0e6a8ee778d00ca9b2dea029a5912d0a828fe2aee85d0c5a400a005e1b",
+        "Practice_hi_Set_01.txt": "3c3b6eb9bdf03c3c49613d710e49d62bcd6ef9beb2503ab9c2e77c616e8cc7e5",
+        "Practice_hi_Set_02.txt": "f2cbadf678e409e330328967f6d8b99803f3e07062e6a8c57f3fe5c16b1a07b6",
+        "Practice_hi_Set_03.txt": "514caa9ea024ab658987773005004155f54cafb43b251126f3f42b11b1e9a188",
+        "Practice_hi_Set_04.txt": "81ce04da88014f2a415e53515c20c47ffc5ab218152e0e9269f672a40c89aa5b",
+        "Practice_hi_Set_05.txt": "26ec50169755b8911af4396b3f9e633ca7d0ec8dbab2e66471a6141f16dbcd87",
+        "Practice_hi_Set_06.txt": "3c9819a5969d8b5c2679d69d51c43789613890324b886e981ccb3be048dde7ce",
+        "inventory": {
+          "Content_en.txt": "5c42ca2465500b527b6f11545d9b1394f8dfc0ffb9ade2922ccf9ed4c7d3beca",
+          "Content_hi.txt": "0573d132a0ef44b7d3324492fcea2e77e54365b6ad69fc30ef304cf4a973bdea",
+          "Feynman_en.txt": "ce6006c660b2e6232f2adf2680dc8d9dffd6d872a7ee0620df2ee1608bbbac2e",
+          "Feynman_hi.txt": "0a8af6f331a9ef4ea767ed9d0058d70704b2cad71274874d308f5adeca5bbe19",
+          "Flashcards_en.txt": "e02a5af06744a2d5aedbc22382f19f3adcf0ed9473bab91ae1655e055f01ab4d",
+          "Flashcards_hi.txt": "94c10b27039a4fa4c643a74f5e33d7f5aa28e2d43d646aa148a5e041649025be",
+          "Key_Facts_en.txt": "65d98e4ef68d78d704f39ab3eefdb02868f5c2595996666fd9b4bb3d6128fbaa",
+          "Key_Facts_hi.txt": "435ef9de69a7ae53995027c74ff301875f8f50c2ea8b288eb2f27cb318330254",
+          "Memory_Hooks_en.txt": "87e9c33c1b9f627e5f36ed89dddebf9396551c67a7033999d05314a6c042e4e6",
+          "Memory_Hooks_hi.txt": "0664f7bcfd27b22ea97e1442ba44d710e9a5b926f8d94f290a1fa31b1901c508",
+          "Mind_Map.txt": "ab959cffc58e0e41158dc25196e0c382a016217e2fc373c85a8646cae9d0ed80",
+          "PYQ_en.txt": "ff289f362101f2f4558961881070a9c550521da01e8f90ef3212fbb40acee6cc",
+          "PYQ_hi.txt": "4bd4c930c7f639420b6c56b02d1ddfa54285a1b5919b5c3a5d065b82fc0e3e09",
+          "Practice_en_Set_01.txt": "3e713aa6a0dd4b487792c80b7d3108522139685258ccc9fa8b3b3f711968db7d",
+          "Practice_en_Set_02.txt": "46cae93cce9bbadf0c4e7c140061c89591294cf9fb2701880b542aa58042ffe1",
+          "Practice_en_Set_03.txt": "485bbcc4e9306cb687594b90ab6b85b55b13e764f7bc28021516482da1181664",
+          "Practice_en_Set_04.txt": "f0a974f3d802632c40ae7944791b50d1f08b258accaeb78d7403d28d40b87266",
+          "Practice_en_Set_05.txt": "7f926a1b1cdf14e8e13218cc7a6e9637c10a4e48c38f773b0361342a712eff23",
+          "Practice_en_Set_06.txt": "acfb2d0e6a8ee778d00ca9b2dea029a5912d0a828fe2aee85d0c5a400a005e1b",
+          "Practice_hi_Set_01.txt": "3c3b6eb9bdf03c3c49613d710e49d62bcd6ef9beb2503ab9c2e77c616e8cc7e5",
+          "Practice_hi_Set_02.txt": "f2cbadf678e409e330328967f6d8b99803f3e07062e6a8c57f3fe5c16b1a07b6",
+          "Practice_hi_Set_03.txt": "514caa9ea024ab658987773005004155f54cafb43b251126f3f42b11b1e9a188",
+          "Practice_hi_Set_04.txt": "81ce04da88014f2a415e53515c20c47ffc5ab218152e0e9269f672a40c89aa5b",
+          "Practice_hi_Set_05.txt": "26ec50169755b8911af4396b3f9e633ca7d0ec8dbab2e66471a6141f16dbcd87",
+          "Practice_hi_Set_06.txt": "3c9819a5969d8b5c2679d69d51c43789613890324b886e981ccb3be048dde7ce"
+        }
+      },
+      "checked_at": "2026-11-21T14:04:51+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "c8d01c24c344510048a4023b5d4bdb180f68b321cf674a454b2cbeb011537d1f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Hook paragraph says Jana Gana Mana was sung at the 1911 Delhi Durbar → The song was first sung at the Calcutta Session of the Indian National Congress on 27 December 1911, not at the Delhi Durbar.",
+        "- Ajanta Caves technique described as 'fresco/tempera' → The paintings use tempera (fresco-secco) technique, not true fresco.",
+        "- Folk Theatre table claims 'Ramlila of Varanasi region is UNESCO-listed' → UNESCO inscribed 'Ramlila, the traditional performance of the Ramayana' as a tradition in 2008, not specifically the Varanasi region's Ramlila."
+      ],
+      "dependencies": {
+        "chapter.json": "597c60fc57f95ecb6bb3cdd071b17e7fb890a71ff7edc6e45d1f7d58e46a73db",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5c42ca2465500b527b6f11545d9b1394f8dfc0ffb9ade2922ccf9ed4c7d3beca"
+      },
+      "checked_at": "2026-11-21T14:10:38+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "1be31ae998067e26973b7ea91b590c1784f2f7ef2b7ac2df0aaf59cf0d1e72ef",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "597c60fc57f95ecb6bb3cdd071b17e7fb890a71ff7edc6e45d1f7d58e46a73db",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5c42ca2465500b527b6f11545d9b1394f8dfc0ffb9ade2922ccf9ed4c7d3beca",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T14:10:39+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "01b0f05a8fe7f49eea487345e5c8d860bc6658a04a3ad59ed6d7ef697fc30313",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "597c60fc57f95ecb6bb3cdd071b17e7fb890a71ff7edc6e45d1f7d58e46a73db",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "0573d132a0ef44b7d3324492fcea2e77e54365b6ad69fc30ef304cf4a973bdea"
+      },
+      "checked_at": "2026-11-21T14:15:18+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T14:15:18+00:00",
+  "chapter_fingerprint": "daf6f75865f6af6b7466cee1925e01445dccee7df8dfb5ddb385eca6f20be0f4"
+}

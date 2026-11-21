@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:45 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:46 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,21 +11,21 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
-| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W6 | Chapter 17 Culture Art (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
+| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
+| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
+| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W5 | Chapter 15 Days Dates (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W6 | Chapter 17 Culture Art (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 159 |
-| key 4 | 138 |
+| key 4 | 139 |
 | key 5 | 151 |
-| key 6 | 143 |
+| key 6 | 144 |
 
 ## किताबों की प्रगति
 
@@ -66,10 +66,10 @@
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 75/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 35/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 37/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 947/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 949/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -84,11 +84,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:37:12   [Economy_Basic] QA blocked: editorial:Content_hi.txt
-21-11 19:37:12   [Economy_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 19:37:12 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **Budget (Article 112):** the "Annual Financial Statement". Presented on **1 February** (since 2017; earlier it was the last working day of February). Railway Budget merged with the Union Budget in **2017**.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- जुलाई 1991 में 67 टन सोना गिरवी रखने का उल्लेख → सोना मई 1991 में गिरवी रखा गया था (बजट 24 जुलाई 1991 को पेश हुआ)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic/QA.json'}
-21-11 19:38:10   [Science_Tech] QA passed: structure
-21-11 19:38:13   [Sports] QA passed: editorial:Content_en.txt
 21-11 19:38:13   [Sports] QA needs_reference: sources:Content_en.txt
 21-11 19:39:11   [States_Rivers] QA passed: editorial:Content_hi.txt
 21-11 19:39:11   [States_Rivers] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
@@ -124,6 +119,11 @@
 21-11 19:45:38 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_15_Days_Dates: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_15_Days_Dates/QA.json'}
 21-11 19:46:07   [Science_Tech] QA passed: editorial:Content_en.txt
 21-11 19:46:08   [Science_Tech] QA needs_reference: sources:Content_en.txt
+21-11 19:46:14 worker 1: nothing left
+21-11 19:46:33   [Biology] QA passed: editorial:Content_en.txt
+21-11 19:46:33   [Biology] QA needs_reference: sources:Content_en.txt
+21-11 19:46:52   [Physics_Daily] QA passed: editorial:Content_en.txt
+21-11 19:46:53   [Physics_Daily] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
