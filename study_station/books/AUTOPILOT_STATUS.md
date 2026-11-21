@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:17 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:18 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 206 मिनट |
-| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
-| W2 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 30 मिनट |
-| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 207 मिनट |
+| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 23 मिनट |
+| W2 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 110 |
 | key 4 | 105 |
-| key 5 | 117 |
-| key 6 | 91 |
+| key 5 | 118 |
+| key 6 | 92 |
 
 ## किताबों की प्रगति
 
@@ -66,13 +67,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 34/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 37/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 416/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 419/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,13 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:13:36   [Dictionary_Order] QA passed: editorial:Content_en.txt
-21-11 14:13:46   [Clock_Calendar] QA blocked: editorial:Content_en.txt
-21-11 14:13:53   [Dictionary_Order] QA needs_reference: sources:Content_en.txt
-21-11 14:13:53   [Clock_Calendar] QA needs_reference: sources:Content_en.txt
-21-11 14:13:54   [Alphabet_Questions] QA passed: structure
-21-11 14:14:44   [Missing_Term] QA passed: editorial:Content_en.txt
-21-11 14:15:05   [Missing_Term] QA needs_reference: sources:Content_en.txt
 21-11 14:15:06   [Mathematical_Operations] QA passed: structure
 21-11 14:15:17   [Economic_Terms] QA infrastructure blocked editorial:Content_en.txt: too_long
 21-11 14:15:17   [Economic_Terms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 77, "blocked": 0, "needs_reference": 0, "remaining": 77, 
@@ -126,6 +120,13 @@
 21-11 14:18:18   [Missing_Term] QA blocked: editorial:Content_hi.txt
 21-11 14:18:18   [Missing_Term] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 14:18:19 QA 12th_Level/Reasoning/Chapter_12_Missing_Term: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In 'जाल 1', the example series 2, 4, 8 is not a square series (squares are 1, 4, 9, 16…), so it cannot mislead students into thinking 'वर्ग'. → Use a genuine square series like 1, 4, 9, ? or 4, 9, 16, ? to illustrate the trap."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_12_Missing_Term/QA.json'}
+21-11 14:18:47   [Course_of_Action] QA passed: editorial:Content_hi.txt
+21-11 14:18:58   [Course_of_Action] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 14:18:59 QA 12th_Level/Reasoning/Chapter_17_Course_of_Action: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The entire section is corrupted/unreadable text (repeated fragments, file references, markup, OCR artifacts) → Replace with proper educational content for the intended topic']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_17_Course_of_Action/QA.json'}
+21-11 14:18:59   [Inequality] QA passed: structure
+21-11 14:19:01   [Mathematical_Operations] QA passed: editorial:Content_hi.txt
+21-11 14:19:02   [Mathematical_Operations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 14:19:02 QA 12th_Level/Reasoning/Chapter_15_Mathematical_Operations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_15_Mathematical_Operations/QA.json'}
 ````
 
 </details>
