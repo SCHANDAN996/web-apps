@@ -98,15 +98,74 @@
         "QA.references.json": []
       },
       "checked_at": "2026-11-21T06:22:43+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "cef66bb8086c2a4d0c78a3a8e3c914d3fd54a908766ac57de9d6025180807d05",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The Nobel Prize 2025 laureates list is fabricated (the 2025 Nobel Prizes have not been announced yet) → Remove the fabricated list or replace with a note that the 2025 winners are not yet known."
+      ],
+      "dependencies": {
+        "chapter.json": "5ca10c9d99b63d4cc2376ffb749e2798e310d7198956dcd3de143a111bf10cdd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "d78d422f9f964ab5d6760a6d34e68678d341f1cb0718ea5840bf2f837859d0dd"
+      },
+      "checked_at": "2026-11-21T10:47:03+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "fc0f09fbbea4b925efdb604c78ab602b4097d9c1bc64dc150ba0f3736f234274",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: अर्थशास्त्र (अल्फ़्रेड नोबेल की स्मृति में स्वेरिजेस रिक्सबैंक पुरस्कार) 1968 में स्थापित, पहली बार 1969 में दिया गया।"
+      ],
+      "dependencies": {
+        "chapter.json": "5ca10c9d99b63d4cc2376ffb749e2798e310d7198956dcd3de143a111bf10cdd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "d78d422f9f964ab5d6760a6d34e68678d341f1cb0718ea5840bf2f837859d0dd",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:47:03+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "614d05d064dc08a62dbe9b76c3629314566a49d9d36daf2c3159ffc907df95e0",
+      "kind": "editorial",
+      "status": "needs_reference",
+      "issues": [
+        "- Padma awards got present names in 1955 → The Padma awards were instituted in 1954 with their present names (Padma Vibhushan, Padma Bhushan, Padma Shri); no renaming occurred in 1955.",
+        "- Dadasaheb Phalke Award for 2023 given to Mohanlal in September 2025 → NEEDS_REFERENCE (verify recipient and ceremony date)"
+      ],
+      "dependencies": {
+        "chapter.json": "5ca10c9d99b63d4cc2376ffb749e2798e310d7198956dcd3de143a111bf10cdd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6918f137ec70a2c41ce36f665419dfe8602d0db8686aa39602065722d97de689"
+      },
+      "checked_at": "2026-11-21T10:54:24+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "0c50e1c94b5ea891af646990e30c3d5486b585dc00a75325e983634d1d19af4f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5ca10c9d99b63d4cc2376ffb749e2798e310d7198956dcd3de143a111bf10cdd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6918f137ec70a2c41ce36f665419dfe8602d0db8686aa39602065722d97de689",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:54:24+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:33:14+00:00",
-  "last_error": {
-    "check": "editorial:Content_hi.txt",
-    "error": "too_long",
-    "at": "2026-11-21T06:33:14+00:00"
-  }
+  "updated_at": "2026-11-21T10:54:24+00:00",
+  "chapter_fingerprint": "e17d69d40a729998b7056030c228948bde0210786c7a0656a3c3b4ad46739ed5"
 }
