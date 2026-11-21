@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:02 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:03 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W5 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 13 |
 | key 4 | 23 |
-| key 5 | 16 |
+| key 5 | 17 |
 | key 6 | 7 |
 
 ## किताबों की प्रगति
@@ -83,17 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:56:13   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q86 key c vs re-solve a)
-21-11 15:56:32   [email] QA passed: editorial:Feynman_en.txt
-21-11 15:56:39   [upsarg_pratyay] QA passed: editorial:Important_Rules_hi.txt
-21-11 15:56:43   [email] QA needs_reference: sources:Feynman_en.txt
-21-11 15:56:43   [upsarg_pratyay] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
-21-11 15:56:44 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In section 3.2 (ग) स्त्रीलिंग प्रत्यय table, the suffix '-त्री' is incorrectly exemplified with 'गायक → गायिका'; '-त्री' does not produce 'गायिका' (the correct suffix for that transformation is '-इका' or '-ई' with deletion of -क) → Replace the example for '-त्री' with a valid one (e.g., 'पुत्र → पुत्री' for '-ई') or change the suffix to '-इका' for 'गायक → गायिका'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "अनुचित" के विश्लेषण में उपसर्ग "अनु-" का अर्थ "अनुसार/पीछे" बताया गया है → "अनुचित" में "अनु-" निषेधार्थक उपसर्ग है (स्वर से पहले "अ-" का रूप "अनु-"), अर्थ "नहीं/अभाव"; मूल "चित्" (धातु) + "उ-" (उपसर्ग) + "त" (कृदन्त) = "उचित"', '- कृदन्त प्रत्ययों की सूची में "-आ, -ई, -न, -त, -नार" दिया है लेकिन उदाहरण "खेलना" में "ना" प्रयुक्त है → सूची में "ना" (क्रिया-संज्ञा/इन्फिनिटिव कारक) जोड़ें या उदाहरण बदलें']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay/QA.json'}
-21-11 15:56:44   [ek_shabd] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:56:57   [email] QA passed: editorial:Feynman_hi.txt
-21-11 15:56:57   [email] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 15:56:57 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: 1. **Subject line**: Clear, specific — "Application: SSC CGL 2024 — Roll No 12345" not "Hello".']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Local-part (उपयोगकर्तानाम) is stated as not case-sensitive, but per RFC 5321 the local-part is case-sensitive → Correct: Local-part is case-sensitive (though many providers treat it as case-insensitive in practice).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email/QA.json'}
-21-11 15:57:29   [powerpoint] QA passed: editorial:Feynman_en.txt
 21-11 15:57:35   [powerpoint] QA needs_reference: sources:Feynman_en.txt
 21-11 15:57:36   [networking] QA needs_reference: sources:Content_hi.txt
 21-11 15:58:16   [muhavare_lokokti] QA needs_reference: sources:Feynman_hi.txt
@@ -123,6 +112,17 @@
 21-11 16:01:57 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_14_cyber_security: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Example 2 password length: claims "Tr!b3#V0y@g3r$2024" is 16 characters but it actually has 18 characters → correct length is 18 characters (or adjust example to a 16-character password)']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - CERT-In (Indian Computer Emergency Response Team): Nodal agency for cyber security incidents. Mandates incident reporting within 6 hours (per 2022 directions). Maintains advisories on vulnerabilities and best practices.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- Example 1: Phishing reporting email 'report.phishing@cert-in.org.in' is not the official CERT-In address → The correct CERT-In phishing reporting email is 'phishing@cert-in.org.in' (or 'incident@cert-in.org.in' for general incidents)"]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_14_cyber_security/QA.json'}
 21-11 16:01:58   [apathit_gadyansh] QA needs_reference: sources:Feynman_hi.txt
 21-11 16:02:32   [Ancient_History] QA needs_reference: sources:Content_hi.txt
+21-11 16:03:11   [ek_shabd] QA blocked: editorial:Important_Rules_hi.txt
+21-11 16:03:11   [ek_shabd] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
+21-11 16:03:11 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In "सामान्य गलतियाँ और उनसे बचाव" point 3, "लोकप्रिया" is incorrectly given as the feminine form of "लोकप्रिय"; the adjective "लोकप्रिय" is invariant and does not change for gender → The feminine form is also "लोकप्रिय"']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- Rule 5\'s second example "बहुत छोटा → सूक्ष्म / लघु" does not illustrate prefix/suffix formation (it only gives Tatsam synonyms) → replace with a proper prefixed/suffixed example such as "असंभव (अ- + संभव)" or "सुन्दरता (सुन्दर + ता)"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd/QA.json'}
+21-11 16:03:18   [vakya_shuddhi] QA blocked: editorial:Flashcards_hi.txt
+21-11 16:03:35   [vakya_shuddhi] QA needs_reference: sources:Flashcards_hi.txt
+21-11 16:03:36   [Medieval_History] QA needs_reference: sources:Content_hi.txt
+21-11 16:04:05   [powerpoint] QA passed: editorial:Feynman_hi.txt
+21-11 16:04:06   [powerpoint] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 16:04:06 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - Default aspect ratio: Widescreen (16:9) since PowerPoint 2013; Standard (4:3) available in Design → Slide Size.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Microsoft Support "Basic tasks in PowerPoint", "Use Slide Master view", "Keyboard shortcuts in PowerPoint".']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint/QA.json'}
+21-11 16:04:06   [apathit_gadyansh] QA passed: editorial:Flashcards_hi.txt
+21-11 16:04:06   [apathit_gadyansh] QA needs_reference: sources:Flashcards_hi.txt
 ````
 
 </details>
