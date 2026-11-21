@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:04 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:05 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 133 मिनट |
-| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W11 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W4 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W8 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W9 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 134 मिनट |
+| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W9 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 71 |
+| key 3 | 72 |
 | key 4 | 68 |
 | key 5 | 84 |
-| key 6 | 55 |
+| key 6 | 56 |
 
 ## किताबों की प्रगति
 
@@ -65,7 +65,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 5/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 8/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 270/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 273/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,10 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:00:42   [Error_Spotting_Basic] QA passed: editorial:Content_en.txt
-21-11 13:00:53   [Error_Spotting_Basic] QA needs_reference: sources:Content_en.txt
-21-11 13:00:54   [Fill_in_Blanks_Basic] QA passed: structure
-21-11 13:01:19   [Error_Spotting_Basic] QA passed: editorial:Content_hi.txt
 21-11 13:01:19   [Error_Spotting_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
 21-11 13:01:19 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic/QA.json'}
 21-11 13:01:20   [Idioms_Phrases] QA blocked: editorial:Content_hi.txt
@@ -127,6 +123,10 @@
 21-11 13:04:58 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "The root must be non-terminating to be irrational" is false; non-terminating repeating decimals (e.g., 1/3 = 0.333…) are rational. → Irrational numbers have decimal expansions that are both non-terminating and non-repeating (or cannot be expressed as p/q).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System/QA.json'}
 21-11 13:05:05   [Simplification] QA passed: editorial:Content_en.txt
 21-11 13:05:05   [Simplification] QA needs_reference: sources:Content_en.txt
+21-11 13:05:29   [Fractions_Decimals] QA passed: structure
+21-11 13:06:05   [Simplification] QA passed: editorial:Content_hi.txt
+21-11 13:06:05   [Simplification] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 13:06:06 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_03_Simplification: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_03_Simplification/QA.json'}
 ````
 
 </details>
