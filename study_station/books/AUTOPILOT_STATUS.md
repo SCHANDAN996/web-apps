@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:20 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:21 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 209 मिनट |
-| W10 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
-| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 33 मिनट |
-| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 210 मिनट |
+| W10 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 110 |
-| key 4 | 106 |
+| key 4 | 107 |
 | key 5 | 120 |
-| key 6 | 94 |
+| key 6 | 95 |
 
 ## किताबों की प्रगति
 
@@ -67,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 39/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 41/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 421/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 423/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,13 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:16:15   [Coding_Decoding] QA passed: editorial:Content_hi.txt
-21-11 14:16:15   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 14:16:15 QA 12th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In the "Clean example of increasing shift" explanation, the text says "A+2=C? No: A+2=C" which is contradictory; it should be "A+2=C? Yes: A+2=C" or simply "A+2=C".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
-21-11 14:16:44   [Statement_Conclusion] QA passed: editorial:Content_en.txt
-21-11 14:16:44   [Statement_Conclusion] QA needs_reference: sources:Content_en.txt
-21-11 14:16:45   [Mathematical_Operations] QA passed: editorial:Content_en.txt
-21-11 14:16:45   [Mathematical_Operations] QA needs_reference: sources:Content_en.txt
 21-11 14:17:15   [Environment] QA passed: editorial:Content_hi.txt
 21-11 14:17:16   [Environment] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 14:17:16 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **Rio Earth Summit, 1992** — Agenda 21, biodiversity & climate conventions.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment/QA.json'}
@@ -127,6 +119,13 @@
 21-11 14:21:04   [Alphabet_Questions] QA needs_reference: sources:Content_en.txt
 21-11 14:21:17   [Cubes_Dice] QA blocked: editorial:Content_en.txt
 21-11 14:21:18   [Cubes_Dice] QA needs_reference: sources:Content_en.txt
+21-11 14:21:45   [Paper_Folding_Cutting] QA passed: structure
+21-11 14:22:05   [Cubes_Dice] QA passed: editorial:Content_hi.txt
+21-11 14:22:05   [Cubes_Dice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 14:22:06 QA 12th_Level/Reasoning/Chapter_19_Cubes_Dice: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The net rule "1st opposite 3rd, 2nd opposite 4th" is presented as a general rule for all nets, but it only applies to nets that contain a straight row/column of 4 squares (not all 11 valid nets have such a row) → Clarify that this rule is specific to nets with a straight line of 4 squares; other nets require different analysis.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_19_Cubes_Dice/QA.json'}
+21-11 14:22:17   [Alphabet_Questions] QA passed: editorial:Content_hi.txt
+21-11 14:22:18   [Alphabet_Questions] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 14:22:18 QA 12th_Level/Reasoning/Chapter_14_Alphabet_Questions: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_14_Alphabet_Questions/QA.json'}
 ````
 
 </details>
