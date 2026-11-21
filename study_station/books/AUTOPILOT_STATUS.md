@@ -5,29 +5,28 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W10 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W10 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W11 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 | W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W3 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W5 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W8 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W9 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 111 |
-| key 4 | 112 |
+| key 3 | 112 |
+| key 4 | 113 |
 | key 5 | 131 |
 | key 6 | 96 |
 
@@ -67,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 55/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 7/2025 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 56/1950 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 9/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 444/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 447/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:25:05   [Figure_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 14:25:05   [Syllogism] QA needs_reference: sources:Content_en.txt
-21-11 14:25:05 QA 12th_Level/Reasoning/Chapter_22_Figure_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_22_Figure_Series/QA.json'}
-21-11 14:25:06   [Statement_Assumption] QA passed: structure
-21-11 14:25:47   [Statement_Assumption] QA passed: editorial:Content_en.txt
-21-11 14:25:47   [Statement_Assumption] QA needs_reference: sources:Content_en.txt
 21-11 14:26:02   [Statement_Assumption] QA passed: editorial:Content_hi.txt
 21-11 14:26:04   [Mirror_Water_Images] QA blocked: editorial:Content_en.txt
 21-11 14:26:11   [Statement_Assumption] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
@@ -128,6 +121,12 @@
 21-11 14:29:33   [Mirror_Water_Images] QA passed: editorial:Content_hi.txt
 21-11 14:29:34   [Mirror_Water_Images] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 14:29:34 QA 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Water image clock formula (6:30 − time for ≤6:30, 18:30 − time for >6:30) gives incorrect results for boundary times: e.g., 12:00 yields 6:30 (correct is 6:00), 6:30 yields 12:00 (correct is 11:30) → The mental flip method (swap 12↔6, keep 3↔9, flip hands vertically) is the correct reliable method; the formula should not be presented without exceptions.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_20_Mirror_Water_Images/QA.json'}
+21-11 14:30:01   [Verb] QA passed: editorial:Content_en.txt
+21-11 14:30:16   [Verb] QA needs_reference: sources:Content_en.txt
+21-11 14:30:18   [Tense] QA passed: structure
+21-11 14:30:55   [Adjective] QA blocked: editorial:Content_hi.txt
+21-11 14:30:55   [Adjective] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 14:30:56 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Degree formation rules (क), the note for "brave → braver → bravest" says "(अंतिम \'e\' हटता है)" → The final \'e\' is not dropped; it is retained. For words ending in \'e\', simply add \'r\'/\'st\' (brave → braver → bravest).', '- In Rule 4 (Latin Comparatives) and the mnemonic "SJ-SIP", "prefer" is listed as a Latin comparative adjective → "prefer" is a verb, not an adjective; it should not be included in a list of Latin comparative adjectives.', '- In the Linguistic Contrast table and Summary table, "elder to" is given as correct predicative usage (e.g., "He is elder to me") → In standard English, "elder" is not used predicatively with "to"; the correct predicative form is "older than" (e.g., "He is older than me"). "Elder" is only used attributively (elder brother) or as a noun.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective/QA.json'}
 ````
 
 </details>
