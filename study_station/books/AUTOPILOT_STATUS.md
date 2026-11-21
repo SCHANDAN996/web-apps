@@ -5,29 +5,30 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
+| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
 | W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 | W6 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 18 |
+| key 3 | 19 |
 | key 4 | 37 |
-| key 5 | 30 |
+| key 5 | 31 |
 | key 6 | 10 |
 
 ## किताबों की प्रगति
@@ -60,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 62/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 63/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 549/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 550/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,9 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:10:26   [States_Rivers] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 16:10:26 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_07_States_Rivers: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: UT capitals: Lakshadweep – Kavaratti | Andaman & Nicobar – Sri Vijaya Puram (renamed from Port Blair in September 2024) | Puducherry – Puducherry | Dadra & Nagar Haveli and Daman & Diu – Daman.', 'Fetch official supporting evidence for: Andaman & Nicobar: the capital Port Blair was renamed Sri Vijaya Puram in September 2024.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Fabricated future claim: "सिंधु जल संधि (1960): पहलगाम आतंकी हमले के बाद 23 अप्रैल 2025 को भारत ने घोषणा की कि यह संधि स्थगित (abeyance में) रखी जा रही है।" → As of 2024, the Indus Water Treaty remains in force; no such abeyance announcement was made on 23 April 2025 (a future date presented as fact).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: सिंधु जल संधि (1960): भारत को पूर्वी नदियाँ (रावी, ब्यास, सतलुज) मिलीं; पश्चिमी नदियाँ (सिंधु, झेलम, चिनाब) मुख्यतः पाकिस्तान को। NCERT के अनुसार भारत सिंधु तंत्र के कुल जल का केवल लगभग 20% उपयोग कर सकता है।']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- "That is why the Godavari, Krishna, Kaveri and Mahanadi all flow east" → Mahanadi originates in the Maikal Hills (Chhattisgarh), not the Western Ghats; its eastward flow is due to the general peninsular slope, not Western Ghats rainfall.', '- "Between the Vindhya and Satpura ranges… The Narmada and the Tapi flow along such troughs" → Only Narmada flows between the Vindhya and Satpura ranges; Tapi flows in a rift valley south of the Satpura range.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_07_States_Rivers/QA.json'}
-21-11 16:10:30   [Physical_Geography] QA passed: editorial:Feynman_hi.txt
 21-11 16:10:30   [Physical_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 16:10:30 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography/QA.json'}
 21-11 16:10:56   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key c vs re-solve a, Q10 key b vs re-solve a, Q11 key b vs re-solve ?, Q18 key a vs re-solve c, Q
@@ -122,6 +120,9 @@
 21-11 16:15:10   [Days_Dates] QA needs_reference: sources:Content_hi.txt
 21-11 16:15:24   [Biology] QA passed: editorial:Feynman_en.txt
 21-11 16:15:24   [Biology] QA needs_reference: sources:Feynman_en.txt
+21-11 16:16:15   [Books_Authors] QA needs_reference: sources:Content_hi.txt
+21-11 16:16:16   [Days_Dates] QA passed: editorial:Feynman_en.txt
+21-11 16:16:16   [Days_Dates] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
