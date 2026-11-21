@@ -107,11 +107,71 @@
         "Content_hi.txt": "12f8c64c5a6cbcf6ab4df9dc5a1375cb906306da8897448a2ed4223e4a5b9079"
       },
       "checked_at": "2026-11-21T08:33:10+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "a225c89628f4362d613612ac06ded1f1af9c0ff182130394d754c6ddcb1bdfba",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: साल 2003 में विश्व बैंक ने एक रिपोर्ट शुरू की — *Doing Business Report* (पहली रिपोर्ट \"Doing Business 2004\")। इसमें देशों को यह देखकर रैंक दी गई कि वहाँ कारोबार शुरू करना कितना आसान है। भारत की रैंक बहुत पीछे थी। यह एक छोटा-सा \"नंबर\" था, लेकिन इसने भारत सरकार को झकझोर दिया। नतीजा? \"ईज़ ऑफ़ डूइंग बिज़नेस\" सुधारों की एक लंबी शृंखला — सिंगल विंडो सिस्टम, ऑनलाइन रजिस्ट्रेशन, दिवालिया कानून (IBC, 2016)। 2020 की रिपोर्ट में भारत 63वें स्थान पर पहुँच गया (2014 में 142वाँ स्थान था)।",
+        "Fetch official supporting evidence for: - **ईज़ ऑफ़ डूइंग बिज़नेस रिपोर्ट** — विश्व बैंक (⚠️ 2021 में विवादों के बाद **बंद** कर दी गई — यह तथ्य अब \"इतिहास\" है, परीक्षा में पूछा जा सकता है कि यह किसकी रिपोर्ट *थी*)।",
+        "Fetch official supporting evidence for: \"ईज़ ऑफ़ डूइंग बिज़नेस रिपोर्ट विश्व बैंक द्वारा जारी की जाती है।\" — वर्तमान काल में यह **गलत** है; रिपोर्ट 2021 में बंद हो चुकी है। परीक्षक पुराने तथ्य को वर्तमान में पूछकर फँसाता है।"
+      ],
+      "dependencies": {
+        "chapter.json": "ebe2d74db8d9c3fbe54abb9221326ca6b0ba5453b78763d5a1f4b06be72fa69e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "12f8c64c5a6cbcf6ab4df9dc5a1375cb906306da8897448a2ed4223e4a5b9079",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:27:58+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "001c386c14c5bcd4515cb00473216b3c1e80c3c6e936ce30d615b02075821bde",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ebe2d74db8d9c3fbe54abb9221326ca6b0ba5453b78763d5a1f4b06be72fa69e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "ef8f576f7d231f666491a55bf939b983f20c434b76cce451b3e5c6f98e267868"
+      },
+      "checked_at": "2026-11-21T12:29:28+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "7b3afd83d3f3eb478123576dbb40a406811bd677dd6c0492ab8c3e380a107cd6",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ebe2d74db8d9c3fbe54abb9221326ca6b0ba5453b78763d5a1f4b06be72fa69e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "ef8f576f7d231f666491a55bf939b983f20c434b76cce451b3e5c6f98e267868",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:29:28+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "87de06aa41cad5c38b123469c10694db687af73664d585e1b4c31acef2ee9787",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ebe2d74db8d9c3fbe54abb9221326ca6b0ba5453b78763d5a1f4b06be72fa69e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "606acbf46bf513f47b3f22accde0e9529fd2595103af759740bb9e4d0bf3942b"
+      },
+      "checked_at": "2026-11-21T12:29:52+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:33:10+00:00",
+  "updated_at": "2026-11-21T12:29:52+00:00",
   "chapter_fingerprint": "4e1be9d025ea00d070496073d7d52682417cb5f21e25c49b751ce28dc63cf1ab"
 }
