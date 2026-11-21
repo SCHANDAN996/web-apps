@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:17 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:18 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 146 मिनट |
-| W10 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W6 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W8 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 10 Compound Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 147 मिनट |
+| W10 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 16 Algebra (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 10 Compound Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 80 |
-| key 4 | 73 |
-| key 5 | 92 |
+| key 3 | 81 |
+| key 4 | 74 |
+| key 5 | 93 |
 | key 6 | 60 |
 
 ## किताबों की प्रगति
@@ -64,7 +64,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 40/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 44/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 305/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 309/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,15 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:12:16 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In Special Cases, the dishonest dealer formula "Profit % = (Error ÷ True weight − Error) × 100" is missing parentheses around the denominator → Should be "Profit % = (Error ÷ (True weight − Error)) × 100"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss/QA.json'}
-21-11 13:12:17   [Compound_Interest] QA passed: structure
-21-11 13:12:51   [Compound_Interest] QA passed: editorial:Content_en.txt
-21-11 13:12:51   [Compound_Interest] QA needs_reference: sources:Content_en.txt
-21-11 13:13:07   [Compound_Interest] QA passed: editorial:Content_hi.txt
-21-11 13:13:20   [Compound_Interest] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:13:21 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest/QA.json'}
-21-11 13:13:21   [Time_Work] QA passed: structure
-21-11 13:13:40   [Time_Work] QA passed: editorial:Content_en.txt
 21-11 13:13:40   [Time_Work] QA needs_reference: sources:Content_en.txt
 21-11 13:13:45   [Simple_Interest] QA blocked: editorial:Content_hi.txt
 21-11 13:13:45   [Simple_Interest] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
@@ -126,6 +117,15 @@
 21-11 13:18:15   [Geometry] QA needs_reference: sources:Content_en.txt
 21-11 13:18:27   [Algebra] QA passed: editorial:Content_en.txt
 21-11 13:18:28   [Algebra] QA needs_reference: sources:Content_en.txt
+21-11 13:18:51   [Algebra] QA passed: editorial:Content_hi.txt
+21-11 13:18:51   [Algebra] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 13:18:52 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra/QA.json'}
+21-11 13:19:09   [Geometry] QA passed: editorial:Content_hi.txt
+21-11 13:19:15   [Geometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:19:15 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_15_Geometry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Invented exam statistic: "Learn roughly 20 theorems cold, and 90% of exam questions become mechanical." → Remove the unsourced percentage claim or replace with a verified statistic.', '- Invented exam statistic: "Roughly half of all exam geometry questions involve triangles directly or indirectly." → Remove the unsourced claim or replace with a verified statistic.', '- Wrong historical fact: "In 1958, a mathematician named Roger Penrose drew a triangle that cannot exist — the famous \'Penrose Triangle.\'" → The Penrose triangle was first created by Oscar Reutersvärd in 1934; Roger Penrose and Lionel Penrose published it in 1958.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_15_Geometry/QA.json'}
+21-11 13:19:16   [Trigonometry] QA passed: structure
+21-11 13:19:48   [Trigonometry] QA passed: editorial:Content_en.txt
+21-11 13:19:48   [Trigonometry] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
