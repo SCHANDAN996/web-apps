@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
-| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 12 Time Distance (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 11 Time Work (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 10 Compound Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 14 Mensuration (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 78 मिनट |
+| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 12 Time Distance (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 10 Compound Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 14 Mensuration (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 50 |
-| key 4 | 67 |
-| key 5 | 48 |
+| key 4 | 68 |
+| key 5 | 49 |
 | key 6 | 42 |
 
 ## किताबों की प्रगति
@@ -62,7 +62,7 @@
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 95/1606 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 97/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 630/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 632/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,14 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:51:44   [Mensuration] QA needs_reference: sources:Feynman_en.txt
-21-11 16:52:04   [Mensuration] QA passed: editorial:Feynman_hi.txt
-21-11 16:52:04   [Mensuration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
-21-11 16:52:05 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_14_Mensuration: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_14_Mensuration/QA.json'}
-21-11 16:52:07   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key b vs re-solve ?, Q130 key a vs re-solve ?, Q132 key c vs re-solve a, Q135 key d vs re-solve
-21-11 16:52:28   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 16:52:28   [rikt_sthan_vakya_kram] written 0, failed 2; AI calls today 197/100000
-21-11 16:52:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 74 min: todo ['Set 04 hi: todo', 'Set 06 hi: todo'] problems []
 21-11 16:52:52   [Algebra] QA needs_reference: sources:Content_hi.txt
 21-11 16:52:52   [Geometry] QA needs_reference: sources:Content_hi.txt
 21-11 16:53:05   [Algebra] QA blocked: editorial:Feynman_en.txt
@@ -126,6 +118,14 @@
 21-11 16:56:31   [Statistics] QA passed: editorial:Feynman_hi.txt
 21-11 16:56:31   [Statistics] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
 21-11 16:56:32 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics/QA.json'}
+21-11 16:57:04   [Number_Series] QA passed: editorial:Feynman_en.txt
+21-11 16:57:16   [Number_Series] QA needs_reference: sources:Feynman_en.txt
+21-11 16:57:16   [Probability] QA needs_reference: sources:Content_hi.txt
+21-11 16:57:30   [Number_Series] QA blocked: editorial:Feynman_hi.txt
+21-11 16:57:30   [Number_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 65, "blocked": 2, "needs_reference": 3, "remaining": 70, 
+21-11 16:57:30 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 65, 'blocked': 2, 'needs_reference': 3, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The cube mnemonic (“एक ने खाया सत्ताईस, चौंसठ ने खाया एक सौ पच्चीस, दो सौ सोलह ने खाया तीन सौ तैंतालीस”) does not generate the claimed cube series 1, 8, 27, 64, 125, 216, 343 because it omits 8 (2³) → Correct the mnemonic to include 8 or remove the claim that it yields that series.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The parenthetical remark incorrectly claims the series 1, 10, 33, 76, 145 follows an n³ + n² pattern and gives contradictory calculations (1³+1²=2, 1³+0²=1, 2³+1²=9); the correct closed form is n³ + n² – n.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series/QA.json'}
+21-11 16:57:41   [Probability] QA passed: editorial:Feynman_en.txt
+21-11 16:57:41   [Probability] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>

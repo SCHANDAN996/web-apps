@@ -103,11 +103,72 @@
         "Content_hi.txt": "06c47f865f162d1f87f4893ccf54b63edad5ab9250dd82abaf0026069dcf5a56"
       },
       "checked_at": "2026-11-21T07:07:08+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "2f3a410ed869654efcb08dc8897bc2929db8ebcca8946bbd73b53abadea7d3ca",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "b4e7aa067d8444bcd598f0e52c4c9ad430324cfbc16edc413e434c22bf9b3184",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "06c47f865f162d1f87f4893ccf54b63edad5ab9250dd82abaf0026069dcf5a56",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:18:13+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "48109fdb32ee91ec41ae2feb0ae07a6cfad9ca515a93699eb02c7388568c64b4",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "b4e7aa067d8444bcd598f0e52c4c9ad430324cfbc16edc413e434c22bf9b3184",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "68366d6a351a3a075a9b562e3913aada1a1097e43f3ec38d5fb50470988c98c5"
+      },
+      "checked_at": "2026-11-21T11:19:03+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "9bbfc467522103d396b027179564aa544af55d54070e1cf13d88a121fe98f29e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "b4e7aa067d8444bcd598f0e52c4c9ad430324cfbc16edc413e434c22bf9b3184",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "68366d6a351a3a075a9b562e3913aada1a1097e43f3ec38d5fb50470988c98c5",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:19:03+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "147eb87585c8c2e53b3f99fa96be641cb7747827a2b3118830f789237aea5e78",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Ergative marker \"ने\" used incorrectly with intransitive verb \"दुगना हुआ\" in \"रोहन के ₹100 ने ... दुगना हुआ\" and \"प्रिया के ₹100 ने ... दुगना हुआ\" → Remove \"ने\" and use proper intransitive agreement: \"रोहन के ₹100 6.67 बार दुगना हुए\" / \"प्रिया के ₹100 5.28 बार दुगना हुए\"",
+        "- Claim \"72 ही क्यों? कोई नहीं जानता\" is factually wrong; the origin of 72 is known (convenient approximation for 100×ln(2)≈69.3, chosen for its many divisors) → Replace with: \"72 इसलिए इस्तेमाल होता है क्योंकि यह 69.3 के क़रीब है और कई छोटी संख्याओं (1,2,3,4,6,8,9,12…) से विभाज्य है।\""
+      ],
+      "dependencies": {
+        "chapter.json": "b4e7aa067d8444bcd598f0e52c4c9ad430324cfbc16edc413e434c22bf9b3184",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "360fb3d0e8fe6143cc5e93140cbb4b67c40bc49832e2ded35067254f9679fc3a"
+      },
+      "checked_at": "2026-11-21T11:20:41+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:07:08+00:00",
+  "updated_at": "2026-11-21T11:20:41+00:00",
   "chapter_fingerprint": "267851dcc54b4ae0ba0da441d2ac215346e8d2f2d42697f1d50d34b8f975f99d"
 }
