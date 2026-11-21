@@ -109,11 +109,71 @@
         "Content_hi.txt": "b8fecba167f8e7b1507c05aa6c35b9a56bc5c7fdad1544d07633782fb6bc90e0"
       },
       "checked_at": "2026-11-21T08:10:44+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "91d49e9de959c23ded942727ea04606cc30ee57e38557f9cef14a6fd528c3ed5",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - **SBI (भारतीय स्टेट बैंक):** 1955 में Imperial Bank of India का राष्ट्रीयकरण करके बना। भारत का सबसे बड़ा सार्वजनिक क्षेत्र का बैंक।",
+        "Fetch official supporting evidence for: - **बैंकों का राष्ट्रीयकरण:** **1969 में 14 बैंक**, फिर **1980 में 6 बैंक** (इंदिरा गांधी सरकार)।",
+        "Fetch official supporting evidence for: | बैंक राष्ट्रीयकरण | 1969 (14 बैंक), 1980 (6 बैंक) |"
+      ],
+      "dependencies": {
+        "chapter.json": "b0b43103794d2e743a1dac916b5db7385052a9ab3084a93788d6034b800cf0c7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "b8fecba167f8e7b1507c05aa6c35b9a56bc5c7fdad1544d07633782fb6bc90e0",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:14:52+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "3c0217e7a913834aaaaf481e7adc65856ddabeb50a52a55eacf5e4422870ac70",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "b0b43103794d2e743a1dac916b5db7385052a9ab3084a93788d6034b800cf0c7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "3f02c6e1c08953dc0d7b4ad6646bcf756736c19c61247354b615796c5f1e95ab"
+      },
+      "checked_at": "2026-11-21T12:15:26+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "04d7a8b1045d6e6ccdbfb0ace1d10d1842af4c2d516376353486ec8c7de07254",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "b0b43103794d2e743a1dac916b5db7385052a9ab3084a93788d6034b800cf0c7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "3f02c6e1c08953dc0d7b4ad6646bcf756736c19c61247354b615796c5f1e95ab",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:15:27+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "3ed9620c4a1abdeea818b90850c7ac6e900d7d6682fa1a46abc101fbf38e78fb",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "b0b43103794d2e743a1dac916b5db7385052a9ab3084a93788d6034b800cf0c7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "0ea27d70d55fe9b63350e193f73ad12e32e6474ff4d8c9bcd096f82d0f90d6cb"
+      },
+      "checked_at": "2026-11-21T12:17:04+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:10:45+00:00",
+  "updated_at": "2026-11-21T12:17:04+00:00",
   "chapter_fingerprint": "5a30e6c27d4c1742ace2f81e3c147516799cf9efaf561ee8ffee93514b64e532"
 }

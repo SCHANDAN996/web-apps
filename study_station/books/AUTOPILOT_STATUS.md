@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:53 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:54 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 134 मिनट |
-| W10 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
-| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 135 मिनट |
+| W10 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 89 |
-| key 4 | 107 |
+| key 3 | 90 |
+| key 4 | 108 |
 | key 5 | 81 |
-| key 6 | 79 |
+| key 6 | 80 |
 
 ## किताबों की प्रगति
 
@@ -65,14 +66,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 83/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 85/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 735/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 737/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,8 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:49:12   [Awards] QA needs_reference: sources:Content_hi.txt
-21-11 17:49:23   [Biology] QA passed: editorial:Feynman_hi.txt
 21-11 17:49:24   [Biology] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 17:49:24 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology/QA.json'}
 21-11 17:49:32   [Awards] QA passed: editorial:Feynman_en.txt
@@ -126,6 +125,8 @@
 21-11 17:54:14   [Science_Tech] QA passed: editorial:Feynman_hi.txt
 21-11 17:54:14   [Science_Tech] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 17:54:14 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the institutions table (खंड 1), TIFR headquarters is incorrectly listed as New Delhi → TIFR headquarters is Mumbai (Colaba).', '- In the missile table (खंड 3), Akash missile appears twice (duplicate row) → Remove duplicate; list each missile once: Prithvi, Agni, Akash, Nag, Trishul.', '- In the summary table (सारांश तालिका), row 2 fact says "भारतीय अंतरिक्ष कार्यक्रम के जनक" but answer is Dr. Homi J. Bhabha → Fact should be "भारतीय परमाणु कार्यक्रम के जनक".', '- In the summary table (सारांश तालिका), row 5 fact says "एशिया का पहला परमाणु परीक्षण" but answer is Apsara (1956) → Fact should be "एशिया का पहला परमाणु रिएक्टर" (Asia\'s first nuclear reactor).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
+21-11 17:54:18   [Environment] QA needs_reference: sources:Content_hi.txt
+21-11 17:54:21   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q146:leaked_reasoning,Q147:leaked_reasoning,Q127:duplicate_options,Q144:duplicate_options,Q145:duplicate_optio
 ````
 
 </details>
