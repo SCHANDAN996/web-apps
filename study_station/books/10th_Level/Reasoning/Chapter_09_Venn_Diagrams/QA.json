@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "5ec43fea1177f0819f8e62836b72acaac34cccec626990e302fa12616d31503a",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a4f51d83e3bec852eca7dd684df5056b179ab6aca141e1218ebe13c16d18b25c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d053678202f2eb4f8b33fc3dd8445ef0d825152dd0273c0ad54910fc29c6bc9c",
+        "Content_hi.txt": "a5ca8a9d8fd6b6d48a19f363f471d64b64d13747333841e807184b61094bab7a",
+        "Feynman_en.txt": "8b9e1fa957c5bf1e87121fbb6596255eb0cdcf62b4e3d3b9ae9d96c979e91718",
+        "Feynman_hi.txt": "7db558f7e565bf7ff6cbab37f74ac638b1f43bd97e6626949aa251c8d129470a",
+        "Flashcards_en.txt": "2ec9aeb00be99867b9580cd475252a2d4e40a3c7c37e69b62fd815be25c91ee7",
+        "Flashcards_hi.txt": "6471192bdbf6ad03ae6c65d4a96aa0c2ad2a7858a6893b1fa98464363db0fc42",
+        "Important_Rules_en.txt": "c80bb7ae57d9cd6ddf76029494dac3ee9368d849fec4a8e0609519a473c4b5f7",
+        "Important_Rules_hi.txt": "bb5efac4c02a17f3cf641d24ed56621745d7464dff5f95c528d66b625e58b78a",
+        "Mind_Map.txt": "a69102c5f8f244871a98005b2364900754f2f226d1acb81cab8db362c602923b",
+        "PYQ_en.txt": "23aa48afda0593df17edd3a885f1eb36b15f1bbabe38db918afd6e853616279f",
+        "PYQ_hi.txt": "4dccd72f71030b124be4f04e7e31f84d60f1b2edf8c4abc5b2c6c7c56ef9df94",
+        "Practice_en_Set_01.txt": "a65bb0af001aa1fb83593b591018e2ed812d6918b8f19fb8aa9d82f5f877b1c7",
+        "Practice_en_Set_02.txt": "f2d91a20d629e058eba21ccd960252db21d3648ea4dcca767ae6d1d81cad5665",
+        "Practice_en_Set_03.txt": "b2bf1aeeec72e63a0f7e1b5f78a8d3b1533616fd27089e4dfacb7585a8e2e404",
+        "Practice_en_Set_04.txt": "94d3899da6dce18660f02341c60c191fe6a8d12b13e9c5a04c1509b4100a6aab",
+        "Practice_en_Set_05.txt": "ca3bf7d9c0057200b39941bcd2014b936c191e4072be3fdc0437e4b3d4d976fe",
+        "Practice_en_Set_06.txt": "c6b6443296b9890819929bf164fc49ddd631408ab87653d7ba1028865abf901c",
+        "Practice_hi_Set_01.txt": "3a373b31deb91329dd08d8cd5a4840f45c19650bf56f96e3d049c3f7ec43bc66",
+        "Practice_hi_Set_02.txt": "55160178378846f3329a1ad87aaca46d5ab502ebef1e51d8167c720a1e66c3f0",
+        "Practice_hi_Set_03.txt": "ae19ab9a7b61608447f7df05f21241e669207e63021fbe7ff1c43e1d7293a341",
+        "Practice_hi_Set_04.txt": "958dbdf8f2d18fa86e9c3497346f79d213d607d0f48bc0339b3387022c2e3592",
+        "Practice_hi_Set_05.txt": "ea8dbc106c243beab40253be97428b01ae17b86aec512e808890e31f58adeffa",
+        "Practice_hi_Set_06.txt": "3839f92632a9ce3fac70b51344914c3cb54b0f73c1a50ece8a3cacabe6fa0587",
+        "Short_Tricks_en.txt": "62b397024b3b1526657891a4466ce134b5ce12ba86a1ea2f50f11e1677cf057a",
+        "Short_Tricks_hi.txt": "57950537995595b5eddb154a10716ccead24c120695fb7a6fc10e190ddafb5cb",
+        "inventory": {
+          "Content_en.txt": "d053678202f2eb4f8b33fc3dd8445ef0d825152dd0273c0ad54910fc29c6bc9c",
+          "Content_hi.txt": "a5ca8a9d8fd6b6d48a19f363f471d64b64d13747333841e807184b61094bab7a",
+          "Feynman_en.txt": "8b9e1fa957c5bf1e87121fbb6596255eb0cdcf62b4e3d3b9ae9d96c979e91718",
+          "Feynman_hi.txt": "7db558f7e565bf7ff6cbab37f74ac638b1f43bd97e6626949aa251c8d129470a",
+          "Flashcards_en.txt": "2ec9aeb00be99867b9580cd475252a2d4e40a3c7c37e69b62fd815be25c91ee7",
+          "Flashcards_hi.txt": "6471192bdbf6ad03ae6c65d4a96aa0c2ad2a7858a6893b1fa98464363db0fc42",
+          "Important_Rules_en.txt": "c80bb7ae57d9cd6ddf76029494dac3ee9368d849fec4a8e0609519a473c4b5f7",
+          "Important_Rules_hi.txt": "bb5efac4c02a17f3cf641d24ed56621745d7464dff5f95c528d66b625e58b78a",
+          "Mind_Map.txt": "a69102c5f8f244871a98005b2364900754f2f226d1acb81cab8db362c602923b",
+          "PYQ_en.txt": "23aa48afda0593df17edd3a885f1eb36b15f1bbabe38db918afd6e853616279f",
+          "PYQ_hi.txt": "4dccd72f71030b124be4f04e7e31f84d60f1b2edf8c4abc5b2c6c7c56ef9df94",
+          "Practice_en_Set_01.txt": "a65bb0af001aa1fb83593b591018e2ed812d6918b8f19fb8aa9d82f5f877b1c7",
+          "Practice_en_Set_02.txt": "f2d91a20d629e058eba21ccd960252db21d3648ea4dcca767ae6d1d81cad5665",
+          "Practice_en_Set_03.txt": "b2bf1aeeec72e63a0f7e1b5f78a8d3b1533616fd27089e4dfacb7585a8e2e404",
+          "Practice_en_Set_04.txt": "94d3899da6dce18660f02341c60c191fe6a8d12b13e9c5a04c1509b4100a6aab",
+          "Practice_en_Set_05.txt": "ca3bf7d9c0057200b39941bcd2014b936c191e4072be3fdc0437e4b3d4d976fe",
+          "Practice_en_Set_06.txt": "c6b6443296b9890819929bf164fc49ddd631408ab87653d7ba1028865abf901c",
+          "Practice_hi_Set_01.txt": "3a373b31deb91329dd08d8cd5a4840f45c19650bf56f96e3d049c3f7ec43bc66",
+          "Practice_hi_Set_02.txt": "55160178378846f3329a1ad87aaca46d5ab502ebef1e51d8167c720a1e66c3f0",
+          "Practice_hi_Set_03.txt": "ae19ab9a7b61608447f7df05f21241e669207e63021fbe7ff1c43e1d7293a341",
+          "Practice_hi_Set_04.txt": "958dbdf8f2d18fa86e9c3497346f79d213d607d0f48bc0339b3387022c2e3592",
+          "Practice_hi_Set_05.txt": "ea8dbc106c243beab40253be97428b01ae17b86aec512e808890e31f58adeffa",
+          "Practice_hi_Set_06.txt": "3839f92632a9ce3fac70b51344914c3cb54b0f73c1a50ece8a3cacabe6fa0587",
+          "Short_Tricks_en.txt": "62b397024b3b1526657891a4466ce134b5ce12ba86a1ea2f50f11e1677cf057a",
+          "Short_Tricks_hi.txt": "57950537995595b5eddb154a10716ccead24c120695fb7a6fc10e190ddafb5cb"
+        }
+      },
+      "checked_at": "2026-11-21T06:38:15+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "e5e22f5370323ce4a6d98414df5a674e5a4006bc063924353e16769a219648f8",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Summary Table: The example \"Officer, Manager, Clerk\" with description \"Manager inside Officer, both overlapping with Clerk\" is incorrect because in standard government job classification, Clerk is a separate cadre disjoint from Officer/Manager → Replace with a valid mixed subset+overlap example such as \"Employee, Manager, Engineer\" where Manager ⊂ Employee and Engineer overlaps Employee (and possibly Manager)."
+      ],
+      "dependencies": {
+        "chapter.json": "a4f51d83e3bec852eca7dd684df5056b179ab6aca141e1218ebe13c16d18b25c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d053678202f2eb4f8b33fc3dd8445ef0d825152dd0273c0ad54910fc29c6bc9c"
+      },
+      "checked_at": "2026-11-21T06:41:07+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "33227c84a4ce56e0265f02a926b943b4960e602efced1f1194544885035da610",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "a4f51d83e3bec852eca7dd684df5056b179ab6aca141e1218ebe13c16d18b25c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d053678202f2eb4f8b33fc3dd8445ef0d825152dd0273c0ad54910fc29c6bc9c",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:41:07+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "1cd458d30863108b58c1936d221b09e99d18d7e212f804221b9071da37d599f7",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a4f51d83e3bec852eca7dd684df5056b179ab6aca141e1218ebe13c16d18b25c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a5ca8a9d8fd6b6d48a19f363f471d64b64d13747333841e807184b61094bab7a"
+      },
+      "checked_at": "2026-11-21T06:48:02+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:48:02+00:00",
+  "chapter_fingerprint": "62e1806b0501d0ca070ab980f00535f8c696bfaf4cc671af2005cb81db88eccd"
+}

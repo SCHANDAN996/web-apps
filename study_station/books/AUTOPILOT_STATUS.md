@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:16 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:18 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
-| W11 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
-| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 86 मिनट |
+| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 86 मिनट |
+| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 31 |
-| key 4 | 45 |
-| key 5 | 47 |
-| key 6 | 31 |
+| key 4 | 47 |
+| key 5 | 48 |
+| key 6 | 33 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 29/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 33/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 132/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 136/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,15 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:11:04   [Coding_Decoding] QA needs_reference: sources:Content_en.txt
-21-11 12:11:04   [Puzzles_Basic] QA needs_reference: sources:Content_en.txt
-21-11 12:11:05   [Missing_Term] QA passed: structure
-21-11 12:11:07   [Venn_Diagrams] QA blocked: editorial:Content_en.txt
-21-11 12:11:07   [Venn_Diagrams] QA needs_reference: sources:Content_en.txt
-21-11 12:11:45   [Dictionary_Order] QA passed: structure
-21-11 12:11:55   [Coding_Decoding] QA passed: editorial:Content_hi.txt
-21-11 12:11:55   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 12:11:55 QA 10th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
 21-11 12:12:09   [Dictionary_Order] QA passed: editorial:Content_en.txt
 21-11 12:12:10   [Dictionary_Order] QA needs_reference: sources:Content_en.txt
 21-11 12:12:24   [Order_Ranking] QA blocked: editorial:Content_hi.txt
@@ -122,6 +114,15 @@
 21-11 12:16:29   [Statement_Conclusion] QA needs_reference: sources:Content_en.txt
 21-11 12:16:54   [Mathematical_Operations] QA passed: editorial:Content_en.txt
 21-11 12:16:54   [Mathematical_Operations] QA needs_reference: sources:Content_en.txt
+21-11 12:17:06   [Inequality] QA passed: structure
+21-11 12:17:57   [Alphabet_Questions] QA blocked: editorial:Content_en.txt
+21-11 12:17:57   [Alphabet_Questions] QA needs_reference: sources:Content_en.txt
+21-11 12:18:02   [Venn_Diagrams] QA passed: editorial:Content_hi.txt
+21-11 12:18:02   [Venn_Diagrams] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 12:18:03 QA 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Summary Table: The example "Officer, Manager, Clerk" with description "Manager inside Officer, both overlapping with Clerk" is incorrect because in standard government job classification, Clerk is a separate cadre disjoint from Officer/Manager → Replace with a valid mixed subset+overlap example such as "Employee, Manager, Engineer" where Manager ⊂ Employee and Engineer overlaps Employee (and possibly Manager).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_09_Venn_Diagrams/QA.json'}
+21-11 12:18:32   [Sitting_Arrangement] QA blocked: editorial:Content_hi.txt
+21-11 12:18:32   [Sitting_Arrangement] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
+21-11 12:18:32 QA 10th_Level/Reasoning/Chapter_07_Sitting_Arrangement: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Hook example claims three clues uniquely determine the seating as Aman–Beena–Chetan–Deepa–Eshan, but four arrangements satisfy the clues (e.g., Aman–Beena–Chetan–Deepa–Eshan, Aman–Beena–Eshan–Deepa–Chetan, Chetan–Deepa–Eshan–Aman–Beena, Eshan–Deepa–Chetan–Aman–Beena) → Remove the claim of unique deduction or modify the clues to yield a single solution.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The mixed facing directions example incorrectly claims that a person facing north and a person facing south in a linear row are "एक-दूसरे के सामने हैं" (facing each other); in a row they face perpendicular directions, not each other. The left/right reversal occurs because they face opposite directions, not because they face each other. → Correct the explanation: they face opposite directions, causing their left/right to be reversed relative to each other.', '- The mnemonic "आमने-सामने, दायाँ-बायाँ बदले; पीठ-पीठ, दिशा एक ही दीठ" and its explanation are misapplied to linear mixed directions; it actually describes face-to-face/back-to-back scenarios (e.g., two parallel rows). In a single row with north/south facing, persons facing opposite directions have reversed left/right, not same. → Clarify that the mnemonic is for face-to-face/back-to-back arrangements; for a row, use the arrow method to determine each person\'s left/right individually.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_07_Sitting_Arrangement/QA.json'}
 ````
 
 </details>
