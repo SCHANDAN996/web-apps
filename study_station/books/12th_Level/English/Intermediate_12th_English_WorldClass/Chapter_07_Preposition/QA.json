@@ -110,11 +110,71 @@
         "Content_hi.txt": "336fe538990185b9301fbe80d2c2e8484d1e557372fa86c87595e1dae5c01c4b"
       },
       "checked_at": "2026-11-21T09:04:26+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "aa3b136a8f4048ce3d0b32a37bc972cc67081e415ae72290f9b9f83b49d349cb",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f4de83a5ea75b52565ffe4f557f0aead776dde345e195b58f90c994ade46a7c3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "336fe538990185b9301fbe80d2c2e8484d1e557372fa86c87595e1dae5c01c4b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:57:17+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "d885150f7e05947ac1926c03ed39307bf50ce7caabd5d1cbed7724a2dbeb04e2",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Section contains no valid educational content — corrupted prompt template text with repetitive \"prompt for prompt\" garbage and incomplete Hindi/English fragments, not study material for SSC/Railway/Bank/State exams"
+      ],
+      "dependencies": {
+        "chapter.json": "f4de83a5ea75b52565ffe4f557f0aead776dde345e195b58f90c994ade46a7c3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "c1403d5497c5760258564967efcf861b6a2d7509f8f75c0b0247d5d741f0b0ad"
+      },
+      "checked_at": "2026-11-21T12:57:52+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "00010a51444f578772cfade0afac8bcf9ad93e2396b866cbf9b7cc8260f9c026",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f4de83a5ea75b52565ffe4f557f0aead776dde345e195b58f90c994ade46a7c3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "c1403d5497c5760258564967efcf861b6a2d7509f8f75c0b0247d5d741f0b0ad",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:57:52+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "2bb618e2bd4c5ce8401670fbb09eefbaa8de6faea4af6f5492b2bbe04f9b34ec",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f4de83a5ea75b52565ffe4f557f0aead776dde345e195b58f90c994ade46a7c3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "4fbe7f364ef63651a72184b1c8c0e37cf14afd8088d19d72f5afbdf52bade722"
+      },
+      "checked_at": "2026-11-21T12:58:05+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T09:04:27+00:00",
+  "updated_at": "2026-11-21T12:58:05+00:00",
   "chapter_fingerprint": "1beb9b79b2b4627eaa89fb33a143798079a55314870fae595fc6ea86dd9811b6"
 }
