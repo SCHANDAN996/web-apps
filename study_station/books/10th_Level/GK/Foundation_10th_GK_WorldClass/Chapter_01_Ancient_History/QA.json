@@ -107,11 +107,69 @@
         "Content_hi.txt": "d2a509b8acaf7a294cbef7ab8d224bfcdd91d877ebb95ade6e4b006d1531e530"
       },
       "checked_at": "2026-11-21T06:00:05+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "45e8209a49c9bd0c351cdf2e9cc01fcb4e0a33ed5b1955e6e32edfebbcfc8f7f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: सच्चाई: स्वर्ण युग का कारण सांस्कृतिक उन्नति (कालिदास, आर्यभट, मंदिर, मूर्तिकला) है। सिक्के अलग तथ्य हैं: NCERT के अनुसार पहले सोने के सिक्के लगभग पहली शताब्दी ईस्वी में कुषाणों ने जारी किए, जबकि सबसे शानदार सोने के सिक्के गुप्त शासकों ने जारी किए।"
+      ],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "d2a509b8acaf7a294cbef7ab8d224bfcdd91d877ebb95ade6e4b006d1531e530",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:32:32+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "cd3596e9f2353c45aea912601ddf198f549d807d4cffe9afec5b42cc8f2b423b",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e300117d547d905ec1deb776e3529c3896524d683a78241e842179cdbd31b452"
+      },
+      "checked_at": "2026-11-21T10:35:56+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "a0bf3e86d6e11412c8aa6a19b530d948fab08814920ebc02318875a8e4a01034",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e300117d547d905ec1deb776e3529c3896524d683a78241e842179cdbd31b452",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:35:56+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "d3893e2112727cf033191d1a8ab9d98ff6daf359d4d19ec92f31eaa2b0f0f411",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "737b8994d27638d9abd874787208f85035664719b431bdb485d2b375c1db0b01"
+      },
+      "checked_at": "2026-11-21T10:36:18+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:00:05+00:00",
+  "updated_at": "2026-11-21T10:36:18+00:00",
   "chapter_fingerprint": "655967a31da4e0d9079d63a09d812a5d548dac16db0279a08f2f295797a9dfb1"
 }
