@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:20 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:21 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 101 मिनट |
-| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 102 मिनट |
+| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 63 |
+| key 3 | 64 |
 | key 4 | 86 |
 | key 5 | 65 |
-| key 6 | 54 |
+| key 6 | 55 |
 
 ## किताबों की प्रगति
 
@@ -65,7 +64,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 69/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 71/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 672/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 674/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:14:58   [Fill_in_Blanks_Basic] QA needs_reference: sources:Content_hi.txt
-21-11 17:15:14   [Fill_in_Blanks_Basic] QA passed: editorial:Feynman_en.txt
-21-11 17:15:14   [Fill_in_Blanks_Basic] QA needs_reference: sources:Feynman_en.txt
-21-11 17:15:33   [Fill_in_Blanks_Basic] QA passed: editorial:Feynman_hi.txt
-21-11 17:15:54   [Fill_in_Blanks_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 17:15:55 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Rule of thumb in Linguistic Bridge incorrectly labels Hindi "जाता है" as present continuous → "जाता है" is simple present, not present continuous; the contrast should be between simple present (जाता है) and present continuous (जा रहा है)']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: | 1 | **Since** = निश्चित समय-बिंदु (2015, Monday, January) | He has lived here **since** 2015. |']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic/QA.json'}
-21-11 17:15:55   [Sentence_Improvement_Basic] QA needs_reference: sources:Content_hi.txt
-21-11 17:16:17   [sandhi] Practice_hi_Set_03.txt try 3: rejected (Q65:duplicate_options)
-21-11 17:16:30   [Number_System] QA needs_reference: sources:Content_hi.txt
 21-11 17:16:40   [Sentence_Improvement_Basic] QA passed: editorial:Feynman_en.txt
 21-11 17:16:40   [Sentence_Improvement_Basic] QA needs_reference: sources:Feynman_en.txt
 21-11 17:16:50   [Number_System] QA passed: editorial:Feynman_en.txt
@@ -127,6 +117,15 @@
 21-11 17:20:34   [Percentage] QA needs_reference: sources:Content_hi.txt
 21-11 17:20:43   [Percentage] QA passed: editorial:Feynman_en.txt
 21-11 17:20:43   [Percentage] QA needs_reference: sources:Feynman_en.txt
+21-11 17:21:12   [Percentage] QA passed: editorial:Feynman_hi.txt
+21-11 17:21:31   [Percentage] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:21:32 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_05_Percentage: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_05_Percentage/QA.json'}
+21-11 17:21:32   [Average] QA needs_reference: sources:Content_hi.txt
+21-11 17:21:45   [Average] QA passed: editorial:Feynman_en.txt
+21-11 17:21:45   [Average] QA needs_reference: sources:Feynman_en.txt
+21-11 17:22:02   [Average] QA passed: editorial:Feynman_hi.txt
+21-11 17:22:02   [Average] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:22:03 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average/QA.json'}
 ````
 
 </details>
