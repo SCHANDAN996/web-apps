@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:08 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:09 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W10 | Chapter 18 Quadratic Equations (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 21 Complex Numbers (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 24 Statistics (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 26 Permutation Combination (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 23 Data Interpretation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 27 Number Series (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W10 | Chapter 18 Quadratic Equations (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 21 Complex Numbers (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 24 Statistics (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 26 Permutation Combination (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 23 Data Interpretation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W6 | Chapter 20 Heights Distances (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 22 Calculus (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
-| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 22 Calculus (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 29 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 150 |
+| key 3 | 151 |
 | key 4 | 128 |
-| key 5 | 136 |
+| key 5 | 137 |
 | key 6 | 126 |
 
 ## किताबों की प्रगति
@@ -87,8 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:03:46   [Complex_Numbers] QA passed: editorial:Content_en.txt
-21-11 19:03:46   [Quadratic_Equations] QA passed: editorial:Content_hi.txt
 21-11 19:03:46   [Calculus] QA passed: structure
 21-11 19:03:46   [Complex_Numbers] QA needs_reference: sources:Content_en.txt
 21-11 19:03:47   [Quadratic_Equations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
@@ -127,6 +125,8 @@
 21-11 19:08:31 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics/QA.json'}
 21-11 19:08:50   [Permutation_Combination] QA passed: editorial:Content_en.txt
 21-11 19:08:50   [Permutation_Combination] QA needs_reference: sources:Content_en.txt
+21-11 19:09:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+21-11 19:09:07   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
 ````
 
 </details>
