@@ -1,26 +1,25 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:03 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:04 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
-| W10 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W8 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 | W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 
@@ -83,15 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 10:56:10   [input_output_ports] QA needs_reference: sources:Content_en.txt
-21-11 10:56:42   [sangya_sarvanam] QA passed: editorial:Feynman_hi.txt
-21-11 10:56:42   [sangya_sarvanam] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 32, "blocked": 0, "needs_reference": 1, "remaining": 33, 
-21-11 10:56:42 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 32, 'blocked': 0, 'needs_reference': 1, 'remaining': 33, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam/QA.json'}
-21-11 10:56:49   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q81 key c vs re-solve d, Q86 key c vs re-solve d, Q87 key c vs re-solve d, Q93 key d vs re-solve c, 
-21-11 10:57:31   [windows_files] QA passed: structure
-21-11 10:58:14   [ling_vachan_karak] QA blocked: editorial:Content_hi.txt
-21-11 10:58:14   [ling_vachan_karak] QA needs_reference: sources:Content_hi.txt
-21-11 10:58:18   [memory_storage_backup] QA blocked: editorial:Content_hi.txt
 21-11 10:58:18   [memory_storage_backup] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 10:58:18 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- RAID खंड में "रिडंडेंसी (यथार्थता)" लिखा है; "यथार्थता" का अर्थ "accuracy" होता है, "redundancy" का नहीं → "रिडंडेंसी (अतिरेक)" या केवल "रिडंडेंसी" लिखें']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup/QA.json'}
 21-11 10:58:57   [varn_vartani] QA blocked: editorial:Feynman_hi.txt
@@ -123,6 +113,15 @@
 21-11 11:02:37   [windows_files] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 11:02:37 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Win+Pause action "Open Settings → System → About" is not version-agnostic (Windows 10 opens Control Panel\\System) → Use generic "Open System Properties / About" or note version difference.', '- Example 2 question states "(known extension shown)" but the scenario requires hidden extensions → Change to "(known extension hidden)" or "extensions hidden".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files/QA.json'}
 21-11 11:03:16   [excel] QA passed: structure
+21-11 11:04:25   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q3 key c vs re-solve b, Q4 key b vs re-solve a, Q5 key d vs re-solve c, Q6 key b vs re-solve a, Q8 k
+21-11 11:04:26   [upsarg_pratyay] QA passed: structure
+21-11 11:04:36   [samas] QA blocked: editorial:Content_hi.txt
+21-11 11:04:36   [samas] QA needs_reference: sources:Content_hi.txt
+21-11 11:05:02   [ling_vachan_karak] QA blocked: editorial:Feynman_hi.txt
+21-11 11:05:02   [ling_vachan_karak] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
+21-11 11:05:02 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- The 'महत्वपूर्ण' note under वचन incorrectly lists 'दरवाजा → दरवाजे' and 'कपड़ा → कपड़े' as words that remain identical in both numbers (invariant), but they actually change in the plural (आ→ए) → Remove them from the invariant list or change the heading to indicate they are regular plural examples.", "- In लिंग-परिवर्तन rule 4, the suffix pattern 'ई/इका/इका' is wrong: it duplicates 'इका' and includes 'ई' which does not apply to the given examples (अध्यापक→अध्यापिका, सेवक→सेविका use only 'इका') → Correct to 'इका जुड़ता है' or 'इका/इकी जुड़ता है'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In the plural rules table (section 2), rule 2 incorrectly states "आकारांत स्त्रीलिंग → एँ" with example "लड़की"; "लड़की" is ईकारांत, not आकारांत. → Rule should be "ईकारांत स्त्रीलिंग → एँ" or "आ/ईकारांत स्त्रीलिंग → एँ".', '- In the mind map (section 7), node C2b repeats the same error: "आकारांत स्त्रीलिंग → एँ". → Change to "ईकारांत स्त्रीलिंग → एँ".', '- In flashcard 3 (section 8), the explanation for "लड़की" plural says "(आकारांत स्त्रीलिंग → एँ)"; "लड़की" is ईकारांत. → Change to "(ईकारांत स्त्रीलिंग → एँ)".', '- In the mind map (section 7), node B3 lists "गुरु" as an exception (अपवाद) for gender; "गुरु" is a regular masculine noun (उकारांत nouns are predominantly masculine), not an exception. → Remove "गुरु" from exceptions or clarify that उकारांत nouns are usually masculine.', '- In flashcard 17 (section 8), the answer for "गुरु" gender says "(उकारांत पुल्लिंग अपवाद)"; this misstates that masculine उकारांत is exceptional. → Change to "(उकारांत पुल्लिंग, सामान्य नियम)".']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak/QA.json'}
+21-11 11:05:05   [excel] QA passed: editorial:Content_en.txt
+21-11 11:05:05   [excel] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
