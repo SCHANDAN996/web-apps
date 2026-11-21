@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:02 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:03 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,21 +11,21 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 Coordinate Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 16 Coordinate Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W10 | Chapter 18 Quadratic Equations (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 13 Mixture Alligation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 11 Time Work (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 14 Mensuration (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 20 Heights Distances (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 12 Time Distance (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 21 Complex Numbers (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 13 Mixture Alligation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 11 Time Work (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W5 | Chapter 14 Mensuration (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 20 Heights Distances (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 145 |
+| key 3 | 146 |
 | key 4 | 127 |
 | key 5 | 132 |
 | key 6 | 123 |
@@ -68,11 +68,11 @@
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 94/2025 |
-| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 53/2184 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 57/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 888/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 892/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,18 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:57:05   [Mixture_Alligation] QA needs_reference: sources:Content_en.txt
-21-11 18:57:30   [Time_Work] QA blocked: editorial:Content_hi.txt
-21-11 18:57:52   [Time_Work] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 18:57:53 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_11_Time_Work: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Hook claims "यही अध्याय SSC CGL, IBPS PO, CAT और State PCS में लगभग हर साल पूछा जाता है" — this is an invented exam statistic (CAT rarely asks Time & Work) → Remove or qualify the claim with accurate exam-wise frequency.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_11_Time_Work/QA.json'}
-21-11 18:57:53   [Geometry] QA passed: structure
-21-11 18:58:07   [Mensuration] QA passed: editorial:Content_en.txt
-21-11 18:58:07   [Mensuration] QA needs_reference: sources:Content_en.txt
-21-11 18:58:17   [Mixture_Alligation] QA blocked: editorial:Content_hi.txt
-21-11 18:58:17   [Mixture_Alligation] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 18:58:18 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the table under Part 3 (Alligation का विस्तार), the caution for Speed states "सावधानी: तभी लागू जब दोनों खंडों का समय बराबर हो" which is incorrect; alligation for average speed works for any time segments (weights), not only when times are equal. → Correct the caution to indicate that alligation applies when weights are times; if distances are equal, alligation cannot be directly applied with distances as weights.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation/QA.json'}
-21-11 18:58:51   [Coordinate_Geometry] QA passed: structure
-21-11 18:59:10   [Mensuration] QA passed: editorial:Content_hi.txt
 21-11 18:59:10   [Mensuration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 18:59:10   [Geometry] QA passed: editorial:Content_en.txt
 21-11 18:59:10   [Geometry] QA needs_reference: sources:Content_en.txt
@@ -127,6 +115,18 @@
 21-11 19:02:42   [Quadratic_Equations] QA passed: editorial:Content_en.txt
 21-11 19:02:43   [Quadratic_Equations] QA needs_reference: sources:Content_en.txt
 21-11 19:02:43   [Complex_Numbers] QA passed: structure
+21-11 19:03:29   [Heights_Distances] QA passed: editorial:Content_hi.txt
+21-11 19:03:45   [Heights_Distances] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:03:46 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section content is corrupted token artifacts (`<|close|>`, `<|close|>think`, fragments) with no coherent educational material — no definitions, formulas, examples, tables, or Hindi translations to verify. → Replace with actual Heights & Distances content.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances/QA.json'}
+21-11 19:03:46   [Complex_Numbers] QA passed: editorial:Content_en.txt
+21-11 19:03:46   [Quadratic_Equations] QA passed: editorial:Content_hi.txt
+21-11 19:03:46   [Calculus] QA passed: structure
+21-11 19:03:46   [Complex_Numbers] QA needs_reference: sources:Content_en.txt
+21-11 19:03:47   [Quadratic_Equations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 19:03:47 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_18_Quadratic_Equations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_18_Quadratic_Equations/QA.json'}
+21-11 19:03:55   [Trigonometry] QA blocked: editorial:Content_hi.txt
+21-11 19:03:55   [Trigonometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:03:56 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- Radhanath Sikdar's location in 1852 is given as Dehradun, but he was working in Calcutta (Kolkata) for the Survey of India. → Correct location: Calcutta (Kolkata).", '- The text states the announcement of Peak XV as the highest peak was made in 1852; the official announcement was made in 1856. → Correct year of announcement: 1856.', '- The summary table claims "हर सेट में 1 प्रश्न" for standard angle values, which is an invented exam statistic without source. → Remove or qualify as "अक्सर पूछा जाता है" (often asked).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry/QA.json'}
 ````
 
 </details>
