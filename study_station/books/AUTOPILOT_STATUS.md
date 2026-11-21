@@ -12,23 +12,23 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
 | W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W2 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 7 |
+| key 3 | 8 |
 | key 4 | 15 |
-| key 5 | 11 |
+| key 5 | 12 |
 | key 6 | 2 |
 
 ## किताबों की प्रगति
@@ -60,7 +60,7 @@
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 15/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 16/1092 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 17/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 31/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 32/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,9 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 10:59:41 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Example 5 states "Address bus width = word length (typically)" → Word length (internal data width) and address bus width are independent; they can differ (e.g., 8086 is 16-bit word with 20-bit address bus). The 4\u202fGB answer assumes a 32-bit address bus, not word length.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu/QA.json'}
-21-11 11:00:32   [keyboard_shortcuts] QA passed: structure
-21-11 11:01:00   [kaal_vachya] QA passed: editorial:Content_hi.txt
 21-11 11:01:00   [kaal_vachya] QA needs_reference: sources:Content_hi.txt
 21-11 11:01:34   [word] QA passed: structure
 21-11 11:01:43   [windows_files] QA blocked: editorial:Content_en.txt
@@ -123,6 +120,9 @@
 21-11 11:07:29   [software_os] QA passed: editorial:Content_hi.txt
 21-11 11:07:30   [software_os] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 11:07:30 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: NCERT Class 11 Computer Science', 'Fetch official supporting evidence for: Standard OS textbooks (Silberschatz, Galvin, Gagne)', 'Fetch official supporting evidence for: Operating System Concepts', 'Fetch official supporting evidence for: Microsoft Learn — FAT32 Specification', 'Fetch official supporting evidence for: Linux Documentation Project — File Permissions', 'Fetch official supporting evidence for: Browser vendor documentation (Google Chrome Help, Microsoft Edge Help, Mozilla Support)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os/QA.json'}
+21-11 11:08:16   [vilom] QA passed: structure
+21-11 11:08:17   [internet_browser] QA passed: editorial:Content_en.txt
+21-11 11:08:17   [internet_browser] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
