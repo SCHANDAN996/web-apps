@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "a6b4209ab967e1eef668329d7cbb01592d577569e97120b0c02fc31e1949b365",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "523c73c873c029b18c226c10d2cdb4ea1b9389948b277581948d3809566cc2f7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5ebbcb61c7a5d8e02e93bb4f2d5f0fed2ec940a4d89f86fa3564d336d07ceab1",
+        "Content_hi.txt": "738023927eb51559da6823fdf8acd0ea34adb7e2757aa1888d11ee6f7f91b57e",
+        "Feynman_en.txt": "8588300e4aa355e6f25db5e26faf6d95b6c2004c6181d1e1a1ee9810c1436512",
+        "Feynman_hi.txt": "3d5e538e71e6fc5396c3d2cf7aee9f9bf9cf2b4f972d878352762da20bdb1e35",
+        "Flashcards_en.txt": "a7bce89dc226b5b5b542d26c6e5cce5b0dbfcf1772bc7022541c214d85185f2f",
+        "Flashcards_hi.txt": "e631b1457be39aa62bf16f5d697665cbf7b16c6a459a33a1acbfd9e4ff8b7bf3",
+        "Important_Rules_en.txt": "5f620c9c6e732936a3a7eee95edb44f8bb4905af5071bdf1398559363ab38404",
+        "Important_Rules_hi.txt": "74efa6c3a9fc38b0ff4022fb11f3718978b6875398b836cdd7f159be3e900d5a",
+        "Mind_Map_en.txt": "71395331753f1de32be6310fdeec312c9f32e299b852054593fd1a70be072f2b",
+        "Mind_Map_hi.txt": "b0ae9043364e7b4a87c9b5e75b8a3298bdb6bb1ee19afd70e5e9c153cb17599d",
+        "PYQ_en.txt": "51f65c81c14c77c54cb6e2b0d5a3610fe36b11ab036433c23619c3436e729fe4",
+        "PYQ_hi.txt": "85df8417b1858e2beffebf4e44f9aef142dc21a55b1e069c21a6508faf52b0a9",
+        "Practice_en_Set_01.txt": "fafb5d5bfec4c76adaf5879d9f8ce57afdf5b0807043ba558358dc0a094f5ac7",
+        "Practice_en_Set_02.txt": "36779bb0a6a98343c128a4f48012f2539435a49783796bd817f0a40af63d1a41",
+        "Practice_en_Set_03.txt": "350705c214aa1a5f476507ea52724f781d7c3e4699f10d7b83f2e1cf9ae804bf",
+        "Practice_en_Set_04.txt": "ecec3ede2f8243243c9883f7ecbb401283d592c3453f231309e55e6ae653c7be",
+        "Practice_en_Set_05.txt": "f97c8bb70b730f4534557831cada581ae3bb516916139eb0bd1eb758290486c2",
+        "Practice_en_Set_06.txt": "5894de4f8c2e598579edc4e2b228e17ad976320094d570b3d45df2858174b94f",
+        "Practice_hi_Set_01.txt": "24aa429f9efb1a2cb1ede537371a27a2c3c8b6e5d373eca24d93e0aed30e9cb8",
+        "Practice_hi_Set_02.txt": "2927e06e132f12a248459aec9fd1f9d342d65df4b7e57c02b5b172f1a245fa5b",
+        "Practice_hi_Set_03.txt": "108e107407794f7e5b1dfed8c7a38542569b769dd68666e1c010553749e78d9a",
+        "Practice_hi_Set_04.txt": "a35028943882539b5c88388e44459e53de2c7c2e86e3f3c99671c515e575f045",
+        "Practice_hi_Set_05.txt": "1f2b24997d4460aa04fefa39cf136c7ee182bbf004e9ce7a80760c3da6774dfe",
+        "Practice_hi_Set_06.txt": "dbbead6aa011fde9a1cf63391f29abd2df7b2f2f50554ac66378cc2c23e16c8f",
+        "Short_Tricks_en.txt": "0d6540cae821eea5e8a9efa1716dca64686f428194b8535a096ad09b9360f456",
+        "Short_Tricks_hi.txt": "91985080457ea270f61bb915a764104e66a682326c3c781910f90014678cacbb",
+        "inventory": {
+          "Content_en.txt": "5ebbcb61c7a5d8e02e93bb4f2d5f0fed2ec940a4d89f86fa3564d336d07ceab1",
+          "Content_hi.txt": "738023927eb51559da6823fdf8acd0ea34adb7e2757aa1888d11ee6f7f91b57e",
+          "Feynman_en.txt": "8588300e4aa355e6f25db5e26faf6d95b6c2004c6181d1e1a1ee9810c1436512",
+          "Feynman_hi.txt": "3d5e538e71e6fc5396c3d2cf7aee9f9bf9cf2b4f972d878352762da20bdb1e35",
+          "Flashcards_en.txt": "a7bce89dc226b5b5b542d26c6e5cce5b0dbfcf1772bc7022541c214d85185f2f",
+          "Flashcards_hi.txt": "e631b1457be39aa62bf16f5d697665cbf7b16c6a459a33a1acbfd9e4ff8b7bf3",
+          "Important_Rules_en.txt": "5f620c9c6e732936a3a7eee95edb44f8bb4905af5071bdf1398559363ab38404",
+          "Important_Rules_hi.txt": "74efa6c3a9fc38b0ff4022fb11f3718978b6875398b836cdd7f159be3e900d5a",
+          "Mind_Map_en.txt": "71395331753f1de32be6310fdeec312c9f32e299b852054593fd1a70be072f2b",
+          "Mind_Map_hi.txt": "b0ae9043364e7b4a87c9b5e75b8a3298bdb6bb1ee19afd70e5e9c153cb17599d",
+          "PYQ_en.txt": "51f65c81c14c77c54cb6e2b0d5a3610fe36b11ab036433c23619c3436e729fe4",
+          "PYQ_hi.txt": "85df8417b1858e2beffebf4e44f9aef142dc21a55b1e069c21a6508faf52b0a9",
+          "Practice_en_Set_01.txt": "fafb5d5bfec4c76adaf5879d9f8ce57afdf5b0807043ba558358dc0a094f5ac7",
+          "Practice_en_Set_02.txt": "36779bb0a6a98343c128a4f48012f2539435a49783796bd817f0a40af63d1a41",
+          "Practice_en_Set_03.txt": "350705c214aa1a5f476507ea52724f781d7c3e4699f10d7b83f2e1cf9ae804bf",
+          "Practice_en_Set_04.txt": "ecec3ede2f8243243c9883f7ecbb401283d592c3453f231309e55e6ae653c7be",
+          "Practice_en_Set_05.txt": "f97c8bb70b730f4534557831cada581ae3bb516916139eb0bd1eb758290486c2",
+          "Practice_en_Set_06.txt": "5894de4f8c2e598579edc4e2b228e17ad976320094d570b3d45df2858174b94f",
+          "Practice_hi_Set_01.txt": "24aa429f9efb1a2cb1ede537371a27a2c3c8b6e5d373eca24d93e0aed30e9cb8",
+          "Practice_hi_Set_02.txt": "2927e06e132f12a248459aec9fd1f9d342d65df4b7e57c02b5b172f1a245fa5b",
+          "Practice_hi_Set_03.txt": "108e107407794f7e5b1dfed8c7a38542569b769dd68666e1c010553749e78d9a",
+          "Practice_hi_Set_04.txt": "a35028943882539b5c88388e44459e53de2c7c2e86e3f3c99671c515e575f045",
+          "Practice_hi_Set_05.txt": "1f2b24997d4460aa04fefa39cf136c7ee182bbf004e9ce7a80760c3da6774dfe",
+          "Practice_hi_Set_06.txt": "dbbead6aa011fde9a1cf63391f29abd2df7b2f2f50554ac66378cc2c23e16c8f",
+          "Short_Tricks_en.txt": "0d6540cae821eea5e8a9efa1716dca64686f428194b8535a096ad09b9360f456",
+          "Short_Tricks_hi.txt": "91985080457ea270f61bb915a764104e66a682326c3c781910f90014678cacbb"
+        }
+      },
+      "checked_at": "2026-11-21T07:22:27+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "418a8aa51659071cc8cc62f6c35f7778782c6d27a59071bd4cef000c652ec0a9",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "523c73c873c029b18c226c10d2cdb4ea1b9389948b277581948d3809566cc2f7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5ebbcb61c7a5d8e02e93bb4f2d5f0fed2ec940a4d89f86fa3564d336d07ceab1"
+      },
+      "checked_at": "2026-11-21T07:23:35+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "43121c486b3ee73a6b8f776bca4227c2a31442cd176a7d6e587433ad9e6ff899",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "523c73c873c029b18c226c10d2cdb4ea1b9389948b277581948d3809566cc2f7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5ebbcb61c7a5d8e02e93bb4f2d5f0fed2ec940a4d89f86fa3564d336d07ceab1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:23:35+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "d1a66018c40f898f362b536929b92e5a126c2f5cb7cb7eb388850d7850670930",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Hindi example \"खाना माँ ने बनाया\" is not passive voice (it's active with object fronting) → should be \"खाना माँ द्वारा बनाया गया\" or \"खाना बनाया गया माँ द्वारा\" to match the English passive \"The food was cooked by mother\""
+      ],
+      "dependencies": {
+        "chapter.json": "523c73c873c029b18c226c10d2cdb4ea1b9389948b277581948d3809566cc2f7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "738023927eb51559da6823fdf8acd0ea34adb7e2757aa1888d11ee6f7f91b57e"
+      },
+      "checked_at": "2026-11-21T07:24:52+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:24:52+00:00",
+  "chapter_fingerprint": "0a6b3dc247c6559fe8144f718594be396357400eea0fcfdf776dfe3d16c843ce"
+}
