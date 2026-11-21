@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:19 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:20 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 161 मिनट |
-| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 162 मिनट |
+| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W12 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 115 |
-| key 4 | 114 |
-| key 5 | 105 |
+| key 4 | 115 |
+| key 5 | 106 |
 | key 6 | 91 |
 
 ## किताबों की प्रगति
@@ -66,13 +67,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 95/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 98/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 785/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 788/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,17 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:13:09   [Course_of_Action] QA passed: editorial:Feynman_en.txt
-21-11 18:13:10   [Course_of_Action] QA needs_reference: sources:Feynman_en.txt
-21-11 18:13:26   [Course_of_Action] QA passed: editorial:Feynman_hi.txt
-21-11 18:13:26   [Course_of_Action] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 18:13:26 QA 12th_Level/Reasoning/Chapter_17_Course_of_Action: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The entire section is corrupted/unreadable text (repeated fragments, file references, markup, OCR artifacts) → Replace with proper educational content for the intended topic']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_17_Course_of_Action/QA.json'}
-21-11 18:13:55   [Inequality] QA needs_reference: sources:Content_hi.txt
-21-11 18:14:04   [Inequality] QA blocked: editorial:Feynman_en.txt
-21-11 18:14:04   [Inequality] QA needs_reference: sources:Feynman_en.txt
-21-11 18:14:12   [Statement_Conclusion] QA passed: editorial:Feynman_hi.txt
-21-11 18:14:12   [Statement_Conclusion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 18:14:13 QA 12th_Level/Reasoning/Chapter_16_Statement_Conclusion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Hook example claims both conclusions are wrong, but Conclusion II ("मेहनत सफलता की एक शर्त है") is a valid necessary-condition inference from the statement "सभी सफल लोग मेहनती होते हैं" → Conclusion II should be considered correct (or the example should be corrected to show only Conclusion I is invalid).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_16_Statement_Conclusion/QA.json'}
 21-11 18:14:51   [Inequality] QA passed: editorial:Feynman_hi.txt
 21-11 18:14:51   [Inequality] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 70, "blocked": 3, "needs_reference": 3, "remaining": 76, 
 21-11 18:14:52 QA 12th_Level/Reasoning/Chapter_18_Inequality: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 70, 'blocked': 3, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The complementary pair list in Chunk 4 excludes `>` and `=` (for `≥`) and `<` and `=` (for `≤`), yet the following example and active recall use these pairs as valid either-or cases. → Add `>` and `=` and `<` and `=` to the list of complementary pairs, or clarify that the list is not exhaustive.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In Part 4, the complementary pairs list is wrong: it includes a garbled third bullet “= और ≠ के जोड़े जैसे: > और < के साथ = (तीनों मिलकर पूरक — कुछ प्रश्नों में 'A > B या A ≤ B' का जोड़ा)” which incorrectly describes three relations as complementary and gives a mismatched example. → The correct complementary pairs are > & ≤, < & ≥, = & ≠. For Either-Or, when the statement gives ≥, the pair > and = is also considered complementary (covering all possibilities), but this is a special case and should be explained separately."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The entire section is corrupted token artifacts (`<|close|>`, `<|open|>`, `<|sep|>`, `think`, `Object`, `CON`, `S.`, `Fey`, `graph TD`, stray punctuation, code fragments) with no coherent educational content, definitions, examples, formulas, tables, or memory aids to verify. → Replace with a proper, human-readable chapter on Inequality for the target exams.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_18_Inequality/QA.json'}
@@ -126,6 +116,17 @@
 21-11 18:20:34   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q128 key c vs re-solve d, Q131 key c vs re-solve b, Q132 key d vs re-solve b, Q134 key a vs re-solve
 21-11 18:20:47   [Statement_Assumption] QA passed: editorial:Feynman_en.txt
 21-11 18:20:47   [Statement_Assumption] QA needs_reference: sources:Feynman_en.txt
+21-11 18:21:05   [Syllogism] QA passed: editorial:Feynman_en.txt
+21-11 18:21:09   [Mirror_Water_Images] QA blocked: editorial:Feynman_hi.txt
+21-11 18:21:19   [Mirror_Water_Images] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 70, "blocked": 3, "needs_reference": 3, "remaining": 76, 
+21-11 18:21:19   [Syllogism] QA needs_reference: sources:Feynman_en.txt
+21-11 18:21:14   [Statement_Assumption] QA passed: editorial:Feynman_hi.txt
+21-11 18:21:19   [Statement_Assumption] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 18:21:20 QA 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 70, 'blocked': 3, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Water image clock formula (6:30 − time for ≤6:30, 18:30 − time for >6:30) gives incorrect results for boundary times: e.g., 12:00 yields 6:30 (correct is 6:00), 6:30 yields 12:00 (correct is 11:30) → The mental flip method (swap 12↔6, keep 3↔9, flip hands vertically) is the correct reliable method; the formula should not be presented without exceptions.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Water image clock subtraction for non-zero minutes given as 17:90 → should be 17:60 (or 18:00 with borrowing)']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The clock mirror image formula incorrectly adds a special case for hour 12 (subtract from 23:60); the correct rule is to subtract the given time from 11:60 (or 12:00) for all times on a 12‑hour clock.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_20_Mirror_Water_Images/QA.json'}
+21-11 18:21:20 QA 12th_Level/Reasoning/Chapter_24_Statement_Assumption: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_24_Statement_Assumption/QA.json'}
+21-11 18:21:20   [Statement_Argument] QA needs_reference: sources:Content_hi.txt
+21-11 18:21:40   [Statement_Argument] QA passed: editorial:Feynman_en.txt
+21-11 18:21:40   [Statement_Argument] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
