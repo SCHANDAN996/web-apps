@@ -103,11 +103,71 @@
         "Content_hi.txt": "db80952b0703b6136ebf8b18685da767c80cc55f57e90e45b2dfdb7217042bd5"
       },
       "checked_at": "2026-11-21T06:55:05+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "0d1c473c4f6cce835ecc591a645a4ae3b11d0fe8c7fb84b4216f0d211049e558",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5346fc3f7c1925d858351f2c48a42300d20a6594daaa8127d61b00cd29c871b9",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "db80952b0703b6136ebf8b18685da767c80cc55f57e90e45b2dfdb7217042bd5",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:09:27+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "b93733ae36dce57c365045ba9788a1514bcead9c925a7460e490d0906775552e",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "5346fc3f7c1925d858351f2c48a42300d20a6594daaa8127d61b00cd29c871b9",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6e3c404ad8f6c8ee70b5a4f761fc38f69b2c996d50b252da4fdecd89ebb050dc"
+      },
+      "checked_at": "2026-11-21T11:11:16+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "67717a19eb1071364cf0390fe48779c081440ab71714f9864839978d4d09b199",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5346fc3f7c1925d858351f2c48a42300d20a6594daaa8127d61b00cd29c871b9",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6e3c404ad8f6c8ee70b5a4f761fc38f69b2c996d50b252da4fdecd89ebb050dc",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:11:16+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "f7e06fc4b361b3bae86b5f0246b6726e1fb10dc488cb6d1618725c8bf3c2f9a8",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The Hippasus drowning story is presented as historical fact (\"ने यह बात एक नाव पर खोजी... उन्होंने हिप्पासस को समुद्र में फेंक दिया\") but it is a later legend with no contemporary evidence; it should be labeled as a legend/anecdote. → Present it as a traditional story/legend, not verified history."
+      ],
+      "dependencies": {
+        "chapter.json": "5346fc3f7c1925d858351f2c48a42300d20a6594daaa8127d61b00cd29c871b9",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "1e81fa578536bfa8ef093ae475aa4ddb3da8e4928db35b90289e7b205b2c91b7"
+      },
+      "checked_at": "2026-11-21T11:13:16+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:55:05+00:00",
+  "updated_at": "2026-11-21T11:13:16+00:00",
   "chapter_fingerprint": "8f056bc8236a3a5cd3884604b7c4dbdb0fa6960b4b22f79be6d65d44d702eba5"
 }
