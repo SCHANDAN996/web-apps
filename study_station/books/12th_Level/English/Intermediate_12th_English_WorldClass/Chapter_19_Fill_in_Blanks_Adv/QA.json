@@ -112,11 +112,71 @@
         "Content_hi.txt": "2fbe48653fe1c67f05ff85cd164db5104563ddf24462a6068cdb78d354d5e3cb"
       },
       "checked_at": "2026-11-21T09:19:07+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "71862062d3830db814dd07337c6c147de6e6bb6a40acf8121b405dec7a635312",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "312a86aeae9c964db7f44b816858a51290709f76c4bf6e7b504825d1550480da",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "2fbe48653fe1c67f05ff85cd164db5104563ddf24462a6068cdb78d354d5e3cb",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:08:04+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "e9004e916883b741800a8c770e13fdc82c3e6da632b8be0b97be0805dcc08a32",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Chat line \"Here is how to explain it to a child:\" → Delete \"Here is\" and begin with \"How to explain it to a child:\" or start directly with the analogy."
+      ],
+      "dependencies": {
+        "chapter.json": "312a86aeae9c964db7f44b816858a51290709f76c4bf6e7b504825d1550480da",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4b3e668ac88f19f7611e628ae13410e0a0c27d9b2adf844b6bc8a3612cc5fac9"
+      },
+      "checked_at": "2026-11-21T13:08:59+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "aed3e10ea993ffc5f3edce696b85ffe8928fa84433a7772c3c1d1f212274268b",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "312a86aeae9c964db7f44b816858a51290709f76c4bf6e7b504825d1550480da",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4b3e668ac88f19f7611e628ae13410e0a0c27d9b2adf844b6bc8a3612cc5fac9",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:08:59+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "1fa9842f3d2a55d4d21e01dfed3db5519ac418f593e56c8204d061a4ffb7f45f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "312a86aeae9c964db7f44b816858a51290709f76c4bf6e7b504825d1550480da",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "e10beadc270a1137e90bbb689e532285dd180d9ad5aefab51d58ba85ee2e60a1"
+      },
+      "checked_at": "2026-11-21T13:09:25+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T09:19:07+00:00",
+  "updated_at": "2026-11-21T13:09:25+00:00",
   "chapter_fingerprint": "b0c14c80b3d512d345cb1c6c8d6c774ef7454d382e8cd41f5e6ae92a7e70a81d"
 }

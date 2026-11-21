@@ -12,16 +12,16 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W10 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W10 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W11 | Chapter 23 Sentence Arrangement (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 24 RC Basic (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 01 Number System Advanced (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W4 | Chapter 25 Word Roots (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 03 Simplification (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 21 Cloze Test (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 02 LCM HCF (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
+| W12 | Chapter 24 RC Basic (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 01 Number System Advanced (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W4 | Chapter 25 Word Roots (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 03 Simplification (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 21 Cloze Test (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 02 LCM HCF (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 8 मिनट |
 | W9 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
@@ -69,11 +69,11 @@
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 94/2025 |
-| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 7/2184 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 9/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 842/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 844/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,13 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:41:15   [Para_Jumbles] QA needs_reference: sources:Content_hi.txt
-21-11 18:41:16   [Cloze_Test] QA passed: editorial:Feynman_hi.txt
-21-11 18:41:16   [Cloze_Test] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 18:41:16 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- Worked example claims all four options pass grammar layer, but verb complementation rules eliminate prevent, forbid, block → Grammar layer must check complementation; only enable fits 'will ______ small businesses to grow.'"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test/QA.json'}
-21-11 18:41:35   [Para_Jumbles] QA passed: editorial:Feynman_en.txt
-21-11 18:41:36   [Para_Jumbles] QA needs_reference: sources:Feynman_en.txt
-21-11 18:41:57   [Sentence_Arrangement] QA passed: structure
 21-11 18:41:57   [Para_Jumbles] QA passed: editorial:Feynman_hi.txt
 21-11 18:41:57   [Para_Jumbles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 18:41:58 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Kerala\'s literacy campaign began in 1990 in Ernakulam district" (in Trap 1 example) → "Kerala\'s literacy campaign began in 1989 in Ernakulam district (declared fully literate in 1990)"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles/QA.json'}
@@ -128,6 +121,13 @@
 21-11 18:47:19   [Number_System_Advanced] QA passed: editorial:Content_hi.txt
 21-11 18:47:19   [Number_System_Advanced] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 18:47:20 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_01_Number_System_Advanced: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_01_Number_System_Advanced/QA.json'}
+21-11 18:47:49 ERROR 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles: CalledProcessError: Command '['git', 'commit', '-q', '-m', 'Books: QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles (QA checkpoint; not publication approval, bookgen autopilot)\n\nIncrementa
+21-11 18:47:51   [Simplification] QA passed: editorial:Content_en.txt
+21-11 18:48:12   [Simplification] QA needs_reference: sources:Content_en.txt
+21-11 18:48:13   [Fractions_Decimals] QA passed: structure
+21-11 18:48:37   [Simplification] QA passed: editorial:Content_hi.txt
+21-11 18:48:37   [Simplification] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 18:48:37 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_03_Simplification: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_03_Simplification/QA.json'}
 ````
 
 </details>
