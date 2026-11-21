@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:10 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:11 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 151 मिनट |
-| W10 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 09 Venn Diagrams (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 152 मिनट |
+| W10 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 09 Venn Diagrams (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 109 |
+| key 3 | 110 |
 | key 4 | 114 |
-| key 5 | 98 |
-| key 6 | 83 |
+| key 5 | 99 |
+| key 6 | 84 |
 
 ## किताबों की प्रगति
 
@@ -86,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:06:39   [Puzzles] QA passed: editorial:Feynman_en.txt
-21-11 18:06:46   [Puzzles] QA needs_reference: sources:Feynman_en.txt
-21-11 18:06:47   [Venn_Diagrams] QA needs_reference: sources:Content_hi.txt
-21-11 18:06:59   [Puzzles] QA passed: editorial:Feynman_hi.txt
-21-11 18:06:59   [Puzzles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 18:07:00 QA 12th_Level/Reasoning/Chapter_08_Puzzles: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_08_Puzzles/QA.json'}
 21-11 18:07:34   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key a vs re-solve d, Q130 key c vs re-solve d, Q132 key b vs re-solve c, Q144 key c vs re-solve
 21-11 18:07:44   [Clock_Calendar] QA needs_reference: sources:Content_hi.txt
 21-11 18:07:52   [Venn_Diagrams] QA passed: editorial:Feynman_en.txt
@@ -126,6 +121,12 @@
 21-11 18:10:54   [Alphabet_Questions] QA needs_reference: sources:Content_hi.txt
 21-11 18:11:16   [Alphabet_Questions] QA blocked: editorial:Feynman_en.txt
 21-11 18:11:16   [Alphabet_Questions] QA needs_reference: sources:Feynman_en.txt
+21-11 18:11:28   [Mathematical_Operations] QA needs_reference: sources:Content_hi.txt
+21-11 18:11:46   [Dictionary_Order] QA passed: editorial:Feynman_hi.txt
+21-11 18:11:46   [Dictionary_Order] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 18:11:47 QA 12th_Level/Reasoning/Chapter_13_Dictionary_Order: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Active Recall for BAT and BALL, the hint says "दूसरे अक्षर की तुलना करें" (compare second letters), but both words have \'A\' as the second letter, so the decision is made at the third letter (T vs L) → The hint should say "तीसरे अक्षर की तुलना करें" or indicate to continue comparing until a difference is found.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_13_Dictionary_Order/QA.json'}
+21-11 18:11:51   [Mathematical_Operations] QA passed: editorial:Feynman_en.txt
+21-11 18:11:51   [Mathematical_Operations] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>

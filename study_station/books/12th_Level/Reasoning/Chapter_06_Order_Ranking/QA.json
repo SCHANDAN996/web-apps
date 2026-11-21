@@ -165,11 +165,72 @@
         "Feynman_hi.txt": "45d6dc884a77c592085ce95f222bfb13f48f5249dd81de2b7b54a11e3e5e83a0"
       },
       "checked_at": "2026-11-21T09:11:34+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "e358f84afb06825f492f351a4b5bfc0ffa8cc1ab2c25203ebf9f4b7211fdaae7",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "349c901744643acfa10fb28415eb779b344209b13f8ecdea7e1b51b2b6bd8f3d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "45d6dc884a77c592085ce95f222bfb13f48f5249dd81de2b7b54a11e3e5e83a0",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:33:44+00:00"
+    },
+    "editorial:Flashcards_en.txt": {
+      "fingerprint": "e51e6bdb49d0591d280f72a7a94936458ff2080fcbd1bcad1d5890902a75eae5",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Card 1 back states a general rule \"When positions from opposite ends are given with no overlap, total = (position from left) + (position from right).\" This is incorrect; the correct general rule for no overlap is total = (position from left) + (position from right) + (number of people between them). The given rule only applies when there are zero people between them. → The general rule should include the people between: total = left position + right position + people between (for non-overlap cases).",
+        "- Card 10 answer claims only B or E can be at the extreme right, but C can also be at the extreme right if A and C occupy the last two positions (D at leftmost, A at 4th, C at 5th). → The extreme right can be B, C, or E; the answer should list all three possibilities."
+      ],
+      "dependencies": {
+        "chapter.json": "349c901744643acfa10fb28415eb779b344209b13f8ecdea7e1b51b2b6bd8f3d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Flashcards_en.txt": "d14cd790a1f9c928e090a5a5a6aff4d7fd18320f516e30fc87f04298c4fcec08"
+      },
+      "checked_at": "2026-11-21T12:35:18+00:00"
+    },
+    "sources:Flashcards_en.txt": {
+      "fingerprint": "f958618c477aa332f4121b750c7c61d6ec39eb901084207d77a50cefc3eb0936",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "349c901744643acfa10fb28415eb779b344209b13f8ecdea7e1b51b2b6bd8f3d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Flashcards_en.txt": "d14cd790a1f9c928e090a5a5a6aff4d7fd18320f516e30fc87f04298c4fcec08",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:35:18+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "123e0a7260feed9bc57496ea8d9c3b4307c94bfec871ee824b4dd1f8531768b1",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "349c901744643acfa10fb28415eb779b344209b13f8ecdea7e1b51b2b6bd8f3d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Flashcards_hi.txt": "e076c0dbf8d5264556ce33356cd8f5cf452566eb584905296fb0fe92af24f1aa"
+      },
+      "checked_at": "2026-11-21T12:35:54+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T09:11:34+00:00",
+  "updated_at": "2026-11-21T12:35:54+00:00",
   "chapter_fingerprint": "014950ac5cfa61cc040c10ed8fd826edda0134896c8dd4fde6f75b8ba0561a82"
 }
