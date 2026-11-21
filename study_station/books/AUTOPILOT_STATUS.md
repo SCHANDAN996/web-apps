@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:33 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:37 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W12 | Chapter 14 Sports (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 08 World Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W7 | Chapter 16 Books Authors (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
+| W1 | Chapter 09 Economy Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W12 | Chapter 14 Sports (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 15 Days Dates (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 17 Culture Art (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 16 Books Authors (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 57 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 156 |
+| key 3 | 157 |
 | key 4 | 135 |
-| key 5 | 145 |
-| key 6 | 137 |
+| key 5 | 146 |
+| key 6 | 139 |
 
 ## किताबों की प्रगति
 
@@ -70,10 +70,10 @@
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 75/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 25/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 27/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 937/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 939/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,15 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:18:35   [Polity] QA needs_reference: sources:Content_en.txt
-21-11 19:19:32   [Economy_Basic] QA passed: structure
-21-11 19:19:56   [Physical_Geography] QA passed: editorial:Content_en.txt
-21-11 19:19:57   [Physical_Geography] QA needs_reference: sources:Content_en.txt
-21-11 19:20:06   [Physics_Daily] QA passed: structure
-21-11 19:22:04   [Medieval_History] QA passed: editorial:Content_hi.txt
-21-11 19:22:05   [Medieval_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 19:22:05 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History/QA.json'}
-21-11 19:22:46   [Chemistry] QA passed: structure
 21-11 19:23:33   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key b vs re-solve a, Q128 key a vs re-solve c, Q130 key b vs re-solve a, Q131 key d vs re-solve
 21-11 19:24:46   [States_Rivers] QA blocked: editorial:Content_en.txt
 21-11 19:24:46   [States_Rivers] QA needs_reference: sources:Content_en.txt
@@ -128,6 +119,15 @@
 21-11 19:33:52 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography/QA.json'}
 21-11 19:34:00   [Economy_Basic] QA passed: editorial:Content_en.txt
 21-11 19:34:01   [Economy_Basic] QA needs_reference: sources:Content_en.txt
+21-11 19:34:51   [Culture_Art] QA passed: structure
+21-11 19:35:02   [Awards] QA passed: editorial:Content_en.txt
+21-11 19:35:02   [Awards] QA needs_reference: sources:Content_en.txt
+21-11 19:35:38   [Books_Authors] QA blocked: editorial:Content_en.txt
+21-11 19:35:38   [Books_Authors] QA needs_reference: sources:Content_en.txt
+21-11 19:37:10   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q130 key b vs re-solve a, Q131 key b vs re-solve a, Q140 key d vs re-solve b, Q144 key c vs re-solve
+21-11 19:37:12   [Economy_Basic] QA blocked: editorial:Content_hi.txt
+21-11 19:37:12   [Economy_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:37:12 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **Budget (Article 112):** the "Annual Financial Statement". Presented on **1 February** (since 2017; earlier it was the last working day of February). Railway Budget merged with the Union Budget in **2017**.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- जुलाई 1991 में 67 टन सोना गिरवी रखने का उल्लेख → सोना मई 1991 में गिरवी रखा गया था (बजट 24 जुलाई 1991 को पेश हुआ)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic/QA.json'}
 ````
 
 </details>
