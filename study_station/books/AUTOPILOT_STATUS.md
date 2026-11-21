@@ -1,33 +1,32 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:03 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:04 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 72 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
 | W11 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 41 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 71 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
-| W5 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W7 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 42 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 72 मिनट |
+| W5 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W7 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 27 |
-| key 4 | 37 |
+| key 3 | 28 |
+| key 4 | 38 |
 | key 5 | 38 |
 | key 6 | 25 |
 
@@ -61,7 +60,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 38/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 40/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 7/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 105/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 107/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,9 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:51:59   [Culture_Art] QA passed: editorial:Content_en.txt
-21-11 11:51:59   [Culture_Art] QA needs_reference: sources:Content_en.txt
-21-11 11:52:20   [Analogy] QA passed: structure
 21-11 11:52:34   [Days_Dates] QA passed: editorial:Content_en.txt
 21-11 11:52:34   [Days_Dates] QA needs_reference: sources:Content_en.txt
 21-11 11:52:43   [Awards] QA blocked: editorial:Content_en.txt
@@ -123,6 +119,9 @@
 21-11 12:03:37   [Science_Tech] QA passed: editorial:Content_hi.txt
 21-11 12:03:37   [Science_Tech] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 12:03:37 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
+21-11 12:04:07   [Medieval_History] QA passed: editorial:Content_en.txt
+21-11 12:04:21   [Medieval_History] QA needs_reference: sources:Content_en.txt
+21-11 12:04:22   [Order_Ranking] QA passed: structure
 ````
 
 </details>
