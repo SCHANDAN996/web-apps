@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "ff2fdd24ba0d575ea13e1e40d278c291578c237af5a214a6278704d81f986b60",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "e02877fe6ab6ba9d0edcfe2b5a6e95e76dd513cfa51e08b2e71088a9da47ddd0",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "71333ddd140d5020c269f178490dfce98e3438bf0401622d9820a378278ac071",
+        "Content_hi.txt": "9cf007ed1e9ac60bfda553db30bad845d59d79bd7f07772d0595707292f0e959",
+        "Feynman_en.txt": "509853f7b66132395498b48a93408dce1682e73d9108359e35d2e140310728bd",
+        "Feynman_hi.txt": "a8de7b243de9beefaa2583c09c64b25a691823220b21394b8679f52eb70f670f",
+        "Flashcards_en.txt": "9704004c089367ba949eb9385c1f448aacdadec1bac98dd379f3711d68ef5e8f",
+        "Flashcards_hi.txt": "7ef3164f1699e3b978eab8c078dc95d6a60b2fc30ce8f30ca98c9895c677a7f8",
+        "Key_Facts_en.txt": "86fa009abb60fb2fc958f1f02f3b056b344d3add1ca797bc5becc508aaa2ab00",
+        "Key_Facts_hi.txt": "43c7bf6f5f1665ed6808d243b039bfaf5bd1a502ee8e9859ec2cff42811cf8b9",
+        "Memory_Hooks_en.txt": "a73275f146aaeba038b72643befc530bdd1b5defdd1f32ffbf227ed43b072705",
+        "Memory_Hooks_hi.txt": "b6975174c0448eebbdc7b8c49dae9777fc7f0c035e13fccb984ec64e344df19c",
+        "Mind_Map.txt": "1adaa90bdfe956f56a7f8c6e25110de53864c3877ab9c54f3690256b56ab9129",
+        "PYQ_en.txt": "19873c161500a4e20f50da6dc3c0a4f342aa28b603f93b62faf8b2cfdd0e752f",
+        "PYQ_hi.txt": "178807ebc836532b44ce6311eec23eb74e44e2254281467029156b0d68041470",
+        "Practice_en_Set_01.txt": "136af7c5895407a261705338cf0c4a4b68975681daa9bd56ec88ebc6382e1394",
+        "Practice_en_Set_02.txt": "c6dc00592f8d62ae20d91dcaa369e304212bbc9c623e9d0c1c738b80975e7ee4",
+        "Practice_en_Set_03.txt": "e7c9aea44de39c71cf464ebfa62c535e170a2e4bd760cf99fdc5c4973b2d74d3",
+        "Practice_en_Set_04.txt": "9891e77b36fcc50feff94e15ec0a91ee950df54f182a0664539664211f05b57d",
+        "Practice_en_Set_05.txt": "1bd80cc0b27fb722b13023ea3358e6e2fa0a97204c596d3c0480d9f1b98ba34c",
+        "Practice_en_Set_06.txt": "f8b1d2b94c1a92f8cca81b772ec30dec34f0487a7bf3d663924fc29c002f3bc3",
+        "Practice_hi_Set_01.txt": "e82e593bb1cc70bc79e1efb26be31a8cc054cd3d2980e8e8da0b0ee302356ea4",
+        "Practice_hi_Set_02.txt": "6404b1c19f119f171f3286fab55bf5a8723cc29e4536fa0c64b57aca7b23d30e",
+        "Practice_hi_Set_03.txt": "ee62ca5c3ac82f95dbf3e1f5ac02f3ca43a7559409c02344b017c2c5aac7dfc3",
+        "Practice_hi_Set_04.txt": "8897adb0b4575c72330332dacc154e09229dd758bdd6238a7dbf642f39e0ec6a",
+        "Practice_hi_Set_05.txt": "1dd7b6671fc14f407e914c32cf805935b60e2d0961ee8ed458c3e8c3a7c1f138",
+        "Practice_hi_Set_06.txt": "cca8ab9666c0f20ba59c96f3efdae752d0b38518a7c05c225bf00b3aa7eec6e7",
+        "inventory": {
+          "Content_en.txt": "71333ddd140d5020c269f178490dfce98e3438bf0401622d9820a378278ac071",
+          "Content_hi.txt": "9cf007ed1e9ac60bfda553db30bad845d59d79bd7f07772d0595707292f0e959",
+          "Feynman_en.txt": "509853f7b66132395498b48a93408dce1682e73d9108359e35d2e140310728bd",
+          "Feynman_hi.txt": "a8de7b243de9beefaa2583c09c64b25a691823220b21394b8679f52eb70f670f",
+          "Flashcards_en.txt": "9704004c089367ba949eb9385c1f448aacdadec1bac98dd379f3711d68ef5e8f",
+          "Flashcards_hi.txt": "7ef3164f1699e3b978eab8c078dc95d6a60b2fc30ce8f30ca98c9895c677a7f8",
+          "Key_Facts_en.txt": "86fa009abb60fb2fc958f1f02f3b056b344d3add1ca797bc5becc508aaa2ab00",
+          "Key_Facts_hi.txt": "43c7bf6f5f1665ed6808d243b039bfaf5bd1a502ee8e9859ec2cff42811cf8b9",
+          "Memory_Hooks_en.txt": "a73275f146aaeba038b72643befc530bdd1b5defdd1f32ffbf227ed43b072705",
+          "Memory_Hooks_hi.txt": "b6975174c0448eebbdc7b8c49dae9777fc7f0c035e13fccb984ec64e344df19c",
+          "Mind_Map.txt": "1adaa90bdfe956f56a7f8c6e25110de53864c3877ab9c54f3690256b56ab9129",
+          "PYQ_en.txt": "19873c161500a4e20f50da6dc3c0a4f342aa28b603f93b62faf8b2cfdd0e752f",
+          "PYQ_hi.txt": "178807ebc836532b44ce6311eec23eb74e44e2254281467029156b0d68041470",
+          "Practice_en_Set_01.txt": "136af7c5895407a261705338cf0c4a4b68975681daa9bd56ec88ebc6382e1394",
+          "Practice_en_Set_02.txt": "c6dc00592f8d62ae20d91dcaa369e304212bbc9c623e9d0c1c738b80975e7ee4",
+          "Practice_en_Set_03.txt": "e7c9aea44de39c71cf464ebfa62c535e170a2e4bd760cf99fdc5c4973b2d74d3",
+          "Practice_en_Set_04.txt": "9891e77b36fcc50feff94e15ec0a91ee950df54f182a0664539664211f05b57d",
+          "Practice_en_Set_05.txt": "1bd80cc0b27fb722b13023ea3358e6e2fa0a97204c596d3c0480d9f1b98ba34c",
+          "Practice_en_Set_06.txt": "f8b1d2b94c1a92f8cca81b772ec30dec34f0487a7bf3d663924fc29c002f3bc3",
+          "Practice_hi_Set_01.txt": "e82e593bb1cc70bc79e1efb26be31a8cc054cd3d2980e8e8da0b0ee302356ea4",
+          "Practice_hi_Set_02.txt": "6404b1c19f119f171f3286fab55bf5a8723cc29e4536fa0c64b57aca7b23d30e",
+          "Practice_hi_Set_03.txt": "ee62ca5c3ac82f95dbf3e1f5ac02f3ca43a7559409c02344b017c2c5aac7dfc3",
+          "Practice_hi_Set_04.txt": "8897adb0b4575c72330332dacc154e09229dd758bdd6238a7dbf642f39e0ec6a",
+          "Practice_hi_Set_05.txt": "1dd7b6671fc14f407e914c32cf805935b60e2d0961ee8ed458c3e8c3a7c1f138",
+          "Practice_hi_Set_06.txt": "cca8ab9666c0f20ba59c96f3efdae752d0b38518a7c05c225bf00b3aa7eec6e7"
+        }
+      },
+      "checked_at": "2026-11-21T07:59:07+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "d7b0ba1a0caee92c22f43f019a18d6b2d568ad5955dfdfcf5cbe13549baad71f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The claim \"nearly 200 years of struggle, from the first sparks of 1857 to the final push of 1947\" is factually incorrect (1857–1947 is ~90 years) → The period from 1857 to 1947 is about 90 years; nearly 200 years would refer to the period from the Battle of Plassey (1757) to 1947."
+      ],
+      "dependencies": {
+        "chapter.json": "e02877fe6ab6ba9d0edcfe2b5a6e95e76dd513cfa51e08b2e71088a9da47ddd0",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "71333ddd140d5020c269f178490dfce98e3438bf0401622d9820a378278ac071"
+      },
+      "checked_at": "2026-11-21T08:01:32+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "9dee591f126397096e6d4af3ac2d573aaca8d95277c7e87467f165258920b5b0",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "e02877fe6ab6ba9d0edcfe2b5a6e95e76dd513cfa51e08b2e71088a9da47ddd0",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "71333ddd140d5020c269f178490dfce98e3438bf0401622d9820a378278ac071",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:01:33+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "7cff85fde38045b9eb97f099ce64e3b92fcfed8e305d7eb1b1d5cf026776eb23",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- वारेन हेस्टिंग्स को 1772 से गवर्नर जनरल (बंगाल) बताया गया है, जबकि वे 1772 में बंगाल के गवर्नर बने और 1774 में रेगुलेटिंग एक्ट 1773 के तहत पहले गवर्नर जनरल बने। → तालिका में 1772–85 की जगह 1774–85 (गवर्नर जनरल के रूप में) लिखें या भूमिका स्पष्ट करें।"
+      ],
+      "dependencies": {
+        "chapter.json": "e02877fe6ab6ba9d0edcfe2b5a6e95e76dd513cfa51e08b2e71088a9da47ddd0",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "9cf007ed1e9ac60bfda553db30bad845d59d79bd7f07772d0595707292f0e959"
+      },
+      "checked_at": "2026-11-21T08:03:36+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:03:36+00:00",
+  "chapter_fingerprint": "14be8b229780bc495853591696224abc28d008576f11cd97455719abd75eace3"
+}
