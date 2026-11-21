@@ -112,11 +112,73 @@
         "Content_hi.txt": "14754149f70e0c597399ea902090182f1fbd505f3af0d888fafad50d680ce15a"
       },
       "checked_at": "2026-11-21T08:09:23+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "a388300ec5d7d0af0e2825b354aec900c27fae5cfe685385acbc9f92f82e02a5",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "14754149f70e0c597399ea902090182f1fbd505f3af0d888fafad50d680ce15a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:11:42+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "dc69be3b4ed2456648969325655ee64f9120cf1269d22b127e5a39064d2cda2c",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b81b813248d685f132f5cd58491fbaab3da725b3357ec8926e6f5b6898192e90"
+      },
+      "checked_at": "2026-11-21T12:12:08+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "1c0351857d2b5bc485fe352ef2d5f1c7c8b0ae70f2508321a6774ee8dcc35900",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - But the Supreme Court (in the **Kesavananda Bharati case, 1973**) said: Parliament can amend anything — *except* the **basic structure** of the Constitution. ❌",
+        "Fetch official supporting evidence for: > *\"Parliament has the key (Article 368), but Kesavananda Bharati (1973) put a lock on the foundation — the Basic Structure.\"*",
+        "Fetch official supporting evidence for: | \"Parliament can amend any part of the Constitution, including the basic structure.\" | ❌ False — Kesavananda Bharati (1973) forbids this. |",
+        "Fetch official supporting evidence for: | \"The doctrine came from the Golaknath case.\" | ❌ False — Golaknath (1967) was about Fundamental Rights; the doctrine was born in **Kesavananda Bharati (1973)**. |",
+        "Fetch official supporting evidence for: | \"The 24th Amendment (1971) created the basic structure doctrine.\" | ❌ False — it only said Parliament *can* amend Fundamental Rights; the *limit* came in 1973. |"
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b81b813248d685f132f5cd58491fbaab3da725b3357ec8926e6f5b6898192e90",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:12:09+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "d2ba7e552dcac4a0d6c87f95b43f9fec8620906e25fc8dad098d0b9dfdd752c7",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "1edd4c53f04d1f95238b196133911362755dc60c92eb6b41d4fe8e7821e29b78"
+      },
+      "checked_at": "2026-11-21T12:13:10+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:09:23+00:00",
+  "updated_at": "2026-11-21T12:13:10+00:00",
   "chapter_fingerprint": "833043dd3b1eb73ec2096ec39796f55d1560fd6b730e78a0caa2caf25c8d2500"
 }
