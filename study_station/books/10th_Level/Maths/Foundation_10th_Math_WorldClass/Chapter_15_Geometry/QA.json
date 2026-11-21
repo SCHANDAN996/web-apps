@@ -103,11 +103,71 @@
         "Content_hi.txt": "4ec548adb85ae042e3a21e129cbf37daadd41833fddd9821a5e31002b690f8fa"
       },
       "checked_at": "2026-11-21T07:09:03+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "8d7473d17a3593818d817269ac5acad19e194b660d4e8d074ca9418336de5aac",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "79a677fe068c26b5bc9fddc504646f663459968819a99e16a2ae381ae449f513",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "4ec548adb85ae042e3a21e129cbf37daadd41833fddd9821a5e31002b690f8fa",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:22:52+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "841f3d7edb6e41933f49c9c1435b6c1de57435510d1ccf3babff772b02e33d6c",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "79a677fe068c26b5bc9fddc504646f663459968819a99e16a2ae381ae449f513",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e56469db22ce1323b82abed36a891828e1e7ec315dedf27b34243a77631bd7be"
+      },
+      "checked_at": "2026-11-21T11:23:45+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "1d41fdd25b276027b21eac9a597b000df1a4b113da3255390b0afd7621693190",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "79a677fe068c26b5bc9fddc504646f663459968819a99e16a2ae381ae449f513",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e56469db22ce1323b82abed36a891828e1e7ec315dedf27b34243a77631bd7be",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:23:45+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "a21bd398f118e83da8abbdf78ea1f43d41cddb5ab87a36e3c6f975f77572122a",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The spherical triangle example claims the North Pole angle is \"approximately 90°\" and the sum is necessarily 270°, but the pole angle equals the longitude difference between the two equatorial points and is 90° only when they are 90° apart; the 270° sum is not a general result of that construction. → Specify that the 270° sum (three 90° angles) occurs only when the two equatorial points are separated by 90° of longitude."
+      ],
+      "dependencies": {
+        "chapter.json": "79a677fe068c26b5bc9fddc504646f663459968819a99e16a2ae381ae449f513",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "60cb0b4dcfde89394832482a625303a16b08f90f64777fb63a163b9ceb3a0612"
+      },
+      "checked_at": "2026-11-21T11:24:23+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:09:03+00:00",
+  "updated_at": "2026-11-21T11:24:23+00:00",
   "chapter_fingerprint": "14c5bf2b2ff01e9bed5e9d22f73aa6f103703c5852e775f7c5a70afff038abd3"
 }

@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:01 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:02 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
-| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 83 मिनट |
+| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 54 |
 | key 4 | 72 |
-| key 5 | 52 |
+| key 5 | 53 |
 | key 6 | 43 |
 
 ## किताबों की प्रगति
@@ -64,7 +63,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 55/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 56/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 639/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 640/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,14 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:56:12   [Number_Series] QA needs_reference: sources:Content_hi.txt
-21-11 16:56:31   [Statistics] QA passed: editorial:Feynman_hi.txt
-21-11 16:56:31   [Statistics] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
-21-11 16:56:32 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics/QA.json'}
-21-11 16:57:04   [Number_Series] QA passed: editorial:Feynman_en.txt
-21-11 16:57:16   [Number_Series] QA needs_reference: sources:Feynman_en.txt
-21-11 16:57:16   [Probability] QA needs_reference: sources:Content_hi.txt
-21-11 16:57:30   [Number_Series] QA blocked: editorial:Feynman_hi.txt
 21-11 16:57:30   [Number_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 65, "blocked": 2, "needs_reference": 3, "remaining": 70, 
 21-11 16:57:30 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 65, 'blocked': 2, 'needs_reference': 3, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The cube mnemonic (“एक ने खाया सत्ताईस, चौंसठ ने खाया एक सौ पच्चीस, दो सौ सोलह ने खाया तीन सौ तैंतालीस”) does not generate the claimed cube series 1, 8, 27, 64, 125, 216, 343 because it omits 8 (2³) → Correct the mnemonic to include 8 or remove the claim that it yields that series.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The parenthetical remark incorrectly claims the series 1, 10, 33, 76, 145 follows an n³ + n² pattern and gives contradictory calculations (1³+1²=2, 1³+0²=1, 2³+1²=9); the correct closed form is n³ + n² – n.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series/QA.json'}
 21-11 16:57:41   [Probability] QA passed: editorial:Feynman_en.txt
@@ -127,6 +118,14 @@
 21-11 17:01:28   [Adjective] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 17:01:29 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim that the adjective/pronoun test works for possessive "my/your/his" is incorrect: "my" and "your" cannot stand alone as pronouns (only "his" can); the possessive pronouns are "mine, yours, his, hers, ours, theirs" → The test works for demonstrative and interrogative, but for possessive the pronoun forms differ from the adjective forms.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective/QA.json'}
 21-11 17:01:29   [Verb] QA needs_reference: sources:Content_hi.txt
+21-11 17:02:08   [Verb] QA blocked: editorial:Feynman_en.txt
+21-11 17:02:25   [Verb] QA needs_reference: sources:Feynman_en.txt
+21-11 17:02:25   [Verb] QA passed: editorial:Feynman_hi.txt
+21-11 17:02:25   [Verb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 17:02:26 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The Blurting Sheet lists "subject–verb agreement rules and the three examiner\'s traps" as key points of this chapter, but those topics are not covered in the text → Remove them from the blurting sheet or add the missing content to the chapter.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb/QA.json'}
+21-11 17:02:27   [Tense] QA needs_reference: sources:Content_hi.txt
+21-11 17:02:46   [Tense] QA passed: editorial:Feynman_en.txt
+21-11 17:02:46   [Tense] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
