@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:36 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:37 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W10 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W2 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W9 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W10 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W2 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 115 |
 | key 4 | 117 |
 | key 5 | 134 |
-| key 6 | 99 |
+| key 6 | 100 |
 
 ## किताबों की प्रगति
 
@@ -67,12 +67,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 56/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 25/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 28/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 463/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 466/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:30:56 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Degree formation rules (क), the note for "brave → braver → bravest" says "(अंतिम \'e\' हटता है)" → The final \'e\' is not dropped; it is retained. For words ending in \'e\', simply add \'r\'/\'st\' (brave → braver → bravest).', '- In Rule 4 (Latin Comparatives) and the mnemonic "SJ-SIP", "prefer" is listed as a Latin comparative adjective → "prefer" is a verb, not an adjective; it should not be included in a list of Latin comparative adjectives.', '- In the Linguistic Contrast table and Summary table, "elder to" is given as correct predicative usage (e.g., "He is elder to me") → In standard English, "elder" is not used predicatively with "to"; the correct predicative form is "older than" (e.g., "He is older than me"). "Elder" is only used attributively (elder brother) or as a noun.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective/QA.json'}
-21-11 14:31:14   [Tense] QA passed: editorial:Content_en.txt
-21-11 14:31:22   [Tense] QA needs_reference: sources:Content_en.txt
-21-11 14:31:23   [Adverb] QA passed: structure
-21-11 14:31:55   [Adverb] QA passed: editorial:Content_en.txt
-21-11 14:31:56   [Adverb] QA needs_reference: sources:Content_en.txt
-21-11 14:32:03   [Tense] QA passed: editorial:Content_hi.txt
-21-11 14:32:03   [Tense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
-21-11 14:32:04 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense/QA.json'}
 21-11 14:32:09   [Pronoun] QA passed: editorial:Content_hi.txt
 21-11 14:32:28   [Verb] QA blocked: editorial:Content_hi.txt
 21-11 14:32:29   [Pronoun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
@@ -127,6 +118,15 @@
 21-11 14:36:26   [Voice] QA passed: editorial:Content_en.txt
 21-11 14:36:26   [Voice] QA needs_reference: sources:Content_en.txt
 21-11 14:36:55   [Narration] QA passed: structure
+21-11 14:37:37   [Narration] QA passed: editorial:Content_en.txt
+21-11 14:38:00   [Narration] QA needs_reference: sources:Content_en.txt
+21-11 14:38:01   [Sentence_Structure] QA passed: structure
+21-11 14:38:08   [Voice] QA passed: editorial:Content_hi.txt
+21-11 14:38:08   [Voice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
+21-11 14:38:08 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice/QA.json'}
+21-11 14:38:26   [Narration] QA passed: editorial:Content_hi.txt
+21-11 14:38:26   [Narration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
+21-11 14:38:27 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration/QA.json'}
 ````
 
 </details>
