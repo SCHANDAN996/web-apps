@@ -109,11 +109,71 @@
         "Content_hi.txt": "5d3010532939164767ba43ac4d7932e5a58e5d8d4859ee51569b79515d9337c3"
       },
       "checked_at": "2026-11-21T07:48:03+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "8354c3341f804adba9617cb65fd78d31cb43e781f7c2783da18fd6907b3c3595",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "4d301b4c46849272c8a4f9bb7464c3d94b9f4b4666a191b0e1d06ae664c44742",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "5d3010532939164767ba43ac4d7932e5a58e5d8d4859ee51569b79515d9337c3",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:59:07+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "e6bc1b17afaa9ad3948698a40612b8291527a193e41d3cc57150eecb8f50ee7d",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The example states \"Double the side of a square … volume becomes 8 times\", but a square is a 2D shape and has no volume; volume scaling applies to a cube. → Change the volume bullet to refer to a cube (e.g., \"Double the side of a cube → volume becomes 8 times (×2³)\") or clarify that the volume example is for a cube, not a square."
+      ],
+      "dependencies": {
+        "chapter.json": "4d301b4c46849272c8a4f9bb7464c3d94b9f4b4666a191b0e1d06ae664c44742",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e8785db1b71d1d85116a0d8ab63920afe60289c0b3e64c6ddc442bf6f73ac97e"
+      },
+      "checked_at": "2026-11-21T11:59:57+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "19c07e519bf952940ed1b54eba661fd671094808076c4fed791c2b555374651a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "4d301b4c46849272c8a4f9bb7464c3d94b9f4b4666a191b0e1d06ae664c44742",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e8785db1b71d1d85116a0d8ab63920afe60289c0b3e64c6ddc442bf6f73ac97e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:59:58+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "d166fc22d69f82c616ec8766013babb2b312fc99f802594f5c75e581afb39326",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4d301b4c46849272c8a4f9bb7464c3d94b9f4b4666a191b0e1d06ae664c44742",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "6353451c6b8bdf3f88fa9b7df9cde7148681f45eb359fb04c02aaa5da678758d"
+      },
+      "checked_at": "2026-11-21T12:00:53+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:48:03+00:00",
+  "updated_at": "2026-11-21T12:00:53+00:00",
   "chapter_fingerprint": "12fd0e7aa45bfd560bce66c5dacc3d50ab772813d64771c76c49d15500fb0682"
 }

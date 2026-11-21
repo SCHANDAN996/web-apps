@@ -11,11 +11,11 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 117 मिनट |
-| W11 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 118 मिनट |
+| W10 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W2 | Chapter 16 Algebra (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W4 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W5 | Chapter 17 Trigonometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W6 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
@@ -25,8 +25,8 @@
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 74 |
-| key 4 | 96 |
+| key 3 | 75 |
+| key 4 | 97 |
 | key 5 | 70 |
 | key 6 | 69 |
 
@@ -64,7 +64,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 100/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 101/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 703/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 704/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,10 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:31:36   [Algebra] QA passed: editorial:Feynman_hi.txt
-21-11 17:31:54   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q76 key c vs re-solve a, Q77 key b vs re-solve a, Q95 key a vs re-solve d, Q99 key a vs re-solve d)
-21-11 17:31:56   [Geometry] QA passed: editorial:Feynman_hi.txt
-21-11 17:31:59   [Algebra] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 17:31:59   [Geometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 17:32:00 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_15_Geometry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Invented exam statistic: "Learn roughly 20 theorems cold, and 90% of exam questions become mechanical." → Remove the unsourced percentage claim or replace with a verified statistic.', '- Invented exam statistic: "Roughly half of all exam geometry questions involve triangles directly or indirectly." → Remove the unsourced claim or replace with a verified statistic.', '- Wrong historical fact: "In 1958, a mathematician named Roger Penrose drew a triangle that cannot exist — the famous \'Penrose Triangle.\'" → The Penrose triangle was first created by Oscar Reutersvärd in 1934; Roger Penrose and Lionel Penrose published it in 1958.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_15_Geometry/QA.json'}
 21-11 17:32:00 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra/QA.json'}
@@ -126,6 +122,10 @@
 21-11 17:36:11 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination/QA.json'}
 21-11 17:36:43   [Number_Series] QA passed: editorial:Feynman_en.txt
 21-11 17:36:43   [Number_Series] QA needs_reference: sources:Feynman_en.txt
+21-11 17:36:50   [Quadratic_Equations] QA needs_reference: sources:Content_hi.txt
+21-11 17:37:10   [Number_Series] QA passed: editorial:Feynman_hi.txt
+21-11 17:37:10   [Number_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 17:37:10 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section content is corrupted/unreadable (tokenizer artifacts `<|close|>`, garbled characters, no coherent text) → Replace with valid educational content for exam preparation']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series/QA.json'}
 ````
 
 </details>
