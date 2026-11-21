@@ -107,11 +107,69 @@
         "Content_hi.txt": "31d2a422aba84c2fd96fd621d13a7c9f12e099af9cd2f974bcf2610b009766f8"
       },
       "checked_at": "2026-11-21T05:46:35+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "bd9d69a9c32b1025d816206ceb8e55c7e03dcf4e74e18afb82778910e4068643",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "115301e5a138d977e5bb1baccf41ea41e1b9fd799a2591bccab9c403a2a95b85",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "31d2a422aba84c2fd96fd621d13a7c9f12e099af9cd2f974bcf2610b009766f8",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:16:00+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "0299631c507cc90c2c1e8961ee25c6ea3e15c1beccea80c2f2a26b092885cf53",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "115301e5a138d977e5bb1baccf41ea41e1b9fd799a2591bccab9c403a2a95b85",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "afd87ffc01651687c80be40985d479226286a59b8a63bb7c5174928c8f5f6cda"
+      },
+      "checked_at": "2026-11-21T10:16:43+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "f1f887786879990f76cef1a381c7719d2a09fd4260419a4a7acd1623651fa098",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Microsoft Support / Microsoft Learn official documentation for Windows and Office keyboard shortcuts."
+      ],
+      "dependencies": {
+        "chapter.json": "115301e5a138d977e5bb1baccf41ea41e1b9fd799a2591bccab9c403a2a95b85",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "afd87ffc01651687c80be40985d479226286a59b8a63bb7c5174928c8f5f6cda",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:16:43+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "b3e32e005672406c2e4763b09defb301992aaece9f40fcd289d88ccc19d4c92d",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "115301e5a138d977e5bb1baccf41ea41e1b9fd799a2591bccab9c403a2a95b85",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "f35b2992d9596be36ab6557c5d242ff69e51103a3d115e254741b5c38b135940"
+      },
+      "checked_at": "2026-11-21T10:17:38+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:46:35+00:00",
+  "updated_at": "2026-11-21T10:17:38+00:00",
   "chapter_fingerprint": "037292b2d172a53cfdbc5ea78aacfe3691bb7cf329fb4fcafcf0bc50b3df322d"
 }
