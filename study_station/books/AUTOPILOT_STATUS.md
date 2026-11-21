@@ -1,33 +1,32 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:10 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:11 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
-| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W5 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
+| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W5 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 11 |
-| key 4 | 16 |
+| key 3 | 12 |
+| key 4 | 17 |
 | key 5 | 14 |
 | key 6 | 3 |
 
@@ -59,7 +58,7 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 16/540 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 17/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 21/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 37/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 38/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,10 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:05:02   [ling_vachan_karak] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
-21-11 11:05:02 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- The 'महत्वपूर्ण' note under वचन incorrectly lists 'दरवाजा → दरवाजे' and 'कपड़ा → कपड़े' as words that remain identical in both numbers (invariant), but they actually change in the plural (आ→ए) → Remove them from the invariant list or change the heading to indicate they are regular plural examples.", "- In लिंग-परिवर्तन rule 4, the suffix pattern 'ई/इका/इका' is wrong: it duplicates 'इका' and includes 'ई' which does not apply to the given examples (अध्यापक→अध्यापिका, सेवक→सेविका use only 'इका') → Correct to 'इका जुड़ता है' or 'इका/इकी जुड़ता है'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In the plural rules table (section 2), rule 2 incorrectly states "आकारांत स्त्रीलिंग → एँ" with example "लड़की"; "लड़की" is ईकारांत, not आकारांत. → Rule should be "ईकारांत स्त्रीलिंग → एँ" or "आ/ईकारांत स्त्रीलिंग → एँ".', '- In the mind map (section 7), node C2b repeats the same error: "आकारांत स्त्रीलिंग → एँ". → Change to "ईकारांत स्त्रीलिंग → एँ".', '- In flashcard 3 (section 8), the explanation for "लड़की" plural says "(आकारांत स्त्रीलिंग → एँ)"; "लड़की" is ईकारांत. → Change to "(ईकारांत स्त्रीलिंग → एँ)".', '- In the mind map (section 7), node B3 lists "गुरु" as an exception (अपवाद) for gender; "गुरु" is a regular masculine noun (उकारांत nouns are predominantly masculine), not an exception. → Remove "गुरु" from exceptions or clarify that उकारांत nouns are usually masculine.', '- In flashcard 17 (section 8), the answer for "गुरु" gender says "(उकारांत पुल्लिंग अपवाद)"; this misstates that masculine उकारांत is exceptional. → Change to "(उकारांत पुल्लिंग, सामान्य नियम)".']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak/QA.json'}
-21-11 11:05:05   [excel] QA passed: editorial:Content_en.txt
-21-11 11:05:05   [excel] QA needs_reference: sources:Content_en.txt
 21-11 11:05:07   [powerpoint] QA passed: structure
 21-11 11:05:27   [software_os] QA passed: editorial:Content_en.txt
 21-11 11:05:27   [software_os] QA needs_reference: sources:Content_en.txt
@@ -123,6 +118,10 @@
 21-11 11:11:27   [email] QA blocked: editorial:Content_hi.txt
 21-11 11:11:27   [email] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 11:11:27 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: 1. **Subject line**: Clear, specific — "Application: SSC CGL 2024 — Roll No 12345" not "Hello".']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Local-part (उपयोगकर्तानाम) is stated as not case-sensitive, but per RFC 5321 the local-part is case-sensitive → Correct: Local-part is case-sensitive (though many providers treat it as case-insensitive in practice).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email/QA.json'}
+21-11 11:11:45   [anekarthi_samshrut] QA passed: structure
+21-11 11:12:27   [vilom] QA blocked: editorial:Feynman_hi.txt
+21-11 11:12:27   [vilom] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
+21-11 11:12:27 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Rule 1 prefix table, the example "गति → दुर्गति" for उपसर्ग "दुर-/दु-" is not an antonym pair; "दुर्गति" means misfortune/bad condition, not the opposite of "गति" (motion/speed). → Replace with a valid antonym example such as "शील → दुर्शील" (good character → bad character) or retain only "सदाचार → दुराचार".', '- In Rule 1 prefix table, the examples "उत्तर → प्रत्युत्तर" and "क्रिया → प्रतिक्रिया" for उपसर्ग "प्रति-" are not antonyms; they denote reply/counter-action, not opposition. → Replace with true antonym pairs formed with "प्रति-" such as "अनुकूल → प्रतिकूल" (favourable → unfavourable) or "प्रत्यक्ष → परोक्ष" (direct → indirect).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Rule 3 example "लड़का–लड़की" (लिंग विलोम) does not illustrate the rule "एकवचन–बहुवचन विलोम नहीं" → Use a singular-plural pair like "किताब–किताबें" to show they are not antonyms.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom/QA.json'}
 ````
 
 </details>
